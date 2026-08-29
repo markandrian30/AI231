@@ -40,4 +40,4 @@ python -m pip install -r requirements.txt
 jupyter notebook mnistclass.ipynb
 ```
 
-The notebook automatically uses CUDA when available and otherwise runs on CPU.
+The notebook uses CUDA when available and otherwise runs on CPU, where training will be slower.
