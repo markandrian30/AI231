@@ -23,6 +23,8 @@ This repository contains a three-layer convolutional computation for MNIST class
 | Flatten | 1,568 |
 | Einsum linear classifier | 10 classes |
 
+All three convolutions use a 3×3 kernel, stride 1, and padding 1. The first two convolution stages are followed by 2×2 max pooling.
+
 The executed notebook includes the training output, test accuracy, and a 4×4 grid of 16 test images with their ground-truth and predicted labels.
 
 ## Sample predictions
