@@ -5,9 +5,10 @@ This repository contains a three-layer convolutional computation for MNIST class
 ## Result
 
 - Training: 5 epochs
+- Dataset split: 60,000 training images, 10,000 test images
 - Test accuracy: **98.28%**
 - Final training accuracy: **98.78%**
-- Total training time: **46.09 seconds**
+- Total training time: **44.38 seconds**
 - Execution environment: DGX server, one NVIDIA A100 GPU
 - Parameters: 21,578
 
