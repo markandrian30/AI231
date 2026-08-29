@@ -33,9 +33,23 @@ The executed notebook includes the training output, test accuracy, and a 4×4 gr
 
 - `mnistclass.ipynb` — complete implementation and saved results
 
-## Run
+## Run locally
 
 ```bash
 python -m pip install -r requirements.txt
 jupyter notebook mnistclass.ipynb
 ```
+
+Run all cells from the Jupyter menu to train the model and replace the saved outputs.
+
+## Run on sharc2
+
+The one-GPU launcher is stored on `sharc2` at `~/A1231/MEX1/run.sh`:
+
+```bash
+ssh sharc2
+cd ~/A1231/MEX1
+bash run.sh
+```
+
+The launcher selects one GPU, executes all notebook cells, and saves the outputs into `mnistclass.ipynb`.
