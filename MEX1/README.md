@@ -41,3 +41,12 @@ jupyter notebook mnistclass.ipynb
 ```
 
 Run all cells from the Jupyter menu to train the model and replace the saved outputs.
+
+## Run on a DGX server
+
+The included launcher selects one available NVIDIA GPU, executes every notebook cell, and saves the outputs:
+
+```bash
+chmod +x run.sh
+./run.sh
+```
