@@ -30,13 +30,13 @@ The executed notebook includes the training output, test accuracy, and a 4×4 gr
 
 ## File
 
-- `mnist_einops_cnn.ipynb` — complete implementation and saved results
+- `mnistclass.ipynb` — complete implementation and saved results
 
 ## Run
 
 ```bash
 python -m pip install -r requirements.txt
-jupyter notebook mnist_einops_cnn.ipynb
+jupyter notebook mnistclass.ipynb
 ```
 
 The notebook automatically uses CUDA when available and otherwise runs on CPU.
