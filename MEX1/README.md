@@ -5,7 +5,7 @@ This repository contains a three-layer convolutional computation for MNIST class
 ## Result
 
 - Training: 5 epochs
-- Test accuracy: **98.69%**
+- Test accuracy: **98.28%**
 - Execution environment: DGX server, one NVIDIA A100 GPU
 - Parameters: 21,578
 
