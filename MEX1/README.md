@@ -36,6 +36,10 @@ The executed notebook includes the training output, test accuracy, and a 4×4 gr
 
 - `mnistclass.ipynb` — complete implementation and saved results
 
+## Agent use
+
+This project was initialized, implemented, executed, and committed using OpenAI Codex.
+
 ## Run locally
 
 ```bash
