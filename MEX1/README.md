@@ -42,7 +42,7 @@ jupyter notebook mnistclass.ipynb
 
 Run all cells from the Jupyter menu to train the model and replace the saved outputs.
 
-## Run on sharc2
+## Run on DGX server
 
 The one-GPU launcher is stored on `sharc2` at `~/A1231/MEX1/run.sh`:
 
