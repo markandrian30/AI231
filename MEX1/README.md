@@ -1,6 +1,6 @@
 # AI 231 — MNIST Einops/Einsum CNN
 
-This repository contains a three-layer convolutional computation for MNIST classification. All trainable values are plain PyTorch tensors with gradients enabled. Convolution, pooling, flattening, linear classification, and loss are implemented with tensor operations using `einops` and `torch.einsum`; no PyTorch CNN or MLP layer classes are used.
+This repository contains a three-layer convolutional computation for MNIST classification. All trainable values are plain PyTorch tensors with gradients enabled. Convolution, pooling, flattening, linear classification, and loss are implemented with tensor operations using `einops` and `torch.einsum`; no PyTorch CNN or MLP layer classes are used. The notebook uses CUDA when available and otherwise runs on CPU, where training will be slower.
 
 ## Result
 
@@ -39,5 +39,3 @@ The executed notebook includes the training output, test accuracy, and a 4×4 gr
 python -m pip install -r requirements.txt
 jupyter notebook mnistclass.ipynb
 ```
-
-The notebook uses CUDA when available and otherwise runs on CPU, where training will be slower.
