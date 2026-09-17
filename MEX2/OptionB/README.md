@@ -1,6 +1,11 @@
 # Option B: Spoken Command Dataset
 
-Option B originally contained **18,600 WAV files** and has **17,648 active WAV files after transcription-based filtering**, representing **100 reference speakers: 84 foreign speakers from LibriSpeech and 16 Filipino-English speakers from SilencioPH**. It covers 19 intents, with three phrase variations and two acoustic conditions: clean and light background noise.
+**Transcriber used:** [simple-audio-transcriber by Martinnavs](https://github.com/Martinnavs/simple-audio-transcriber)
+
+- **100 speakers:** 84 foreign and 16 Filipino-English.
+- **19 intents**, each with three phrase variations.
+- **Two acoustic conditions:** clean and light background noise.
+- **18,600 original files; 17,648 remaining after filtering.**
 
 ## Dataset overview
 
@@ -19,11 +24,10 @@ Option B originally contained **18,600 WAV files** and has **17,648 active WAV f
 | Files moved to REPORT | 952 |
 | **Remaining active WAV files** | **17,648** |
 
-These counts describe the source dataset on DGX2 after cleanup on September 17, 2026. GitHub uploads are incremental; the audio and manifest currently uploaded here may reflect an earlier snapshot.
-
 ## Speakers
 
-All 100 speaker IDs remain in the active manifest. File totals in the following speaker table describe the original dataset before cleanup.
+- All 100 speaker IDs remain after filtering.
+- The table shows original file counts.
 
 | Group | Speaker IDs | Speakers | WAV files |
 |---|---|---:|---:|
@@ -31,7 +35,7 @@ All 100 speaker IDs remain in the active manifest. File totals in the following 
 | Filipino-English (SilencioPH) | `s68-s80`, `s89-s90`, `s100` | 16 | 2,976 |
 | **Total** | `s1-s100` | **100** | **18,600** |
 
-Both groups appear in the same intent folders. Speaker IDs in filenames identify the reference speaker used to generate the audio.
+Speaker IDs identify the reference voices. Both groups share the same intent folders.
 
 | Metadata split | Foreign speaker IDs | Filipino speaker IDs | Total speakers |
 |---|---|---|---:|
@@ -46,14 +50,15 @@ Both groups appear in the same intent folders. Speaker IDs in filenames identify
 | `_clean.wav` | Clean speech | 8,824 |
 | `_noisy.wav` | Speech with light background noise; target approximately 30 dB SNR | 8,824 |
 
-Each base utterance has both conditions. The `v1`, `v2`, and `v3` tokens identify phrase variations, not acoustic conditions.
+Each utterance has clean and noisy versions. `v1`, `v2`, and `v3` identify phrase variations.
 
 ## Transcription-based quality checking and filtering
-The transcription workflow used [simple-audio-transcriber by Martinnavs](https://github.com/Martinnavs/simple-audio-transcriber). The dataset-specific checking script runs Faster-Whisper (`small`, CPU, int8) and compares each transcription with its expected phrase using normalized text similarity. Scores below **0.80** are flagged for review; this score measures text similarity, not model confidence or audio quality directly.
 
-Formatting-only differences such as `20%` versus `20 percent` were reviewed and removed from the brightness flagged lists before filtering. The paired-condition filtering rule below is specific to this dataset.
-
-Cleanup completed on **September 17, 2026**. Counts were checked against the active audio files, manifest, and cleanup archive on DGX2.
+- **Model:** Faster-Whisper `small`, CPU int8.
+- **Check:** normalized transcription compared with the expected phrase.
+- **Flag threshold:** text similarity below `0.80`.
+- **Brightness false flags:** equivalent forms such as `20%` and `20 percent` excluded.
+- **Filtering completed:** September 17, 2026.
 
 | Result | Count |
 |---|---:|
@@ -66,11 +71,14 @@ Cleanup completed on **September 17, 2026**. Counts were checked against the act
 | Phrase groups flagged in only one condition and retained | 121 |
 | Pairs skipped because files were missing | 0 |
 
-A phrase variation is removed from the active dataset only when **both its clean and noisy recordings are flagged**. If just one condition is flagged, both recordings remain. Removed files are archived under `REPORT/<folder>/`; they are not permanently deleted. The cleanup also filters the source manifest to the remaining files.
+- Move a pair only when **both clean and noisy recordings are flagged**.
+- Keep both files when only one condition is flagged.
+- Archive moved files under `REPORT/<folder>/`.
+- Update the source manifest to include remaining files.
 
 ### Original, removed, and remaining files per data folder
 
-Each row represents one data folder: either an intent without slots or an individual intent-slot combination. The six variable intents are shown separately by slot value, giving **31 folders across 19 intents**.
+**31 folders across 19 intents.** Each slot value has its own row.
 
 | Intent / slot folder | Original WAV files | Removed to REPORT | Remaining active WAV files |
 |---|---:|---:|---:|
@@ -156,7 +164,8 @@ Example: `BRIGHTNESS_100/BRIGHTNESS_100_s68_v3_noisy.wav`
 | `v3` | Third phrase variation |
 | `noisy` | Acoustic condition |
 
-The source WAV files were renamed after QA to match their containing folders. Manifest paths and QA report references were updated to the same names. Earlier GitHub snapshots may still use the previous names.
+- Source filenames match their folders.
+- Source manifest and report references use the updated names.
 
 ## Metadata
 
@@ -164,4 +173,4 @@ The source WAV files were renamed after QA to match their containing folders. Ma
 - `labels.json` and `slots.json`: intent and slot definitions.
 - `OPTIONB_DATA_SUMMARY.md` and `dataset_design.txt`: supporting dataset documentation.
 
-Resolve manifest paths relative to this directory. Split assignments are recorded in metadata; audio is organized by intent and slot value.
+Resolve manifest paths relative to this directory. Metadata records the split assignments.
