@@ -61,7 +61,7 @@ Before filtering, all folders listed below contained 600 WAV files each.
 | Temperature   | `TEMPERATURE_18`, `TEMPERATURE_22`, `TEMPERATURE_26`                                                                                               |           1,800 |
 | Brightness    | `BRIGHTNESS_20`, `BRIGHTNESS_60`, `BRIGHTNESS_100`                                                                                                 |           1,800 |
 | Color         | `COLOR_RED`, `COLOR_BLUE`, `COLOR_GREEN`                                                                                                           |           1,800 |
-| Reminder      | `REMINDER_DRINK_WATER`, `REMINDER_STUDY`, `REMINDER_CALL_HOME`                                                                                     |           1,800 |
+| Reminder      | `CREATE_REMINDER_DRINK_WATER`, `CREATE_REMINDER_STUDY`, `CREATE_REMINDER_CALL_HOME`                                                                                     |           1,800 |
 
 ## Phrase variations
 
@@ -110,4 +110,3 @@ Before filtering, all folders listed below contained 600 WAV files each.
 | `v1`, `v2`, `v3` | Phrase variations 1, 2, and 3                                                |
 | `clean`, `noisy` | Acoustic condition                                                           |
 | Slot value       | Encoded in the containing folder, e.g. `ALARM_6_00AM/ALARM_6_00AM_s68_v1_clean.wav` |
-

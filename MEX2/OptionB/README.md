@@ -117,9 +117,9 @@ Files are flagged when transcription similarity is **below 0.80**. A pair is mov
 | `COLOR_RED` | 600 | 32 | 568 |
 | `COLOR_BLUE` | 600 | 10 | 590 |
 | `COLOR_GREEN` | 600 | 22 | 578 |
-| `REMINDER_DRINK_WATER` | 600 | 4 | 596 |
-| `REMINDER_STUDY` | 600 | 22 | 578 |
-| `REMINDER_CALL_HOME` | 600 | 18 | 582 |
+| `CREATE_REMINDER_DRINK_WATER` | 600 | 4 | 596 |
+| `CREATE_REMINDER_STUDY` | 600 | 22 | 578 |
+| `CREATE_REMINDER_CALL_HOME` | 600 | 18 | 582 |
 | **Total** | **18,600** | **952** | **17,648** |
 
 ## Filename convention
