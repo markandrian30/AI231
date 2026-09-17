@@ -13,8 +13,8 @@
 | Item | Count |
 |---|---:|
 | Reference speakers | 100 |
-| Foreign speakers | 84 |
-| Filipino-English speakers | 16 |
+| Foreign speakers ([LibriSpeech](https://www.openslr.org/12), [small subsets](https://www.openslr.org/31)) | 84 |
+| Filipino-English speakers ([SilencioPH](https://huggingface.co/datasets/SilencioNetwork/tagalog-filipino-speech)) | 16 |
 | Intents | 19 |
 | Intents without slots | 13 |
 | Intents with slots | 6 |
