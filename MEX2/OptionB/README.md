@@ -88,7 +88,7 @@ Each utterance has clean and noisy versions. `v1`, `v2`, and `v3` identify phras
 | `COLOR`           | `{color}`    | red; blue; green                    |
 | `CREATE_REMINDER` | `{task}`     | drink water; study; call home       |
 
-## Original, removed, and remaining files per data folder
+## Transcription-Based Filtering Results
 
 Files are flagged when transcription similarity is **below 0.80**. A pair is moved to `REPORT` only when **both clean and noisy versions are flagged**; otherwise, both files remain.
 
