@@ -5,7 +5,7 @@
 | Server                      | DGX2                                   |
 | Dataset path                |                                        |
 | Total intents               | 19                                     |
-| Data folders                | 31, plus a separate `REPORT` folder    |
+| Data folders                | 31, plus a separate `FLAGGED` folder    |
 | Fixed intents               | 13 folders                             |
 | Variable intents            | 6 intents × 3 slot values = 18 folders |
 | Phrase variations           | 3 per intent/slot combination          |
@@ -101,4 +101,3 @@ All folders listed below contain 600 WAV files each.
 | `v1`, `v2`, `v3` | Phrase variations 1, 2, and 3                                                |
 | `clean`, `noisy` | Acoustic condition                                                           |
 | Slot value       | Encoded in the containing folder, e.g. `ALARM_6_00AM/ALARM_s68_v1_clean.wav` |
-

@@ -22,7 +22,7 @@
 | Active clean WAV files | 8,824 |
 | Active noisy WAV files | 8,824 |
 | Original WAV files | 18,600 |
-| Files moved to REPORT | 952 |
+| Files moved to FLAGGED | 952 |
 | **Remaining active WAV files** | **17,648** |
 
 ## Speakers
@@ -90,9 +90,9 @@ Each utterance has clean and noisy versions. `v1`, `v2`, and `v3` identify phras
 
 ## Transcription-Based Filtering Results
 
-Files are flagged when transcription similarity is **below 0.80**. A pair is moved to `REPORT` only when **both clean and noisy versions are flagged**; otherwise, both files remain.
+Files are flagged when transcription similarity is **below 0.80**. A pair is moved to `FLAGGED` only when **both clean and noisy versions are flagged**; otherwise, both files remain.
 
-| Intent / slot folder | Original WAV files | Flagged files moved to REPORT | Remaining active WAV files |
+| Intent / slot folder | Original WAV files | Flagged files moved to FLAGGED | Remaining active WAV files |
 |---|---:|---:|---:|
 | `PLAY_MUSIC` | 600 | 32 | 568 |
 | `WEATHER` | 600 | 56 | 544 |
