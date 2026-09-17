@@ -50,27 +50,27 @@
 
 ## Phrase variations
 
-| Intent / group    | v1                    | v2                                  | v3                                 |
-| ----------------- | --------------------- | ----------------------------------- | ---------------------------------- |
-| `PLAY_MUSIC`      | Play music            | Play a song                         | Start the music                    |
-| `WEATHER`         | Weather               | What's the weather?                 | Tell me the weather                |
-| `TIME`            | Time                  | What time is it?                    | Tell me the time                   |
-| `LIGHT_ON`        | Lights on             | Power on the lights                 | Turn on the lights                 |
-| `LIGHT_OFF`       | Lights off            | Kill the lights                     | Turn off the lights                |
-| `PAUSE`           | Pause                 | Pause the music                     | Pause this song                    |
-| `STOP`            | Stop song             | Stop music                          | Stop playing music                 |
-| `NEXT`            | Skip song             | Next song                           | Play next song                     |
-| `VOLUME_UP`       | Volume up             | Increase the volume                 | Turn the volume up                 |
-| `VOLUME_DOWN`     | Volume down           | Decrease the volume                 | Turn the volume down               |
-| `CALL`            | Call                  | Make a call                         | Make a phone call                  |
-| `MESSAGE`         | Message               | Send a message                      | Send my message                    |
-| `LIST_REMINDERS`  | Reminders             | Show my reminders                   | List my reminders                  |
-| `TIMER`           | Timer {duration}      | Countdown for {duration}            | Start a timer for {duration}       |
-| `ALARM`           | Alarm {time}          | Wake me up at {time}                | Set an alarm for {time}            |
-| `TEMPERATURE`     | Temperature {degrees} | Change the temperature to {degrees} | Set the temperature to {degrees}   |
-| `BRIGHTNESS`      | Brightness {percent}  | Set the brightness to {percent}     | Change the brightness to {percent} |
-| `COLOR`           | Color {color}         | Change the lights to {color}        | Set the lights to {color}          |
-| `CREATE_REMINDER` | Reminder {task}       | Remind me to {task}                 | Create a reminder to {task}        |
+| Group | Intent | v1 | v2 | v3 |
+|---|---|---|---|---|
+| Music control | `PLAY_MUSIC` | Play music | Play a song | Start the music |
+| Music control | `VOLUME_UP` | Volume up | Increase the volume | Turn the volume up |
+| Music control | `VOLUME_DOWN` | Volume down | Decrease the volume | Turn the volume down |
+| Music control | `NEXT` | Skip song | Next song | Play next song |
+| Music control | `PAUSE` | Pause | Pause the music | Pause this song |
+| Music control | `STOP` | Stop song | Stop music | Stop playing music |
+| Lighting | `LIGHT_ON` | Lights on | Power on the lights | Turn on the lights |
+| Lighting | `LIGHT_OFF` | Lights off | Kill the lights | Turn off the lights |
+| Lighting | `BRIGHTNESS` | Brightness {percent} | Set the brightness to {percent} | Change the brightness to {percent} |
+| Lighting | `COLOR` | Color {color} | Change the lights to {color} | Set the lights to {color} |
+| Temperature control | `TEMPERATURE` | Temperature {degrees} | Change the temperature to {degrees} | Set the temperature to {degrees} |
+| Information | `WEATHER` | Weather | What's the weather? | Tell me the weather |
+| Information | `TIME` | Time | What time is it? | Tell me the time |
+| Timers and alarms | `TIMER` | Timer {duration} | Countdown for {duration} | Start a timer for {duration} |
+| Timers and alarms | `ALARM` | Alarm {time} | Wake me up at {time} | Set an alarm for {time} |
+| Communication | `CALL` | Call | Make a call | Make a phone call |
+| Communication | `MESSAGE` | Message | Send a message | Send my message |
+| Reminders | `CREATE_REMINDER` | Reminder {task} | Remind me to {task} | Create a reminder to {task} |
+| Reminders | `LIST_REMINDERS` | Reminders | Show my reminders | List my reminders |
 
 ### Slot values
 
