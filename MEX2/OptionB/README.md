@@ -90,7 +90,7 @@ Each utterance has clean and noisy versions. `v1`, `v2`, and `v3` identify phras
 
 ## Original, removed, and remaining files per data folder
 
-**31 folders across 19 intents.** Each slot value has its own row.
+Files are flagged when transcription similarity is **below 0.80**. A pair is moved to `REPORT` only when **both clean and noisy versions are flagged**; otherwise, both files remain.
 
 | Intent / slot folder | Original WAV files | Removed to REPORT | Remaining active WAV files |
 |---|---:|---:|---:|
