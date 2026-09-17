@@ -87,31 +87,7 @@ Each utterance has clean and noisy versions. `v1`, `v2`, and `v3` identify phras
 | `COLOR`           | `{color}`    | red; blue; green                    |
 | `CREATE_REMINDER` | `{task}`     | drink water; study; call home       |
 
-## Transcription-based quality checking and filtering
-
-- **Model:** Faster-Whisper `small`, CPU int8.
-- **Check:** normalized transcription compared with the expected phrase.
-- **Flag threshold:** text similarity below `0.80`.
-- **Brightness false flags:** equivalent forms such as `20%` and `20 percent` excluded.
-- **Filtering completed:** September 17, 2026.
-
-| Result | Count |
-|---|---:|
-| Original WAV files | 18,600 |
-| Files removed from the active dataset and moved to REPORT | 952 |
-| Complete clean/noisy pairs moved | 476 |
-| **Remaining active WAV files** | **17,648** |
-| Remaining clean files | 8,824 |
-| Remaining noisy files | 8,824 |
-| Phrase groups flagged in only one condition and retained | 121 |
-| Pairs skipped because files were missing | 0 |
-
-- Move a pair only when **both clean and noisy recordings are flagged**.
-- Keep both files when only one condition is flagged.
-- Archive moved files under `REPORT/<folder>/`.
-- Update the source manifest to include remaining files.
-
-### Original, removed, and remaining files per data folder
+## Original, removed, and remaining files per data folder
 
 **31 folders across 19 intents.** Each slot value has its own row.
 
