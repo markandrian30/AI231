@@ -3,7 +3,8 @@
 **Transcriber used:** [simple-audio-transcriber by Martinnavs](https://github.com/Martinnavs/simple-audio-transcriber)
 
 - **100 speakers:** 84 foreign and 16 Filipino-English.
-- **19 intents**, each with three phrase variations.
+- **13 fixed intents:** 3 phrases each.
+- **6 variable intents:** 3 phrase templates x 3 slot values = 9 utterances each.
 - **Two acoustic conditions:** clean and light background noise.
 - **18,600 original files; 17,648 remaining after filtering.**
 
