@@ -12,13 +12,7 @@ Option B contains **18,600 WAV files** representing **100 reference speakers: 84
 | Intents | 19 |
 | Intents without slots | 13 |
 | Intents with slots | 6 |
-| Phrase variations per intent/slot combination | 3 |
-| Slot values per variable intent | 3 |
 | Acoustic conditions per utterance | 2 |
-| Data folders | 31 |
-| WAV files per data folder | 600 |
-| Base utterances per speaker | 93 |
-| WAV files per speaker | 186 |
 | Clean WAV files | 9,300 |
 | Noisy WAV files | 9,300 |
 | **Total WAV files** | **18,600** |
