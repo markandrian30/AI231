@@ -1,4 +1,13 @@
-## Dataset overview
+# Option B Dataset Summary
+
+- Original dataset: **18,600 WAV files**.
+- After filtering: **17,648 active WAV files** (8,824 clean and 8,824 noisy).
+- Archived in `FLAGGED/`: **952 WAV files**.
+- Detailed folder counts: see [README.md](README.md).
+
+The tables below describe the original dataset before filtering. Active counts vary by folder and speaker.
+
+## Original dataset overview
 
 | Item                        | Summary                                |
 | --------------------------- | -------------------------------------- |
@@ -18,7 +27,7 @@
 | Base utterances per speaker | 93                                     |
 | WAV files per speaker       | 186                                    |
 
-Each folder contains 100 speakers × 3 phrase variations × 2 acoustic conditions = 600 files.
+Originally, each folder contained 100 speakers × 3 phrase variations × 2 acoustic conditions = 600 files.
 
 ## Speaker groups
 
@@ -42,7 +51,7 @@ Filipino speakers appear in all three metadata splits. Files are organized by in
 
 ## Data folders
 
-All folders listed below contain 600 WAV files each.
+Before filtering, all folders listed below contained 600 WAV files each.
 
 | Group         | Folder names                                                                                                                                       | Group WAV total |
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | --------------: |
@@ -91,7 +100,7 @@ All folders listed below contain 600 WAV files each.
 
 ## Filename convention
 
-`<INTENT>_s<speaker>_v<phrase variation>_<condition>.wav`
+`<FOLDER_NAME>_s<speaker>_v<phrase variation>_<condition>.wav`
 
 | Component        | Meaning                                                                      |
 | ---------------- | ---------------------------------------------------------------------------- |
@@ -100,4 +109,5 @@ All folders listed below contain 600 WAV files each.
 | `s68`            | Speaker 68, Filipino-English                                                 |
 | `v1`, `v2`, `v3` | Phrase variations 1, 2, and 3                                                |
 | `clean`, `noisy` | Acoustic condition                                                           |
-| Slot value       | Encoded in the containing folder, e.g. `ALARM_6_00AM/ALARM_s68_v1_clean.wav` |
+| Slot value       | Encoded in the containing folder, e.g. `ALARM_6_00AM/ALARM_6_00AM_s68_v1_clean.wav` |
+
