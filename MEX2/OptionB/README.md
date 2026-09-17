@@ -1,6 +1,6 @@
 # Option B: Spoken Command Dataset
 
-Option B originally contained **18,600 WAV files** and has **17,648 active WAV files after QA cleanup**, representing **100 reference speakers: 84 foreign speakers from LibriSpeech and 16 Filipino-English speakers from SilencioPH**. It covers 19 intents, with three phrase variations and two acoustic conditions: clean and light background noise.
+Option B originally contained **18,600 WAV files** and has **17,648 active WAV files after transcription-based filtering**, representing **100 reference speakers: 84 foreign speakers from LibriSpeech and 16 Filipino-English speakers from SilencioPH**. It covers 19 intents, with three phrase variations and two acoustic conditions: clean and light background noise.
 
 ## Dataset overview
 
@@ -48,7 +48,10 @@ Both groups appear in the same intent folders. Speaker IDs in filenames identify
 
 Each base utterance has both conditions. The `v1`, `v2`, and `v3` tokens identify phrase variations, not acoustic conditions.
 
-## QA cleanup report
+## Transcription-based quality checking and filtering
+The transcription workflow used [simple-audio-transcriber by Martinnavs](https://github.com/Martinnavs/simple-audio-transcriber). The dataset-specific checking script runs Faster-Whisper (`small`, CPU, int8) and compares each transcription with its expected phrase using normalized text similarity. Scores below **0.80** are flagged for review; this score measures text similarity, not model confidence or audio quality directly.
+
+Formatting-only differences such as `20%` versus `20 percent` were reviewed and removed from the brightness flagged lists before filtering. The paired-condition filtering rule below is specific to this dataset.
 
 Cleanup completed on **September 17, 2026**. Counts were checked against the active audio files, manifest, and cleanup archive on DGX2.
 
