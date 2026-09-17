@@ -68,31 +68,43 @@ Cleanup completed on **September 17, 2026**. Counts were checked against the act
 
 A phrase variation is removed from the active dataset only when **both its clean and noisy recordings are flagged**. If just one condition is flagged, both recordings remain. Removed files are archived under `REPORT/<folder>/`; they are not permanently deleted. The cleanup also filters the source manifest to the remaining files.
 
-### Original, removed, and remaining files per intent
+### Original, removed, and remaining files per data folder
 
-An **intent** is the action being requested, such as `ALARM` or `BRIGHTNESS`. A folder such as `BRIGHTNESS_20` represents an **intent-slot combination**. The following table combines all slot folders belonging to the same intent, giving 19 intents across 31 data folders.
+Each row represents one data folder: either an intent without slots or an individual intent-slot combination. The six variable intents are shown separately by slot value, giving **31 folders across 19 intents**.
 
-| Intent | Original WAV files | Removed to REPORT | Remaining active WAV files |
+| Intent / slot folder | Original WAV files | Removed to REPORT | Remaining active WAV files |
 |---|---:|---:|---:|
-| PLAY_MUSIC | 600 | 32 | 568 |
-| WEATHER | 600 | 56 | 544 |
-| TIME | 600 | 52 | 548 |
-| LIGHT_ON | 600 | 30 | 570 |
-| LIGHT_OFF | 600 | 22 | 578 |
-| PAUSE | 600 | 104 | 496 |
-| STOP | 600 | 68 | 532 |
-| NEXT | 600 | 80 | 520 |
-| VOLUME_UP | 600 | 34 | 566 |
-| VOLUME_DOWN | 600 | 20 | 580 |
-| CALL | 600 | 102 | 498 |
-| MESSAGE | 600 | 72 | 528 |
-| LIST_REMINDERS | 600 | 42 | 558 |
-| TIMER | 1800 | 50 | 1750 |
-| ALARM | 1800 | 46 | 1754 |
-| TEMPERATURE | 1800 | 4 | 1796 |
-| BRIGHTNESS | 1800 | 30 | 1770 |
-| COLOR | 1800 | 64 | 1736 |
-| CREATE_REMINDER | 1800 | 44 | 1756 |
+| `PLAY_MUSIC` | 600 | 32 | 568 |
+| `WEATHER` | 600 | 56 | 544 |
+| `TIME` | 600 | 52 | 548 |
+| `LIGHT_ON` | 600 | 30 | 570 |
+| `LIGHT_OFF` | 600 | 22 | 578 |
+| `PAUSE` | 600 | 104 | 496 |
+| `STOP` | 600 | 68 | 532 |
+| `NEXT` | 600 | 80 | 520 |
+| `VOLUME_UP` | 600 | 34 | 566 |
+| `VOLUME_DOWN` | 600 | 20 | 580 |
+| `CALL` | 600 | 102 | 498 |
+| `MESSAGE` | 600 | 72 | 528 |
+| `LIST_REMINDERS` | 600 | 42 | 558 |
+| `TIMER_10s` | 600 | 12 | 588 |
+| `TIMER_30s` | 600 | 6 | 594 |
+| `TIMER_1m` | 600 | 32 | 568 |
+| `ALARM_6_00AM` | 600 | 16 | 584 |
+| `ALARM_8_00AM` | 600 | 14 | 586 |
+| `ALARM_9_00PM` | 600 | 16 | 584 |
+| `TEMPERATURE_18` | 600 | 2 | 598 |
+| `TEMPERATURE_22` | 600 | 0 | 600 |
+| `TEMPERATURE_26` | 600 | 2 | 598 |
+| `BRIGHTNESS_20` | 600 | 14 | 586 |
+| `BRIGHTNESS_60` | 600 | 10 | 590 |
+| `BRIGHTNESS_100` | 600 | 6 | 594 |
+| `COLOR_RED` | 600 | 32 | 568 |
+| `COLOR_BLUE` | 600 | 10 | 590 |
+| `COLOR_GREEN` | 600 | 22 | 578 |
+| `REMINDER_DRINK_WATER` | 600 | 4 | 596 |
+| `REMINDER_STUDY` | 600 | 22 | 578 |
+| `REMINDER_CALL_HOME` | 600 | 18 | 582 |
 | **Total** | **18,600** | **952** | **17,648** |
 
 Before cleanup, an intent without slots had 100 speakers x 3 phrases x 2 acoustic conditions = 600 files. An intent with slots had 100 speakers x 3 slot values x 3 phrases x 2 conditions = 1,800 files, divided among three folders.
