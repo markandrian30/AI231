@@ -1,6 +1,6 @@
 # Option B: Spoken Command Dataset
 
-Option B contains **18,600 WAV files** representing **100 reference speakers: 84 foreign speakers from LibriSpeech and 16 Filipino-English speakers from SilencioPH**. It covers 19 intents, with three phrase variations and two acoustic conditions: clean and light background noise.
+Option B originally contained **18,600 WAV files** and has **17,648 active WAV files after QA cleanup**, representing **100 reference speakers: 84 foreign speakers from LibriSpeech and 16 Filipino-English speakers from SilencioPH**. It covers 19 intents, with three phrase variations and two acoustic conditions: clean and light background noise.
 
 ## Dataset overview
 
@@ -13,13 +13,17 @@ Option B contains **18,600 WAV files** representing **100 reference speakers: 84
 | Intents without slots | 13 |
 | Intents with slots | 6 |
 | Acoustic conditions per utterance | 2 |
-| Clean WAV files | 9,300 |
-| Noisy WAV files | 9,300 |
-| **Total WAV files** | **18,600** |
+| Active clean WAV files | 8,824 |
+| Active noisy WAV files | 8,824 |
+| Original WAV files | 18,600 |
+| Files moved to REPORT | 952 |
+| **Remaining active WAV files** | **17,648** |
 
-These counts describe the full dataset. Audio folders are being uploaded incrementally; the full manifest may reference files not yet available in this repository.
+These counts describe the source dataset on DGX2 after cleanup on September 17, 2026. GitHub uploads are incremental; the audio and manifest currently uploaded here may reflect an earlier snapshot.
 
 ## Speakers
+
+All 100 speaker IDs remain in the active manifest. File totals in the following speaker table describe the original dataset before cleanup.
 
 | Group | Speaker IDs | Speakers | WAV files |
 |---|---|---:|---:|
@@ -39,41 +43,60 @@ Both groups appear in the same intent folders. Speaker IDs in filenames identify
 
 | Filename suffix | Condition | Files |
 |---|---|---:|
-| `_clean.wav` | Clean speech | 9,300 |
-| `_noisy.wav` | Speech with light background noise; target approximately 30 dB SNR | 9,300 |
+| `_clean.wav` | Clean speech | 8,824 |
+| `_noisy.wav` | Speech with light background noise; target approximately 30 dB SNR | 8,824 |
 
 Each base utterance has both conditions. The `v1`, `v2`, and `v3` tokens identify phrase variations, not acoustic conditions.
 
-## Files per intent
+## QA cleanup report
 
-An intent without slots has **100 speakers x 3 phrases x 2 conditions = 600 files**.
+Cleanup completed on **September 17, 2026**. Counts were checked against the active audio files, manifest, and cleanup archive on DGX2.
 
-An intent with slots has **100 speakers x 3 slot values x 3 phrases x 2 conditions = 1,800 files**, divided into three folders of 600 files each.
+| Result | Count |
+|---|---:|
+| Original WAV files | 18,600 |
+| Files removed from the active dataset and moved to REPORT | 952 |
+| Complete clean/noisy pairs moved | 476 |
+| **Remaining active WAV files** | **17,648** |
+| Remaining clean files | 8,824 |
+| Remaining noisy files | 8,824 |
+| Phrase groups flagged in only one condition and retained | 121 |
+| Pairs skipped because files were missing | 0 |
 
-| Intent | Slot values | Data folders | Clean | Noisy | Total WAV files |
-|---|---|---:|---:|---:|---:|
-| PLAY_MUSIC | None | 1 | 300 | 300 | 600 |
-| WEATHER | None | 1 | 300 | 300 | 600 |
-| TIME | None | 1 | 300 | 300 | 600 |
-| LIGHT_ON | None | 1 | 300 | 300 | 600 |
-| LIGHT_OFF | None | 1 | 300 | 300 | 600 |
-| PAUSE | None | 1 | 300 | 300 | 600 |
-| STOP | None | 1 | 300 | 300 | 600 |
-| NEXT | None | 1 | 300 | 300 | 600 |
-| VOLUME_UP | None | 1 | 300 | 300 | 600 |
-| VOLUME_DOWN | None | 1 | 300 | 300 | 600 |
-| CALL | None | 1 | 300 | 300 | 600 |
-| MESSAGE | None | 1 | 300 | 300 | 600 |
-| LIST_REMINDERS | None | 1 | 300 | 300 | 600 |
-| TIMER | 10 seconds; 30 seconds; 1 minute | 3 | 900 | 900 | 1,800 |
-| ALARM | 6 AM; 8 AM; 9 PM | 3 | 900 | 900 | 1,800 |
-| TEMPERATURE | 18; 22; 26 degrees | 3 | 900 | 900 | 1,800 |
-| BRIGHTNESS | 20; 60; 100 percent | 3 | 900 | 900 | 1,800 |
-| COLOR | Red; blue; green | 3 | 900 | 900 | 1,800 |
-| CREATE_REMINDER | Drink water; study; call home | 3 | 900 | 900 | 1,800 |
-| **Total** | | **31** | **9,300** | **9,300** | **18,600** |
+A phrase variation is removed from the active dataset only when **both its clean and noisy recordings are flagged**. If just one condition is flagged, both recordings remain. Removed files are archived under `REPORT/<folder>/`; they are not permanently deleted. The cleanup also filters the source manifest to the remaining files.
 
-For each speaker, the 13 fixed intents produce 39 base utterances and the six variable intents produce 54. Together, this gives 93 base utterances and 186 WAV files after adding both acoustic conditions.
+### Original, removed, and remaining files per intent
+
+An **intent** is the action being requested, such as `ALARM` or `BRIGHTNESS`. A folder such as `BRIGHTNESS_20` represents an **intent-slot combination**. The following table combines all slot folders belonging to the same intent, giving 19 intents across 31 data folders.
+
+| Intent | Original WAV files | Removed to REPORT | Remaining active WAV files |
+|---|---:|---:|---:|
+| PLAY_MUSIC | 600 | 32 | 568 |
+| WEATHER | 600 | 56 | 544 |
+| TIME | 600 | 52 | 548 |
+| LIGHT_ON | 600 | 30 | 570 |
+| LIGHT_OFF | 600 | 22 | 578 |
+| PAUSE | 600 | 104 | 496 |
+| STOP | 600 | 68 | 532 |
+| NEXT | 600 | 80 | 520 |
+| VOLUME_UP | 600 | 34 | 566 |
+| VOLUME_DOWN | 600 | 20 | 580 |
+| CALL | 600 | 102 | 498 |
+| MESSAGE | 600 | 72 | 528 |
+| LIST_REMINDERS | 600 | 42 | 558 |
+| TIMER | 1800 | 50 | 1750 |
+| ALARM | 1800 | 46 | 1754 |
+| TEMPERATURE | 1800 | 4 | 1796 |
+| BRIGHTNESS | 1800 | 30 | 1770 |
+| COLOR | 1800 | 64 | 1736 |
+| CREATE_REMINDER | 1800 | 44 | 1756 |
+| **Total** | **18,600** | **952** | **17,648** |
+
+Before cleanup, an intent without slots had 100 speakers x 3 phrases x 2 acoustic conditions = 600 files. An intent with slots had 100 speakers x 3 slot values x 3 phrases x 2 conditions = 1,800 files, divided among three folders.
+
+The original design gives 39 fixed-intent and 54 variable-intent base utterances per speaker: 93 base utterances and 186 WAV files. After cleanup, file counts can vary by speaker and intent.
+
+The source cleanup summary is `REPORT/summary.txt`. The audit directory `REPORT/cleanup_20260917_210149_948657/` contains the moved-file list and pre-cleanup manifest backups.
 
 ## Phrase variations
 
@@ -112,19 +135,19 @@ For each speaker, the 13 fixed intents produce 39 base utterances and the six va
 
 ## Filename convention
 
-`<INTENT>_s<speaker>_v<phrase variation>_<condition>.wav`
+`<FOLDER_NAME>_s<speaker>_v<phrase variation>_<condition>.wav`
 
-Example: `BRIGHTNESS_100/BRIGHTNESS_s68_v3_noisy.wav`
+Example: `BRIGHTNESS_100/BRIGHTNESS_100_s68_v3_noisy.wav`
 
 | Component | Meaning |
 |---|---|
 | `BRIGHTNESS_100/` | Intent folder with the 100-percent slot value |
-| `BRIGHTNESS` | Intent |
+| `BRIGHTNESS_100` | Folder name: intent and slot value |
 | `s68` | Reference speaker 68, Filipino-English |
 | `v3` | Third phrase variation |
 | `noisy` | Acoustic condition |
 
-Preserve folder paths when identifying files: variable-intent filenames can repeat across slot folders.
+The source WAV files were renamed after QA to match their containing folders. Manifest paths and QA report references were updated to the same names. Earlier GitHub snapshots may still use the previous names.
 
 ## Metadata
 
