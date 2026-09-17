@@ -35,8 +35,6 @@
 | Filipino-English (SilencioPH) | `s68-s80`, `s89-s90`, `s100` | 16 | 2,976 |
 | **Total** | `s1-s100` | **100** | **18,600** |
 
-Speaker IDs identify the reference voices. Both groups share the same intent folders.
-
 | Metadata split | Foreign speaker IDs | Filipino speaker IDs | Total speakers |
 |---|---|---|---:|
 | Train | `s1-s67` | `s68-s80` | 80 |
