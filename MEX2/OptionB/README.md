@@ -107,12 +107,6 @@ Each row represents one data folder: either an intent without slots or an indivi
 | `REMINDER_CALL_HOME` | 600 | 18 | 582 |
 | **Total** | **18,600** | **952** | **17,648** |
 
-Before cleanup, an intent without slots had 100 speakers x 3 phrases x 2 acoustic conditions = 600 files. An intent with slots had 100 speakers x 3 slot values x 3 phrases x 2 conditions = 1,800 files, divided among three folders.
-
-The original design gives 39 fixed-intent and 54 variable-intent base utterances per speaker: 93 base utterances and 186 WAV files. After cleanup, file counts can vary by speaker and intent.
-
-The source cleanup summary is `REPORT/summary.txt`. The audit directory `REPORT/cleanup_20260917_210149_948657/` contains the moved-file list and pre-cleanup manifest backups.
-
 ## Phrase variations
 
 | Intent / group    | v1                    | v2                                  | v3                                 |
