@@ -52,6 +52,41 @@ Speaker IDs identify the reference voices. Both groups share the same intent fol
 
 Each utterance has clean and noisy versions. `v1`, `v2`, and `v3` identify phrase variations.
 
+## Phrase variations
+
+| Intent / group    | v1                    | v2                                  | v3                                 |
+| ----------------- | --------------------- | ----------------------------------- | ---------------------------------- |
+| `PLAY_MUSIC`      | Play music            | Play a song                         | Start the music                    |
+| `WEATHER`         | Weather               | What's the weather?                 | Tell me the weather                |
+| `TIME`            | Time                  | What time is it?                    | Tell me the time                   |
+| `LIGHT_ON`        | Lights on             | Power on the lights                 | Turn on the lights                 |
+| `LIGHT_OFF`       | Lights off            | Kill the lights                     | Turn off the lights                |
+| `PAUSE`           | Pause                 | Pause the music                     | Pause this song                    |
+| `STOP`            | Stop song             | Stop music                          | Stop playing music                 |
+| `NEXT`            | Skip song             | Next song                           | Play next song                     |
+| `VOLUME_UP`       | Volume up             | Increase the volume                 | Turn the volume up                 |
+| `VOLUME_DOWN`     | Volume down           | Decrease the volume                 | Turn the volume down               |
+| `CALL`            | Call                  | Make a call                         | Make a phone call                  |
+| `MESSAGE`         | Message               | Send a message                      | Send my message                    |
+| `LIST_REMINDERS`  | Reminders             | Show my reminders                   | List my reminders                  |
+| `TIMER`           | Timer {duration}      | Countdown for {duration}            | Start a timer for {duration}       |
+| `ALARM`           | Alarm {time}          | Wake me up at {time}                | Set an alarm for {time}            |
+| `TEMPERATURE`     | Temperature {degrees} | Change the temperature to {degrees} | Set the temperature to {degrees}   |
+| `BRIGHTNESS`      | Brightness {percent}  | Set the brightness to {percent}     | Change the brightness to {percent} |
+| `COLOR`           | Color {color}         | Change the lights to {color}        | Set the lights to {color}          |
+| `CREATE_REMINDER` | Reminder {task}       | Remind me to {task}                 | Create a reminder to {task}        |
+
+### Slot values
+
+| Intent            | Slot         | Values                              |
+| ----------------- | ------------ | ----------------------------------- |
+| `TIMER`           | `{duration}` | 10 seconds; 30 seconds; 1 minute    |
+| `ALARM`           | `{time}`     | 6 AM; 8 AM; 9 PM                    |
+| `TEMPERATURE`     | `{degrees}`  | 18 degrees; 22 degrees; 26 degrees  |
+| `BRIGHTNESS`      | `{percent}`  | 20 percent; 60 percent; 100 percent |
+| `COLOR`           | `{color}`    | red; blue; green                    |
+| `CREATE_REMINDER` | `{task}`     | drink water; study; call home       |
+
 ## Transcription-based quality checking and filtering
 
 - **Model:** Faster-Whisper `small`, CPU int8.
@@ -114,41 +149,6 @@ Each utterance has clean and noisy versions. `v1`, `v2`, and `v3` identify phras
 | `REMINDER_STUDY` | 600 | 22 | 578 |
 | `REMINDER_CALL_HOME` | 600 | 18 | 582 |
 | **Total** | **18,600** | **952** | **17,648** |
-
-## Phrase variations
-
-| Intent / group    | v1                    | v2                                  | v3                                 |
-| ----------------- | --------------------- | ----------------------------------- | ---------------------------------- |
-| `PLAY_MUSIC`      | Play music            | Play a song                         | Start the music                    |
-| `WEATHER`         | Weather               | What's the weather?                 | Tell me the weather                |
-| `TIME`            | Time                  | What time is it?                    | Tell me the time                   |
-| `LIGHT_ON`        | Lights on             | Power on the lights                 | Turn on the lights                 |
-| `LIGHT_OFF`       | Lights off            | Kill the lights                     | Turn off the lights                |
-| `PAUSE`           | Pause                 | Pause the music                     | Pause this song                    |
-| `STOP`            | Stop song             | Stop music                          | Stop playing music                 |
-| `NEXT`            | Skip song             | Next song                           | Play next song                     |
-| `VOLUME_UP`       | Volume up             | Increase the volume                 | Turn the volume up                 |
-| `VOLUME_DOWN`     | Volume down           | Decrease the volume                 | Turn the volume down               |
-| `CALL`            | Call                  | Make a call                         | Make a phone call                  |
-| `MESSAGE`         | Message               | Send a message                      | Send my message                    |
-| `LIST_REMINDERS`  | Reminders             | Show my reminders                   | List my reminders                  |
-| `TIMER`           | Timer {duration}      | Countdown for {duration}            | Start a timer for {duration}       |
-| `ALARM`           | Alarm {time}          | Wake me up at {time}                | Set an alarm for {time}            |
-| `TEMPERATURE`     | Temperature {degrees} | Change the temperature to {degrees} | Set the temperature to {degrees}   |
-| `BRIGHTNESS`      | Brightness {percent}  | Set the brightness to {percent}     | Change the brightness to {percent} |
-| `COLOR`           | Color {color}         | Change the lights to {color}        | Set the lights to {color}          |
-| `CREATE_REMINDER` | Reminder {task}       | Remind me to {task}                 | Create a reminder to {task}        |
-
-### Slot values
-
-| Intent            | Slot         | Values                              |
-| ----------------- | ------------ | ----------------------------------- |
-| `TIMER`           | `{duration}` | 10 seconds; 30 seconds; 1 minute    |
-| `ALARM`           | `{time}`     | 6 AM; 8 AM; 9 PM                    |
-| `TEMPERATURE`     | `{degrees}`  | 18 degrees; 22 degrees; 26 degrees  |
-| `BRIGHTNESS`      | `{percent}`  | 20 percent; 60 percent; 100 percent |
-| `COLOR`           | `{color}`    | red; blue; green                    |
-| `CREATE_REMINDER` | `{task}`     | drink water; study; call home       |
 
 ## Filename convention
 
