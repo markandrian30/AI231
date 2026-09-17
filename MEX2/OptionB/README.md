@@ -50,8 +50,6 @@ Speaker IDs identify the reference voices. Both groups share the same intent fol
 | `_clean.wav` | Clean speech | 8,824 |
 | `_noisy.wav` | Speech with light background noise; target approximately 30 dB SNR | 8,824 |
 
-Each utterance has clean and noisy versions. `v1`, `v2`, and `v3` identify phrase variations.
-
 ## Phrase variations
 
 | Intent / group    | v1                    | v2                                  | v3                                 |
