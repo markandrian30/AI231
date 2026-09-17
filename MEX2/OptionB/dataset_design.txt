@@ -1,0 +1,5 @@
+Intents: 19
+Base utterances per speaker: 93
+Reference speakers: 100
+Conditions: 2 (v1 clean, v2 background noise)
+Expected WAV files: 18600
