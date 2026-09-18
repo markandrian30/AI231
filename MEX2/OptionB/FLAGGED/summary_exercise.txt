@@ -1,0 +1,22 @@
+EXERCISE CLEANUP SUMMARY
+===============
+Dataset: optionb | Slot: CREATE_REMINDER_EXERCISE
+Initial number of active WAV files: 600
+Number moved from active dataset: 8
+Number remaining in active dataset: 592
+Complete clean+noisy flagged pairs moved: 4
+Single-condition flagged groups retained: 2
+Pairs skipped because a source file was missing: 0
+
+IMPORTANT NOTE
+==============
+ONLY A PHRASE VARIATION FLAGGED IN BOTH CLEAN AND NOISY CONDITIONS IS REMOVED FROM THE ACTIVE DATASET AND MOVED TO FLAGGED.
+IF ONLY THE NOISY FILE IS FLAGGED, NEITHER FILE IS REMOVED.
+IF ONLY THE CLEAN FILE IS FLAGGED, NEITHER FILE IS REMOVED.
+BOTH CLEAN AND NOISY FILES MUST BE FLAGGED FOR THAT PAIR TO BE REMOVED.
+
+PER-LABEL REPORT
+================
+Label | Initial | Moved | Remaining
+------|---------|-------|----------
+CREATE_REMINDER_EXERCISE | 600 | 8 | 592

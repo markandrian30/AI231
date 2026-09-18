@@ -1,8 +1,8 @@
 # Option B Dataset Summary
 
 - Original dataset: **18,600 WAV files**.
-- After filtering: **17,648 active WAV files** (8,824 clean and 8,824 noisy).
-- Archived in `FLAGGED/`: **952 WAV files**.
+- After filtering: **17,658 active WAV files** (8,829 clean and 8,829 noisy).
+- Archived in `FLAGGED/`: **942 WAV files**.
 - Detailed folder counts: see [README.md](README.md).
 
 The tables below describe the original dataset before filtering. Active counts vary by folder and speaker.
@@ -61,7 +61,7 @@ Before filtering, all folders listed below contained 600 WAV files each.
 | Temperature   | `TEMPERATURE_18`, `TEMPERATURE_22`, `TEMPERATURE_26`                                                                                               |           1,800 |
 | Brightness    | `BRIGHTNESS_20`, `BRIGHTNESS_60`, `BRIGHTNESS_100`                                                                                                 |           1,800 |
 | Color         | `COLOR_RED`, `COLOR_BLUE`, `COLOR_GREEN`                                                                                                           |           1,800 |
-| Reminder      | `CREATE_REMINDER_DRINK_WATER`, `CREATE_REMINDER_STUDY`, `CREATE_REMINDER_CALL_HOME`                                                                                     |           1,800 |
+| Reminder      | `CREATE_REMINDER_DRINK_WATER`, `CREATE_REMINDER_STUDY`, `CREATE_REMINDER_EXERCISE`                                                                                     |           1,800 |
 
 ## Phrase variations
 
@@ -96,7 +96,7 @@ Before filtering, all folders listed below contained 600 WAV files each.
 | `TEMPERATURE`     | `{degrees}`  | 18 degrees; 22 degrees; 26 degrees  |
 | `BRIGHTNESS`      | `{percent}`  | 20 percent; 60 percent; 100 percent |
 | `COLOR`           | `{color}`    | red; blue; green                    |
-| `CREATE_REMINDER` | `{task}`     | drink water; study; call home       |
+| `CREATE_REMINDER` | `{task}`     | drink water; study; exercise       |
 
 ## Filename convention
 

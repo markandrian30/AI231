@@ -1,24 +1,17 @@
-CLEANUP SUMMARY
-===============
-Dataset: optionb
-Initial number of active WAV files: 18600
-Number moved from active dataset: 952
-Number remaining in active dataset: 17648
-Complete clean+noisy flagged pairs moved: 476
-Single-condition flagged groups retained: 121
-Pairs skipped because a source file was missing: 0
+CURRENT OPTION B CLEANUP SUMMARY
+===============================
+Dataset: OptionB
+Original files for the current slot set: 18600
+Number moved from active dataset: 942
+Number remaining in active dataset: 17658
+Complete clean+noisy flagged pairs moved: 471
+Single-condition flagged groups retained: 114
 
-IMPORTANT NOTE
-==============
-ONLY A PHRASE VARIATION FLAGGED IN BOTH CLEAN AND NOISY CONDITIONS IS REMOVED FROM THE ACTIVE DATASET AND MOVED TO FLAGGED.
-IF ONLY THE NOISY FILE IS FLAGGED, NEITHER FILE IS REMOVED.
-IF ONLY THE CLEAN FILE IS FLAGGED, NEITHER FILE IS REMOVED.
-BOTH CLEAN AND NOISY FILES MUST BE FLAGGED FOR THAT PAIR TO BE REMOVED.
+Only pairs flagged in both clean and noisy conditions are archived.
+Single-condition flags remain active. Historical cleanup audits retain their original records.
 
-PER-LABEL REPORT
-================
-Label | Initial | Moved | Remaining
-------|---------|-------|----------
+Label | Original | Archived | Active
+------|----------|----------|-------
 ALARM_6_00AM | 600 | 16 | 584
 ALARM_8_00AM | 600 | 14 | 586
 ALARM_9_00PM | 600 | 16 | 584
@@ -29,6 +22,9 @@ CALL | 600 | 102 | 498
 COLOR_BLUE | 600 | 10 | 590
 COLOR_GREEN | 600 | 22 | 578
 COLOR_RED | 600 | 32 | 568
+CREATE_REMINDER_DRINK_WATER | 600 | 4 | 596
+CREATE_REMINDER_EXERCISE | 600 | 8 | 592
+CREATE_REMINDER_STUDY | 600 | 22 | 578
 LIGHT_OFF | 600 | 22 | 578
 LIGHT_ON | 600 | 30 | 570
 LIST_REMINDERS | 600 | 42 | 558
@@ -36,9 +32,6 @@ MESSAGE | 600 | 72 | 528
 NEXT | 600 | 80 | 520
 PAUSE | 600 | 104 | 496
 PLAY_MUSIC | 600 | 32 | 568
-CREATE_REMINDER_CALL_HOME | 600 | 18 | 582
-CREATE_REMINDER_DRINK_WATER | 600 | 4 | 596
-CREATE_REMINDER_STUDY | 600 | 22 | 578
 STOP | 600 | 68 | 532
 TEMPERATURE_18 | 600 | 2 | 598
 TEMPERATURE_22 | 600 | 0 | 600

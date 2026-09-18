@@ -4,7 +4,7 @@
 - **13 fixed intents:** 3 phrases each.
 - **6 variable intents:** 3 phrase templates x 3 slot values = 9 utterances each.
 - **Two acoustic conditions:** clean and light background noise.
-- **18,600 original files; 17,648 remaining after filtering.**
+- **18,600 original files; 17,658 remaining after filtering.**
   - **Transcriber used:** [simple-audio-transcriber by Martinnavs](https://github.com/Martinnavs/simple-audio-transcriber)
 
 ## Dataset overview
@@ -18,11 +18,11 @@
 | Intents without slots | 13 |
 | Intents with slots | 6 |
 | Acoustic conditions per utterance | 2 |
-| Active clean WAV files | 8,824 |
-| Active noisy WAV files | 8,824 |
+| Active clean WAV files | 8,829 |
+| Active noisy WAV files | 8,829 |
 | Original WAV files | 18,600 |
-| Files moved to FLAGGED | 952 |
-| **Remaining active WAV files** | **17,648** |
+| Files moved to FLAGGED | 942 |
+| **Remaining active WAV files** | **17,658** |
 
 ## Speakers
 
@@ -45,8 +45,8 @@
 
 | Filename suffix | Condition | Files |
 |---|---|---:|
-| `_clean.wav` | Clean speech | 8,824 |
-| `_noisy.wav` | Speech with light background noise; target approximately 30 dB SNR | 8,824 |
+| `_clean.wav` | Clean speech | 8,829 |
+| `_noisy.wav` | Speech with light background noise; target approximately 30 dB SNR | 8,829 |
 
 ## Phrase variations
 
@@ -81,7 +81,7 @@
 | `TEMPERATURE`     | `{degrees}`  | 18 degrees; 22 degrees; 26 degrees  |
 | `BRIGHTNESS`      | `{percent}`  | 20 percent; 60 percent; 100 percent |
 | `COLOR`           | `{color}`    | red; blue; green                    |
-| `CREATE_REMINDER` | `{task}`     | drink water; study; call home       |
+| `CREATE_REMINDER` | `{task}`     | drink water; study; exercise       |
 
 ## Transcription-Based Filtering Results
 
@@ -119,8 +119,8 @@ Files are flagged when transcription similarity is **below 0.80**. A pair is mov
 | `COLOR_GREEN` | 600 | 22 | 578 |
 | `CREATE_REMINDER_DRINK_WATER` | 600 | 4 | 596 |
 | `CREATE_REMINDER_STUDY` | 600 | 22 | 578 |
-| `CREATE_REMINDER_CALL_HOME` | 600 | 18 | 582 |
-| **Total** | **18,600** | **952** | **17,648** |
+| `CREATE_REMINDER_EXERCISE` | 600 | 8 | 592 |
+| **Total** | **18,600** | **942** | **17,658** |
 
 ## Filename convention
 
@@ -146,3 +146,11 @@ Example: `BRIGHTNESS_100/BRIGHTNESS_100_s68_v3_noisy.wav`
 - `OPTIONB_DATA_SUMMARY.md` and `dataset_design.txt`: supporting dataset documentation.
 
 Resolve manifest paths relative to this directory. Metadata records the split assignments.
+
+## Exercise slot update
+
+The reminder task values are `drink water`, `study`, and `exercise`. Exercise uses the same 100 reference speakers and speaker split assignments. Its phrases are "Reminder exercise", "Remind me to exercise", and "Create a reminder to exercise".
+
+Exercise QA flagged 10 of 600 recordings. Four complete clean/noisy pairs (8 files) were moved to `FLAGGED/CREATE_REMINDER_EXERCISE/`; the two single-condition flags remain active, leaving 592 Exercise files. See [the QA report](FLAGGED/CREATE_REMINDER_EXERCISE.md) and [cleanup summary](FLAGGED/summary_exercise.txt).
+
+`FLAGGED/cleanup_*/` contains historical audit records and pre-cleanup manifest snapshots. These may mention the retired Call Home slot and are not the active training manifest. Use the top-level `manifest.csv`.
