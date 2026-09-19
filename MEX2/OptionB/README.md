@@ -152,4 +152,4 @@ Resolve manifest paths relative to this directory. Metadata records the split as
 | Item | Previous | Current | Reason |
 |---|---|---|---|
 | `CREATE_REMINDER` task slot | `call home` | `exercise` | Reduce confusion with the `CALL` intent. |
-| `VOLUME_DOWN` variation 2 | Decrease the volume | Lower the volume | Reduce confusion between the similar-sounding words ?increase? and ?decrease.? |
+| `VOLUME_DOWN` variation 2 | Decrease the volume | Lower the volume | Reduce confusion between the similar-sounding words increase and decrease. |
