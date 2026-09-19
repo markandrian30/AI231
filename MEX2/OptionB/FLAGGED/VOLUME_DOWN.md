@@ -4,6 +4,9 @@
 - **Model**: small
 - **Threshold**: 0.80
 
+- **Variation 2**: Lower the volume (replacement QA: 2026-09-19; 200 files).
+- **Variations 1 and 3**: Existing QA results retained.
+
 ## Flagged
 
 | file | expected | transcribed | score |
@@ -25,9 +28,11 @@
 | VOLUME_DOWN_s77_v1_clean.wav | Volume down | Roll him down. | 0.667 |
 | VOLUME_DOWN_s77_v1_noisy.wav | Volume down | Roll him down. | 0.667 |
 | VOLUME_DOWN_s87_v1_clean.wav | Volume down | Stuff, volume down. | 0.786 |
-| VOLUME_DOWN_s91_v2_clean.wav | Decrease the volume | Tickle is the volume. | 0.667 |
-| VOLUME_DOWN_s91_v2_noisy.wav | Decrease the volume | I'm really happy with it. | 0.326 |
 | VOLUME_DOWN_s95_v1_clean.wav | Volume down | down | 0.533 |
 | VOLUME_DOWN_s95_v1_noisy.wav | Volume down | down | 0.533 |
 | VOLUME_DOWN_s97_v1_clean.wav | Volume down | I'll all you down. | 0.500 |
 | VOLUME_DOWN_s97_v1_noisy.wav | Volume down | I'll all you down. | 0.500 |
+| VOLUME_DOWN_s77_v2_clean.wav | Lower the volume | No other volume. | 0.774 |
+| VOLUME_DOWN_s77_v2_noisy.wav | Lower the volume | No other volume. | 0.774 |
+| VOLUME_DOWN_s95_v2_clean.wav | Lower the volume | lower the volume and T du S. | 0.744 |
+| VOLUME_DOWN_s95_v2_noisy.wav | Lower the volume | lower the volume and T due S. | 0.727 |

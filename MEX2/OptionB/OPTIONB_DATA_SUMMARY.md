@@ -1,8 +1,8 @@
 # Option B Dataset Summary
 
 - Original dataset: **18,600 WAV files**.
-- After filtering: **17,658 active WAV files** (8,829 clean and 8,829 noisy).
-- Archived in `FLAGGED/`: **942 WAV files**.
+- After filtering: **17,656 active WAV files** (8,828 clean and 8,828 noisy).
+- Archived in `FLAGGED/`: **944 WAV files**.
 - Detailed folder counts: see [README.md](README.md).
 
 The tables below describe the original dataset before filtering. Active counts vary by folder and speaker.
@@ -76,7 +76,7 @@ Before filtering, all folders listed below contained 600 WAV files each.
 | `STOP`            | Stop song             | Stop music                          | Stop playing music                 |
 | `NEXT`            | Skip song             | Next song                           | Play next song                     |
 | `VOLUME_UP`       | Volume up             | Increase the volume                 | Turn the volume up                 |
-| `VOLUME_DOWN`     | Volume down           | Decrease the volume                 | Turn the volume down               |
+| `VOLUME_DOWN`     | Volume down           | Lower the volume                 | Turn the volume down               |
 | `CALL`            | Call                  | Make a call                         | Make a phone call                  |
 | `MESSAGE`         | Message               | Send a message                      | Send my message                    |
 | `LIST_REMINDERS`  | Reminders             | Show my reminders                   | List my reminders                  |

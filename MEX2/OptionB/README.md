@@ -4,7 +4,7 @@
 - **13 fixed intents:** 3 phrases each.
 - **6 variable intents:** 3 phrase templates x 3 slot values = 9 utterances each.
 - **Two acoustic conditions:** clean and light background noise.
-- **18,600 original files; 17,658 remaining after filtering.**
+- **18,600 original files; 17,656 remaining after filtering.**
   - **Transcriber used:** [simple-audio-transcriber by Martinnavs](https://github.com/Martinnavs/simple-audio-transcriber)
 
 ## Dataset overview
@@ -18,11 +18,11 @@
 | Intents without slots | 13 |
 | Intents with slots | 6 |
 | Acoustic conditions per utterance | 2 |
-| Active clean WAV files | 8,829 |
-| Active noisy WAV files | 8,829 |
+| Active clean WAV files | 8,828 |
+| Active noisy WAV files | 8,828 |
 | Original WAV files | 18,600 |
-| Files moved to FLAGGED | 942 |
-| **Remaining active WAV files** | **17,658** |
+| Files moved to FLAGGED | 944 |
+| **Remaining active WAV files** | **17,656** |
 
 ## Speakers
 
@@ -45,8 +45,8 @@
 
 | Filename suffix | Condition | Files |
 |---|---|---:|
-| `_clean.wav` | Clean speech | 8,829 |
-| `_noisy.wav` | Speech with light background noise; target approximately 30 dB SNR | 8,829 |
+| `_clean.wav` | Clean speech | 8,828 |
+| `_noisy.wav` | Speech with light background noise; target approximately 30 dB SNR | 8,828 |
 
 ## Phrase variations
 
@@ -54,7 +54,7 @@
 |---|---|---|---|---|
 | Music control | `PLAY_MUSIC` | Play music | Play a song | Start the music |
 | Music control | `VOLUME_UP` | Volume up | Increase the volume | Turn the volume up |
-| Music control | `VOLUME_DOWN` | Volume down | Decrease the volume | Turn the volume down |
+| Music control | `VOLUME_DOWN` | Volume down | Lower the volume | Turn the volume down |
 | Music control | `NEXT` | Skip song | Next song | Play next song |
 | Music control | `PAUSE` | Pause | Pause the music | Pause this song |
 | Music control | `STOP` | Stop song | Stop music | Stop playing music |
@@ -98,7 +98,7 @@ Files are flagged when transcription similarity is **below 0.80**. A pair is mov
 | `STOP` | 600 | 68 | 532 |
 | `NEXT` | 600 | 80 | 520 |
 | `VOLUME_UP` | 600 | 34 | 566 |
-| `VOLUME_DOWN` | 600 | 20 | 580 |
+| `VOLUME_DOWN` | 600 | 22 | 578 |
 | `CALL` | 600 | 102 | 498 |
 | `MESSAGE` | 600 | 72 | 528 |
 | `LIST_REMINDERS` | 600 | 42 | 558 |
@@ -120,7 +120,7 @@ Files are flagged when transcription similarity is **below 0.80**. A pair is mov
 | `CREATE_REMINDER_DRINK_WATER` | 600 | 4 | 596 |
 | `CREATE_REMINDER_STUDY` | 600 | 22 | 578 |
 | `CREATE_REMINDER_EXERCISE` | 600 | 8 | 592 |
-| **Total** | **18,600** | **942** | **17,658** |
+| **Total** | **18,600** | **944** | **17,656** |
 
 ## Filename convention
 
@@ -147,10 +147,17 @@ Example: `BRIGHTNESS_100/BRIGHTNESS_100_s68_v3_noisy.wav`
 
 Resolve manifest paths relative to this directory. Metadata records the split assignments.
 
-## Exercise slot update
+## Updates
 
-The reminder task values are `drink water`, `study`, and `exercise`. Exercise uses the same 100 reference speakers and speaker split assignments. Its phrases are "Reminder exercise", "Remind me to exercise", and "Create a reminder to exercise".
+| Item | Previous | Current | QA and cleanup |
+|---|---|---|---|
+| `CREATE_REMINDER` task slot | `call home` | `exercise` | 600 generated; 8 files from 4 failed clean/noisy pairs archived; 592 active. Two single-condition flags remain active. |
+| `VOLUME_DOWN` variation 2 | Decrease the volume | Lower the volume | 200 regenerated; 4 files from 2 failed clean/noisy pairs archived; 196 active. Variations 1 and 3 are unchanged. |
 
-Exercise QA flagged 10 of 600 recordings. Four complete clean/noisy pairs (8 files) were moved to `FLAGGED/CREATE_REMINDER_EXERCISE/`; the two single-condition flags remain active, leaving 592 Exercise files. See [the QA report](FLAGGED/CREATE_REMINDER_EXERCISE.md) and [cleanup summary](FLAGGED/summary_exercise.txt).
+Exercise phrases are “Reminder exercise,” “Remind me to exercise,” and “Create a reminder to exercise.” Both updates use the existing reference speakers and split assignments.
 
-`FLAGGED/cleanup_*/` contains historical audit records and pre-cleanup manifest snapshots. These may mention the retired Call Home slot and are not the active training manifest. Use the top-level `manifest.csv`.
+The replacement volume recordings are mono PCM WAV at 12 kHz. Other recordings retain their existing sample rates; loaders should resample as required. Manifest durations reflect the replacement audio.
+
+See the [exercise QA report](FLAGGED/CREATE_REMINDER_EXERCISE.md), [combined volume QA report](FLAGGED/VOLUME_DOWN.md), and [consolidated cleanup summary](FLAGGED/summary.txt).
+
+Historical `FLAGGED/cleanup_*/` audit records describe earlier dataset versions and may contain retired phrases. The top-level `manifest.csv`, current QA reports, and `summary.txt` describe the current dataset.
