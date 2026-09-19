@@ -149,15 +149,7 @@ Resolve manifest paths relative to this directory. Metadata records the split as
 
 ## Updates
 
-| Item | Previous | Current | QA and cleanup |
+| Item | Previous | Current | Reason |
 |---|---|---|---|
-| `CREATE_REMINDER` task slot | `call home` | `exercise` | 600 generated; 8 files from 4 failed clean/noisy pairs archived; 592 active. Two single-condition flags remain active. |
-| `VOLUME_DOWN` variation 2 | Decrease the volume | Lower the volume | 200 regenerated; 4 files from 2 failed clean/noisy pairs archived; 196 active. Variations 1 and 3 are unchanged. |
-
-Exercise phrases are “Reminder exercise,” “Remind me to exercise,” and “Create a reminder to exercise.” Both updates use the existing reference speakers and split assignments.
-
-The replacement volume recordings are mono PCM WAV at 12 kHz. Other recordings retain their existing sample rates; loaders should resample as required. Manifest durations reflect the replacement audio.
-
-See the [exercise QA report](FLAGGED/CREATE_REMINDER_EXERCISE.md), [combined volume QA report](FLAGGED/VOLUME_DOWN.md), and [consolidated cleanup summary](FLAGGED/summary.txt).
-
-Historical `FLAGGED/cleanup_*/` audit records describe earlier dataset versions and may contain retired phrases. The top-level `manifest.csv`, current QA reports, and `summary.txt` describe the current dataset.
+| `CREATE_REMINDER` task slot | `call home` | `exercise` | Reduce confusion with the `CALL` intent. |
+| `VOLUME_DOWN` variation 2 | Decrease the volume | Lower the volume | Reduce confusion between the similar-sounding words ?increase? and ?decrease.? |
