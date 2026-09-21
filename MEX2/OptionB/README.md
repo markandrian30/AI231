@@ -156,6 +156,6 @@ Resolve manifest paths relative to this directory. Metadata records the split as
 |---|---|---|---|
 | `CREATE_REMINDER` task slot | `call home` | `exercise` | Reduce confusion with the `CALL` intent. |
 | `VOLUME_DOWN` variation 2 | Decrease the volume | Lower the volume | Reduce confusion between the similar-sounding words increase and decrease. |
-| `NEXT` phrases | Skip song; Next song; Play next song | Next; Next track; Play next song | Regenerated audio and synchronized transcripts. |
-| `PAUSE` phrases | Pause; Pause the music; Pause this song | Pause; Pause audio; Pause for now | Regenerated audio and synchronized transcripts. |
-| `STOP` phrases | Stop song; Stop music; Stop playing music | Stop; Stop playback; Stop playing | Regenerated audio and synchronized transcripts. |
+| `NEXT` phrases | Skip song; Next song; Play next song | Next; Next track; Play next song | Reduce overlap with other commands containing song or music. |
+| `PAUSE` phrases | Pause; Pause the music; Pause this song | Pause; Pause audio; Pause for now | Reduce overlap with other commands containing song or music. |
+| `STOP` phrases | Stop song; Stop music; Stop playing music | Stop; Stop playback; Stop playing | Reduce overlap with other commands containing song or music. |
