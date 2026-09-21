@@ -86,7 +86,7 @@
 
 ## Transcription-Based Filtering Results
 
-Files are flagged when transcription similarity is **below 0.80**. For **PLAY_MUSIC, NEXT, PAUSE, and STOP**, both files move to `FLAGGED` when **either clean or noisy scores below 0.70**. A score of exactly 0.70 does not trigger removal. Other classes retain their existing cleanup rules.
+Files are flagged when transcription similarity is **below 0.80**.
 
 | Intent / slot folder | Original WAV files | Excluded WAV paths | Remaining active WAV files |
 |---|---:|---:|---:|
