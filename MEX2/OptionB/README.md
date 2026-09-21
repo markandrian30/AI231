@@ -4,7 +4,7 @@
 - **13 fixed intents:** 3 phrases each.
 - **6 variable intents:** 3 phrase templates x 3 slot values = 9 utterances each.
 - **Two acoustic conditions:** clean and light background noise.
-- **18,600 original files; 17,624 remaining after filtering.**
+- **18,600 original files; 17,818 remaining after filtering.**
   - **Transcriber used:** [simple-audio-transcriber by Martinnavs](https://github.com/Martinnavs/simple-audio-transcriber)
 
 ## Dataset overview
@@ -18,12 +18,12 @@
 | Intents without slots | 13 |
 | Intents with slots | 6 |
 | Acoustic conditions per utterance | 2 |
-| Active clean WAV files | 8,812 |
-| Active noisy WAV files | 8,812 |
+| Active clean WAV files | 8,909 |
+| Active noisy WAV files | 8,909 |
 | Original WAV files | 18,600 |
-| Excluded WAV paths | 976 |
+| Excluded WAV paths | 782 |
 | WAV files stored in FLAGGED (including previous versions) | 1,148 |
-| **Remaining active WAV files** | **17,624** |
+| **Remaining active WAV files** | **17,818** |
 
 ## Speakers
 
@@ -46,8 +46,8 @@
 
 | Filename suffix | Condition | Files |
 |---|---|---:|
-| `_clean.wav` | Clean speech | 8,812 |
-| `_noisy.wav` | Speech with light background noise; target approximately 30 dB SNR | 8,812 |
+| `_clean.wav` | Clean speech | 8,909 |
+| `_noisy.wav` | Speech with light background noise; target approximately 30 dB SNR | 8,909 |
 
 ## Phrase variations
 
@@ -95,12 +95,12 @@ Files are flagged when transcription similarity is **below 0.80**. A pair is mov
 | `TIME` | 600 | 52 | 548 |
 | `LIGHT_ON` | 600 | 30 | 570 |
 | `LIGHT_OFF` | 600 | 22 | 578 |
-| `PAUSE` | 600 | 108 | 492 |
-| `STOP` | 600 | 98 | 502 |
-| `NEXT` | 600 | 78 | 522 |
+| `PAUSE` | 600 | 48 | 552 |
+| `STOP` | 600 | 48 | 552 |
+| `NEXT` | 600 | 48 | 552 |
 | `VOLUME_UP` | 600 | 34 | 566 |
 | `VOLUME_DOWN` | 600 | 22 | 578 |
-| `CALL` | 600 | 102 | 498 |
+| `CALL` | 600 | 48 | 552 |
 | `MESSAGE` | 600 | 72 | 528 |
 | `LIST_REMINDERS` | 600 | 42 | 558 |
 | `TIMER_10s` | 600 | 12 | 588 |
@@ -121,9 +121,9 @@ Files are flagged when transcription similarity is **below 0.80**. A pair is mov
 | `CREATE_REMINDER_DRINK_WATER` | 600 | 4 | 596 |
 | `CREATE_REMINDER_STUDY` | 600 | 22 | 578 |
 | `CREATE_REMINDER_EXERCISE` | 600 | 8 | 592 |
-| **Total** | **18,600** | **976** | **17,624** |
+| **Total** | **18,600** | **782** | **17,818** |
 
-The current music update regenerated 1,800 recordings and retained 1,516 after pair-based filtering. There are 1,148 archived WAV files, including 172 older recordings whose paths are active again after regeneration; archived copies are not added to the active dataset count.
+The latest retry pass regenerated only double-flagged speaker/phrase pairs for NEXT, PAUSE, STOP, and CALL. Each command now retains 552 recordings and excludes 48, for 2,208 active recordings across the four commands. Previously accepted recordings were kept unchanged. There are 1,148 archived WAV files, including 366 older recordings whose paths are active again after regeneration; archived copies are not added to the active dataset count.
 
 ## Filename convention
 
@@ -159,3 +159,4 @@ Resolve manifest paths relative to this directory. Metadata records the split as
 | `NEXT` phrases | Skip song; Next song; Play next song | Next; Next track; Play next song | Reduce overlap with other commands containing song or music. |
 | `PAUSE` phrases | Pause; Pause the music; Pause this song | Pause; Pause audio; Pause for now | Reduce overlap with other commands containing song or music. |
 | `STOP` phrases | Stop song; Stop music; Stop playing music | Stop; Stop playback; Stop playing | Reduce overlap with other commands containing song or music. |
+| `NEXT`, `PAUSE`, `STOP`, `CALL` QA retries | 78, 108, 98, and 102 excluded WAVs respectively | 48 excluded WAVs and 552 active WAVs per command | Retry only double-flagged pairs until each command has fewer than 50 excluded files; retain accepted recordings. |

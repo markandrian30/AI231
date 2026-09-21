@@ -1,9 +1,9 @@
 # Option B Dataset Summary
 
 - Original dataset: **18,600 WAV files**.
-- After filtering: **17,624 active WAV files** (8,812 clean and 8,812 noisy).
-- Archived in `FLAGGED/`: **1,148 WAV files**, including 172 older recordings whose paths are active again.
-- Current excluded audio paths: **976**.
+- After filtering: **17,818 active WAV files** (8,909 clean and 8,909 noisy).
+- Archived in `FLAGGED/`: **1,148 WAV files**, including 366 older recordings whose paths are active again.
+- Current excluded audio paths: **782**.
 - Detailed folder counts: see [README.md](README.md).
 
 The tables below describe the original dataset before filtering. Active counts vary by folder and speaker.

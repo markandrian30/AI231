@@ -5,68 +5,40 @@
 - **Threshold**: 0.80
 - **Device**: CPU int8
 - **Date**: 2026-09-21
+- **Excluded WAVs (both versions flagged)**: 48
 
 ## Flagged
 
 | file | expected | transcribed | score |
 |---|---|---|---:|
-| NEXT_s1_v1_clean.wav | Next | The key. Next. | 0.500 |
-| NEXT_s1_v1_noisy.wav | Next | the key. Next. | 0.500 |
-| NEXT_s1_v2_clean.wav | Next track | Let's track. | 0.762 |
-| NEXT_s1_v2_noisy.wav | Next track | track. | 0.667 |
-| NEXT_s2_v1_clean.wav | Next | NITICS! | 0.400 |
-| NEXT_s2_v1_noisy.wav | Next | Netflix | 0.545 |
 | NEXT_s4_v1_clean.wav | Next | Who next? | 0.667 |
 | NEXT_s4_v1_noisy.wav | Next | Who next? | 0.667 |
-| NEXT_s5_v3_clean.wav | Play next song | Play next song, play next song. | 0.651 |
-| NEXT_s5_v3_noisy.wav | Play next song | Play next one, play next one. | 0.585 |
 | NEXT_s6_v1_clean.wav | Next | Good. | 0.000 |
 | NEXT_s6_v1_noisy.wav | Next | Good. | 0.000 |
 | NEXT_s7_v1_clean.wav | Next |  | 0.000 |
 | NEXT_s7_v1_noisy.wav | Next | Just a- | 0.200 |
-| NEXT_s13_v2_clean.wav | Next track | Now the X-Track. | 0.720 |
-| NEXT_s13_v2_noisy.wav | Next track | Now the X-Track. | 0.720 |
-| NEXT_s18_v1_clean.wav | Next | Cool. Next. | 0.615 |
-| NEXT_s18_v1_noisy.wav | Next | Cool. Next. | 0.615 |
 | NEXT_s19_v3_clean.wav | Play next song | Play nexo | 0.783 |
 | NEXT_s22_v1_clean.wav | Next | There it is. | 0.267 |
 | NEXT_s22_v1_noisy.wav | Next | There it is. | 0.267 |
 | NEXT_s22_v2_clean.wav | Next track | Next. | 0.571 |
 | NEXT_s22_v2_noisy.wav | Next track | Thanks. | 0.250 |
-| NEXT_s22_v3_clean.wav | Play next song | Glittery next song. | 0.750 |
-| NEXT_s22_v3_noisy.wav | Play next song | for the next song. | 0.645 |
 | NEXT_s25_v1_clean.wav | Next |  | 0.000 |
 | NEXT_s25_v1_noisy.wav | Next |  | 0.000 |
 | NEXT_s34_v2_clean.wav | Next track | Slack. Next track. | 0.769 |
 | NEXT_s34_v2_noisy.wav | Next track | slack. Next track... | 0.769 |
 | NEXT_s39_v1_clean.wav | Next | Quarcton next | 0.471 |
 | NEXT_s39_v1_noisy.wav | Next | working next. | 0.500 |
-| NEXT_s39_v2_clean.wav | Next track | Nene | 0.286 |
-| NEXT_s39_v2_noisy.wav | Next track | next | 0.571 |
-| NEXT_s40_v1_clean.wav | Next | Well, next... | 0.615 |
-| NEXT_s40_v1_noisy.wav | Next | Well, next. | 0.615 |
-| NEXT_s45_v1_clean.wav | Next | Plan next. | 0.615 |
-| NEXT_s45_v1_noisy.wav | Next | plan next. | 0.615 |
-| NEXT_s46_v2_clean.wav | Next track | your time. | 0.211 |
-| NEXT_s46_v2_noisy.wav | Next track | your time. | 0.211 |
 | NEXT_s47_v1_clean.wav | Next | mmm next | 0.667 |
-| NEXT_s47_v2_clean.wav | Next track | You're welcome. | 0.250 |
-| NEXT_s47_v2_noisy.wav | Next track | You're welcome. | 0.250 |
-| NEXT_s47_v3_clean.wav | Play next song | plain x song | 0.769 |
-| NEXT_s47_v3_noisy.wav | Play next song | plain x song | 0.769 |
+| NEXT_s47_v2_clean.wav | Next track | Black. Next track. | 0.769 |
 | NEXT_s48_v1_clean.wav | Next | Mm-hmm, next. | 0.533 |
 | NEXT_s48_v1_noisy.wav | Next | See you in the next video. | 0.276 |
 | NEXT_s51_v2_noisy.wav | Next track | Dextrack. | 0.778 |
 | NEXT_s51_v3_clean.wav | Play next song | Quai next song. | 0.786 |
-| NEXT_s58_v1_clean.wav | Next | It's next. | 0.615 |
-| NEXT_s58_v1_noisy.wav | Next | See you next time. | 0.381 |
 | NEXT_s59_v1_clean.wav | Next | Kells? | 0.222 |
 | NEXT_s59_v1_noisy.wav | Next | Kells | 0.222 |
 | NEXT_s60_v1_clean.wav | Next | See you again next time. | 0.296 |
 | NEXT_s60_v1_noisy.wav | Next | See you in the next video. | 0.276 |
 | NEXT_s60_v3_noisy.wav | Play next song | Play Next Home. | 0.786 |
-| NEXT_s62_v1_clean.wav | Next | Really | 0.200 |
-| NEXT_s62_v1_noisy.wav | Next | Really? | 0.200 |
 | NEXT_s66_v2_clean.wav | Next track | That's your track. | 0.519 |
 | NEXT_s66_v2_noisy.wav | Next track | That's your track. | 0.519 |
 | NEXT_s67_v1_clean.wav | Next | Thank you, next. | 0.444 |

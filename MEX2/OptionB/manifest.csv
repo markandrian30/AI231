@@ -3523,504 +3523,6 @@ BRIGHTNESS_60/BRIGHTNESS_60_s9_v2_clean.wav,BRIGHTNESS_60,BRIGHTNESS,s9,train,v2
 BRIGHTNESS_60/BRIGHTNESS_60_s9_v2_noisy.wav,BRIGHTNESS_60,BRIGHTNESS,s9,train,v2,noisy,Set the brightness to 60 percent,percent,60 percent,2.360
 BRIGHTNESS_60/BRIGHTNESS_60_s9_v3_clean.wav,BRIGHTNESS_60,BRIGHTNESS,s9,train,v3,clean,Change the brightness to 60 percent,percent,60 percent,2.440
 BRIGHTNESS_60/BRIGHTNESS_60_s9_v3_noisy.wav,BRIGHTNESS_60,BRIGHTNESS,s9,train,v3,noisy,Change the brightness to 60 percent,percent,60 percent,2.440
-CALL/CALL_s100_v1_clean.wav,CALL,CALL,s100,test,v1,clean,Call,,,0.660
-CALL/CALL_s100_v1_noisy.wav,CALL,CALL,s100,test,v1,noisy,Call,,,0.660
-CALL/CALL_s100_v2_clean.wav,CALL,CALL,s100,test,v2,clean,Make a call,,,0.980
-CALL/CALL_s100_v2_noisy.wav,CALL,CALL,s100,test,v2,noisy,Make a call,,,0.980
-CALL/CALL_s100_v3_clean.wav,CALL,CALL,s100,test,v3,clean,Make a phone call,,,1.140
-CALL/CALL_s100_v3_noisy.wav,CALL,CALL,s100,test,v3,noisy,Make a phone call,,,1.140
-CALL/CALL_s10_v1_clean.wav,CALL,CALL,s10,train,v1,clean,Call,,,0.700
-CALL/CALL_s10_v1_noisy.wav,CALL,CALL,s10,train,v1,noisy,Call,,,0.700
-CALL/CALL_s10_v2_clean.wav,CALL,CALL,s10,train,v2,clean,Make a call,,,1.060
-CALL/CALL_s10_v2_noisy.wav,CALL,CALL,s10,train,v2,noisy,Make a call,,,1.060
-CALL/CALL_s10_v3_clean.wav,CALL,CALL,s10,train,v3,clean,Make a phone call,,,1.140
-CALL/CALL_s10_v3_noisy.wav,CALL,CALL,s10,train,v3,noisy,Make a phone call,,,1.140
-CALL/CALL_s11_v1_clean.wav,CALL,CALL,s11,train,v1,clean,Call,,,0.880
-CALL/CALL_s11_v1_noisy.wav,CALL,CALL,s11,train,v1,noisy,Call,,,0.880
-CALL/CALL_s11_v2_clean.wav,CALL,CALL,s11,train,v2,clean,Make a call,,,1.880
-CALL/CALL_s11_v2_noisy.wav,CALL,CALL,s11,train,v2,noisy,Make a call,,,1.880
-CALL/CALL_s11_v3_clean.wav,CALL,CALL,s11,train,v3,clean,Make a phone call,,,1.800
-CALL/CALL_s11_v3_noisy.wav,CALL,CALL,s11,train,v3,noisy,Make a phone call,,,1.800
-CALL/CALL_s12_v2_clean.wav,CALL,CALL,s12,train,v2,clean,Make a call,,,0.940
-CALL/CALL_s12_v2_noisy.wav,CALL,CALL,s12,train,v2,noisy,Make a call,,,0.940
-CALL/CALL_s12_v3_clean.wav,CALL,CALL,s12,train,v3,clean,Make a phone call,,,1.180
-CALL/CALL_s12_v3_noisy.wav,CALL,CALL,s12,train,v3,noisy,Make a phone call,,,1.180
-CALL/CALL_s13_v2_clean.wav,CALL,CALL,s13,train,v2,clean,Make a call,,,1.040
-CALL/CALL_s13_v2_noisy.wav,CALL,CALL,s13,train,v2,noisy,Make a call,,,1.040
-CALL/CALL_s13_v3_clean.wav,CALL,CALL,s13,train,v3,clean,Make a phone call,,,1.160
-CALL/CALL_s13_v3_noisy.wav,CALL,CALL,s13,train,v3,noisy,Make a phone call,,,1.160
-CALL/CALL_s14_v1_clean.wav,CALL,CALL,s14,train,v1,clean,Call,,,0.760
-CALL/CALL_s14_v1_noisy.wav,CALL,CALL,s14,train,v1,noisy,Call,,,0.760
-CALL/CALL_s14_v2_clean.wav,CALL,CALL,s14,train,v2,clean,Make a call,,,1.240
-CALL/CALL_s14_v2_noisy.wav,CALL,CALL,s14,train,v2,noisy,Make a call,,,1.240
-CALL/CALL_s14_v3_clean.wav,CALL,CALL,s14,train,v3,clean,Make a phone call,,,1.120
-CALL/CALL_s14_v3_noisy.wav,CALL,CALL,s14,train,v3,noisy,Make a phone call,,,1.120
-CALL/CALL_s15_v1_clean.wav,CALL,CALL,s15,train,v1,clean,Call,,,0.900
-CALL/CALL_s15_v1_noisy.wav,CALL,CALL,s15,train,v1,noisy,Call,,,0.900
-CALL/CALL_s15_v2_clean.wav,CALL,CALL,s15,train,v2,clean,Make a call,,,1.180
-CALL/CALL_s15_v2_noisy.wav,CALL,CALL,s15,train,v2,noisy,Make a call,,,1.180
-CALL/CALL_s15_v3_clean.wav,CALL,CALL,s15,train,v3,clean,Make a phone call,,,1.300
-CALL/CALL_s15_v3_noisy.wav,CALL,CALL,s15,train,v3,noisy,Make a phone call,,,1.300
-CALL/CALL_s16_v1_clean.wav,CALL,CALL,s16,train,v1,clean,Call,,,0.620
-CALL/CALL_s16_v1_noisy.wav,CALL,CALL,s16,train,v1,noisy,Call,,,0.620
-CALL/CALL_s16_v2_clean.wav,CALL,CALL,s16,train,v2,clean,Make a call,,,0.900
-CALL/CALL_s16_v2_noisy.wav,CALL,CALL,s16,train,v2,noisy,Make a call,,,0.900
-CALL/CALL_s16_v3_clean.wav,CALL,CALL,s16,train,v3,clean,Make a phone call,,,1.100
-CALL/CALL_s16_v3_noisy.wav,CALL,CALL,s16,train,v3,noisy,Make a phone call,,,1.100
-CALL/CALL_s17_v2_clean.wav,CALL,CALL,s17,train,v2,clean,Make a call,,,0.760
-CALL/CALL_s17_v2_noisy.wav,CALL,CALL,s17,train,v2,noisy,Make a call,,,0.760
-CALL/CALL_s17_v3_clean.wav,CALL,CALL,s17,train,v3,clean,Make a phone call,,,0.920
-CALL/CALL_s17_v3_noisy.wav,CALL,CALL,s17,train,v3,noisy,Make a phone call,,,0.920
-CALL/CALL_s18_v2_clean.wav,CALL,CALL,s18,train,v2,clean,Make a call,,,1.440
-CALL/CALL_s18_v2_noisy.wav,CALL,CALL,s18,train,v2,noisy,Make a call,,,1.440
-CALL/CALL_s18_v3_clean.wav,CALL,CALL,s18,train,v3,clean,Make a phone call,,,1.640
-CALL/CALL_s18_v3_noisy.wav,CALL,CALL,s18,train,v3,noisy,Make a phone call,,,1.640
-CALL/CALL_s19_v1_clean.wav,CALL,CALL,s19,train,v1,clean,Call,,,1.840
-CALL/CALL_s19_v1_noisy.wav,CALL,CALL,s19,train,v1,noisy,Call,,,1.840
-CALL/CALL_s19_v2_clean.wav,CALL,CALL,s19,train,v2,clean,Make a call,,,1.280
-CALL/CALL_s19_v2_noisy.wav,CALL,CALL,s19,train,v2,noisy,Make a call,,,1.280
-CALL/CALL_s19_v3_clean.wav,CALL,CALL,s19,train,v3,clean,Make a phone call,,,1.280
-CALL/CALL_s19_v3_noisy.wav,CALL,CALL,s19,train,v3,noisy,Make a phone call,,,1.280
-CALL/CALL_s1_v2_clean.wav,CALL,CALL,s1,train,v2,clean,Make a call,,,0.920
-CALL/CALL_s1_v2_noisy.wav,CALL,CALL,s1,train,v2,noisy,Make a call,,,0.920
-CALL/CALL_s1_v3_clean.wav,CALL,CALL,s1,train,v3,clean,Make a phone call,,,1.160
-CALL/CALL_s1_v3_noisy.wav,CALL,CALL,s1,train,v3,noisy,Make a phone call,,,1.160
-CALL/CALL_s20_v1_clean.wav,CALL,CALL,s20,train,v1,clean,Call,,,0.600
-CALL/CALL_s20_v1_noisy.wav,CALL,CALL,s20,train,v1,noisy,Call,,,0.600
-CALL/CALL_s20_v2_clean.wav,CALL,CALL,s20,train,v2,clean,Make a call,,,0.960
-CALL/CALL_s20_v2_noisy.wav,CALL,CALL,s20,train,v2,noisy,Make a call,,,0.960
-CALL/CALL_s20_v3_clean.wav,CALL,CALL,s20,train,v3,clean,Make a phone call,,,1.080
-CALL/CALL_s20_v3_noisy.wav,CALL,CALL,s20,train,v3,noisy,Make a phone call,,,1.080
-CALL/CALL_s21_v1_clean.wav,CALL,CALL,s21,train,v1,clean,Call,,,0.900
-CALL/CALL_s21_v1_noisy.wav,CALL,CALL,s21,train,v1,noisy,Call,,,0.900
-CALL/CALL_s21_v2_clean.wav,CALL,CALL,s21,train,v2,clean,Make a call,,,1.500
-CALL/CALL_s21_v2_noisy.wav,CALL,CALL,s21,train,v2,noisy,Make a call,,,1.500
-CALL/CALL_s22_v1_clean.wav,CALL,CALL,s22,train,v1,clean,Call,,,0.920
-CALL/CALL_s22_v1_noisy.wav,CALL,CALL,s22,train,v1,noisy,Call,,,0.920
-CALL/CALL_s22_v3_clean.wav,CALL,CALL,s22,train,v3,clean,Make a phone call,,,1.200
-CALL/CALL_s22_v3_noisy.wav,CALL,CALL,s22,train,v3,noisy,Make a phone call,,,1.200
-CALL/CALL_s23_v1_clean.wav,CALL,CALL,s23,train,v1,clean,Call,,,0.820
-CALL/CALL_s23_v1_noisy.wav,CALL,CALL,s23,train,v1,noisy,Call,,,0.820
-CALL/CALL_s23_v2_clean.wav,CALL,CALL,s23,train,v2,clean,Make a call,,,0.980
-CALL/CALL_s23_v2_noisy.wav,CALL,CALL,s23,train,v2,noisy,Make a call,,,0.980
-CALL/CALL_s23_v3_clean.wav,CALL,CALL,s23,train,v3,clean,Make a phone call,,,1.060
-CALL/CALL_s23_v3_noisy.wav,CALL,CALL,s23,train,v3,noisy,Make a phone call,,,1.060
-CALL/CALL_s24_v1_clean.wav,CALL,CALL,s24,train,v1,clean,Call,,,0.720
-CALL/CALL_s24_v1_noisy.wav,CALL,CALL,s24,train,v1,noisy,Call,,,0.720
-CALL/CALL_s24_v2_clean.wav,CALL,CALL,s24,train,v2,clean,Make a call,,,1.120
-CALL/CALL_s24_v2_noisy.wav,CALL,CALL,s24,train,v2,noisy,Make a call,,,1.120
-CALL/CALL_s24_v3_clean.wav,CALL,CALL,s24,train,v3,clean,Make a phone call,,,1.280
-CALL/CALL_s24_v3_noisy.wav,CALL,CALL,s24,train,v3,noisy,Make a phone call,,,1.280
-CALL/CALL_s25_v2_clean.wav,CALL,CALL,s25,train,v2,clean,Make a call,,,0.960
-CALL/CALL_s25_v2_noisy.wav,CALL,CALL,s25,train,v2,noisy,Make a call,,,0.960
-CALL/CALL_s25_v3_clean.wav,CALL,CALL,s25,train,v3,clean,Make a phone call,,,1.200
-CALL/CALL_s25_v3_noisy.wav,CALL,CALL,s25,train,v3,noisy,Make a phone call,,,1.200
-CALL/CALL_s26_v1_clean.wav,CALL,CALL,s26,train,v1,clean,Call,,,1.080
-CALL/CALL_s26_v1_noisy.wav,CALL,CALL,s26,train,v1,noisy,Call,,,1.080
-CALL/CALL_s26_v2_clean.wav,CALL,CALL,s26,train,v2,clean,Make a call,,,1.240
-CALL/CALL_s26_v2_noisy.wav,CALL,CALL,s26,train,v2,noisy,Make a call,,,1.240
-CALL/CALL_s26_v3_clean.wav,CALL,CALL,s26,train,v3,clean,Make a phone call,,,1.240
-CALL/CALL_s26_v3_noisy.wav,CALL,CALL,s26,train,v3,noisy,Make a phone call,,,1.240
-CALL/CALL_s27_v2_clean.wav,CALL,CALL,s27,train,v2,clean,Make a call,,,1.480
-CALL/CALL_s27_v2_noisy.wav,CALL,CALL,s27,train,v2,noisy,Make a call,,,1.480
-CALL/CALL_s27_v3_clean.wav,CALL,CALL,s27,train,v3,clean,Make a phone call,,,1.840
-CALL/CALL_s27_v3_noisy.wav,CALL,CALL,s27,train,v3,noisy,Make a phone call,,,1.840
-CALL/CALL_s28_v2_clean.wav,CALL,CALL,s28,train,v2,clean,Make a call,,,1.060
-CALL/CALL_s28_v2_noisy.wav,CALL,CALL,s28,train,v2,noisy,Make a call,,,1.060
-CALL/CALL_s28_v3_clean.wav,CALL,CALL,s28,train,v3,clean,Make a phone call,,,1.300
-CALL/CALL_s28_v3_noisy.wav,CALL,CALL,s28,train,v3,noisy,Make a phone call,,,1.300
-CALL/CALL_s29_v2_clean.wav,CALL,CALL,s29,train,v2,clean,Make a call,,,1.520
-CALL/CALL_s29_v2_noisy.wav,CALL,CALL,s29,train,v2,noisy,Make a call,,,1.520
-CALL/CALL_s29_v3_clean.wav,CALL,CALL,s29,train,v3,clean,Make a phone call,,,1.600
-CALL/CALL_s29_v3_noisy.wav,CALL,CALL,s29,train,v3,noisy,Make a phone call,,,1.600
-CALL/CALL_s2_v2_clean.wav,CALL,CALL,s2,train,v2,clean,Make a call,,,1.260
-CALL/CALL_s2_v2_noisy.wav,CALL,CALL,s2,train,v2,noisy,Make a call,,,1.260
-CALL/CALL_s2_v3_clean.wav,CALL,CALL,s2,train,v3,clean,Make a phone call,,,1.060
-CALL/CALL_s2_v3_noisy.wav,CALL,CALL,s2,train,v3,noisy,Make a phone call,,,1.060
-CALL/CALL_s30_v1_clean.wav,CALL,CALL,s30,train,v1,clean,Call,,,0.760
-CALL/CALL_s30_v1_noisy.wav,CALL,CALL,s30,train,v1,noisy,Call,,,0.760
-CALL/CALL_s30_v2_clean.wav,CALL,CALL,s30,train,v2,clean,Make a call,,,1.560
-CALL/CALL_s30_v2_noisy.wav,CALL,CALL,s30,train,v2,noisy,Make a call,,,1.560
-CALL/CALL_s30_v3_clean.wav,CALL,CALL,s30,train,v3,clean,Make a phone call,,,1.120
-CALL/CALL_s30_v3_noisy.wav,CALL,CALL,s30,train,v3,noisy,Make a phone call,,,1.120
-CALL/CALL_s31_v2_clean.wav,CALL,CALL,s31,train,v2,clean,Make a call,,,1.720
-CALL/CALL_s31_v2_noisy.wav,CALL,CALL,s31,train,v2,noisy,Make a call,,,1.720
-CALL/CALL_s31_v3_clean.wav,CALL,CALL,s31,train,v3,clean,Make a phone call,,,1.200
-CALL/CALL_s31_v3_noisy.wav,CALL,CALL,s31,train,v3,noisy,Make a phone call,,,1.200
-CALL/CALL_s32_v1_clean.wav,CALL,CALL,s32,train,v1,clean,Call,,,0.800
-CALL/CALL_s32_v1_noisy.wav,CALL,CALL,s32,train,v1,noisy,Call,,,0.800
-CALL/CALL_s32_v2_clean.wav,CALL,CALL,s32,train,v2,clean,Make a call,,,1.080
-CALL/CALL_s32_v2_noisy.wav,CALL,CALL,s32,train,v2,noisy,Make a call,,,1.080
-CALL/CALL_s32_v3_clean.wav,CALL,CALL,s32,train,v3,clean,Make a phone call,,,1.400
-CALL/CALL_s32_v3_noisy.wav,CALL,CALL,s32,train,v3,noisy,Make a phone call,,,1.400
-CALL/CALL_s33_v1_clean.wav,CALL,CALL,s33,train,v1,clean,Call,,,0.720
-CALL/CALL_s33_v1_noisy.wav,CALL,CALL,s33,train,v1,noisy,Call,,,0.720
-CALL/CALL_s33_v2_clean.wav,CALL,CALL,s33,train,v2,clean,Make a call,,,1.040
-CALL/CALL_s33_v2_noisy.wav,CALL,CALL,s33,train,v2,noisy,Make a call,,,1.040
-CALL/CALL_s33_v3_clean.wav,CALL,CALL,s33,train,v3,clean,Make a phone call,,,1.160
-CALL/CALL_s33_v3_noisy.wav,CALL,CALL,s33,train,v3,noisy,Make a phone call,,,1.160
-CALL/CALL_s34_v1_clean.wav,CALL,CALL,s34,train,v1,clean,Call,,,0.700
-CALL/CALL_s34_v1_noisy.wav,CALL,CALL,s34,train,v1,noisy,Call,,,0.700
-CALL/CALL_s34_v2_clean.wav,CALL,CALL,s34,train,v2,clean,Make a call,,,0.980
-CALL/CALL_s34_v2_noisy.wav,CALL,CALL,s34,train,v2,noisy,Make a call,,,0.980
-CALL/CALL_s34_v3_clean.wav,CALL,CALL,s34,train,v3,clean,Make a phone call,,,1.180
-CALL/CALL_s34_v3_noisy.wav,CALL,CALL,s34,train,v3,noisy,Make a phone call,,,1.180
-CALL/CALL_s35_v1_clean.wav,CALL,CALL,s35,train,v1,clean,Call,,,0.760
-CALL/CALL_s35_v1_noisy.wav,CALL,CALL,s35,train,v1,noisy,Call,,,0.760
-CALL/CALL_s35_v2_clean.wav,CALL,CALL,s35,train,v2,clean,Make a call,,,1.160
-CALL/CALL_s35_v2_noisy.wav,CALL,CALL,s35,train,v2,noisy,Make a call,,,1.160
-CALL/CALL_s35_v3_clean.wav,CALL,CALL,s35,train,v3,clean,Make a phone call,,,1.120
-CALL/CALL_s35_v3_noisy.wav,CALL,CALL,s35,train,v3,noisy,Make a phone call,,,1.120
-CALL/CALL_s36_v1_clean.wav,CALL,CALL,s36,train,v1,clean,Call,,,0.860
-CALL/CALL_s36_v1_noisy.wav,CALL,CALL,s36,train,v1,noisy,Call,,,0.860
-CALL/CALL_s36_v2_clean.wav,CALL,CALL,s36,train,v2,clean,Make a call,,,1.180
-CALL/CALL_s36_v2_noisy.wav,CALL,CALL,s36,train,v2,noisy,Make a call,,,1.180
-CALL/CALL_s36_v3_clean.wav,CALL,CALL,s36,train,v3,clean,Make a phone call,,,1.260
-CALL/CALL_s36_v3_noisy.wav,CALL,CALL,s36,train,v3,noisy,Make a phone call,,,1.260
-CALL/CALL_s37_v1_clean.wav,CALL,CALL,s37,train,v1,clean,Call,,,0.640
-CALL/CALL_s37_v1_noisy.wav,CALL,CALL,s37,train,v1,noisy,Call,,,0.640
-CALL/CALL_s37_v2_clean.wav,CALL,CALL,s37,train,v2,clean,Make a call,,,1.080
-CALL/CALL_s37_v2_noisy.wav,CALL,CALL,s37,train,v2,noisy,Make a call,,,1.080
-CALL/CALL_s37_v3_clean.wav,CALL,CALL,s37,train,v3,clean,Make a phone call,,,1.160
-CALL/CALL_s37_v3_noisy.wav,CALL,CALL,s37,train,v3,noisy,Make a phone call,,,1.160
-CALL/CALL_s38_v2_clean.wav,CALL,CALL,s38,train,v2,clean,Make a call,,,1.060
-CALL/CALL_s38_v2_noisy.wav,CALL,CALL,s38,train,v2,noisy,Make a call,,,1.060
-CALL/CALL_s38_v3_clean.wav,CALL,CALL,s38,train,v3,clean,Make a phone call,,,1.500
-CALL/CALL_s38_v3_noisy.wav,CALL,CALL,s38,train,v3,noisy,Make a phone call,,,1.500
-CALL/CALL_s39_v3_clean.wav,CALL,CALL,s39,train,v3,clean,Make a phone call,,,1.360
-CALL/CALL_s39_v3_noisy.wav,CALL,CALL,s39,train,v3,noisy,Make a phone call,,,1.360
-CALL/CALL_s3_v2_clean.wav,CALL,CALL,s3,train,v2,clean,Make a call,,,1.460
-CALL/CALL_s3_v2_noisy.wav,CALL,CALL,s3,train,v2,noisy,Make a call,,,1.460
-CALL/CALL_s3_v3_clean.wav,CALL,CALL,s3,train,v3,clean,Make a phone call,,,0.940
-CALL/CALL_s3_v3_noisy.wav,CALL,CALL,s3,train,v3,noisy,Make a phone call,,,0.940
-CALL/CALL_s40_v2_clean.wav,CALL,CALL,s40,train,v2,clean,Make a call,,,1.120
-CALL/CALL_s40_v2_noisy.wav,CALL,CALL,s40,train,v2,noisy,Make a call,,,1.120
-CALL/CALL_s40_v3_clean.wav,CALL,CALL,s40,train,v3,clean,Make a phone call,,,1.120
-CALL/CALL_s40_v3_noisy.wav,CALL,CALL,s40,train,v3,noisy,Make a phone call,,,1.120
-CALL/CALL_s41_v1_clean.wav,CALL,CALL,s41,train,v1,clean,Call,,,1.040
-CALL/CALL_s41_v1_noisy.wav,CALL,CALL,s41,train,v1,noisy,Call,,,1.040
-CALL/CALL_s41_v2_clean.wav,CALL,CALL,s41,train,v2,clean,Make a call,,,1.640
-CALL/CALL_s41_v2_noisy.wav,CALL,CALL,s41,train,v2,noisy,Make a call,,,1.640
-CALL/CALL_s41_v3_clean.wav,CALL,CALL,s41,train,v3,clean,Make a phone call,,,1.400
-CALL/CALL_s41_v3_noisy.wav,CALL,CALL,s41,train,v3,noisy,Make a phone call,,,1.400
-CALL/CALL_s42_v2_clean.wav,CALL,CALL,s42,train,v2,clean,Make a call,,,1.140
-CALL/CALL_s42_v2_noisy.wav,CALL,CALL,s42,train,v2,noisy,Make a call,,,1.140
-CALL/CALL_s42_v3_clean.wav,CALL,CALL,s42,train,v3,clean,Make a phone call,,,1.140
-CALL/CALL_s42_v3_noisy.wav,CALL,CALL,s42,train,v3,noisy,Make a phone call,,,1.140
-CALL/CALL_s43_v1_clean.wav,CALL,CALL,s43,train,v1,clean,Call,,,0.860
-CALL/CALL_s43_v1_noisy.wav,CALL,CALL,s43,train,v1,noisy,Call,,,0.860
-CALL/CALL_s43_v2_clean.wav,CALL,CALL,s43,train,v2,clean,Make a call,,,1.100
-CALL/CALL_s43_v2_noisy.wav,CALL,CALL,s43,train,v2,noisy,Make a call,,,1.100
-CALL/CALL_s43_v3_clean.wav,CALL,CALL,s43,train,v3,clean,Make a phone call,,,1.060
-CALL/CALL_s43_v3_noisy.wav,CALL,CALL,s43,train,v3,noisy,Make a phone call,,,1.060
-CALL/CALL_s44_v1_clean.wav,CALL,CALL,s44,train,v1,clean,Call,,,0.780
-CALL/CALL_s44_v1_noisy.wav,CALL,CALL,s44,train,v1,noisy,Call,,,0.780
-CALL/CALL_s44_v2_clean.wav,CALL,CALL,s44,train,v2,clean,Make a call,,,1.060
-CALL/CALL_s44_v2_noisy.wav,CALL,CALL,s44,train,v2,noisy,Make a call,,,1.060
-CALL/CALL_s44_v3_clean.wav,CALL,CALL,s44,train,v3,clean,Make a phone call,,,1.060
-CALL/CALL_s44_v3_noisy.wav,CALL,CALL,s44,train,v3,noisy,Make a phone call,,,1.060
-CALL/CALL_s45_v2_clean.wav,CALL,CALL,s45,train,v2,clean,Make a call,,,1.100
-CALL/CALL_s45_v2_noisy.wav,CALL,CALL,s45,train,v2,noisy,Make a call,,,1.100
-CALL/CALL_s45_v3_clean.wav,CALL,CALL,s45,train,v3,clean,Make a phone call,,,1.180
-CALL/CALL_s45_v3_noisy.wav,CALL,CALL,s45,train,v3,noisy,Make a phone call,,,1.180
-CALL/CALL_s46_v2_clean.wav,CALL,CALL,s46,train,v2,clean,Make a call,,,1.480
-CALL/CALL_s46_v2_noisy.wav,CALL,CALL,s46,train,v2,noisy,Make a call,,,1.480
-CALL/CALL_s46_v3_clean.wav,CALL,CALL,s46,train,v3,clean,Make a phone call,,,1.320
-CALL/CALL_s46_v3_noisy.wav,CALL,CALL,s46,train,v3,noisy,Make a phone call,,,1.320
-CALL/CALL_s47_v2_clean.wav,CALL,CALL,s47,train,v2,clean,Make a call,,,1.540
-CALL/CALL_s47_v2_noisy.wav,CALL,CALL,s47,train,v2,noisy,Make a call,,,1.540
-CALL/CALL_s47_v3_clean.wav,CALL,CALL,s47,train,v3,clean,Make a phone call,,,1.140
-CALL/CALL_s47_v3_noisy.wav,CALL,CALL,s47,train,v3,noisy,Make a phone call,,,1.140
-CALL/CALL_s48_v1_clean.wav,CALL,CALL,s48,train,v1,clean,Call,,,0.560
-CALL/CALL_s48_v1_noisy.wav,CALL,CALL,s48,train,v1,noisy,Call,,,0.560
-CALL/CALL_s48_v2_clean.wav,CALL,CALL,s48,train,v2,clean,Make a call,,,1.160
-CALL/CALL_s48_v2_noisy.wav,CALL,CALL,s48,train,v2,noisy,Make a call,,,1.160
-CALL/CALL_s48_v3_clean.wav,CALL,CALL,s48,train,v3,clean,Make a phone call,,,2.080
-CALL/CALL_s48_v3_noisy.wav,CALL,CALL,s48,train,v3,noisy,Make a phone call,,,2.080
-CALL/CALL_s49_v1_clean.wav,CALL,CALL,s49,train,v1,clean,Call,,,0.720
-CALL/CALL_s49_v1_noisy.wav,CALL,CALL,s49,train,v1,noisy,Call,,,0.720
-CALL/CALL_s49_v2_clean.wav,CALL,CALL,s49,train,v2,clean,Make a call,,,1.200
-CALL/CALL_s49_v2_noisy.wav,CALL,CALL,s49,train,v2,noisy,Make a call,,,1.200
-CALL/CALL_s49_v3_clean.wav,CALL,CALL,s49,train,v3,clean,Make a phone call,,,1.240
-CALL/CALL_s49_v3_noisy.wav,CALL,CALL,s49,train,v3,noisy,Make a phone call,,,1.240
-CALL/CALL_s4_v3_clean.wav,CALL,CALL,s4,train,v3,clean,Make a phone call,,,1.360
-CALL/CALL_s4_v3_noisy.wav,CALL,CALL,s4,train,v3,noisy,Make a phone call,,,1.360
-CALL/CALL_s50_v1_clean.wav,CALL,CALL,s50,train,v1,clean,Call,,,0.720
-CALL/CALL_s50_v1_noisy.wav,CALL,CALL,s50,train,v1,noisy,Call,,,0.720
-CALL/CALL_s50_v2_clean.wav,CALL,CALL,s50,train,v2,clean,Make a call,,,1.280
-CALL/CALL_s50_v2_noisy.wav,CALL,CALL,s50,train,v2,noisy,Make a call,,,1.280
-CALL/CALL_s50_v3_clean.wav,CALL,CALL,s50,train,v3,clean,Make a phone call,,,1.240
-CALL/CALL_s50_v3_noisy.wav,CALL,CALL,s50,train,v3,noisy,Make a phone call,,,1.240
-CALL/CALL_s51_v1_clean.wav,CALL,CALL,s51,train,v1,clean,Call,,,1.120
-CALL/CALL_s51_v1_noisy.wav,CALL,CALL,s51,train,v1,noisy,Call,,,1.120
-CALL/CALL_s51_v2_clean.wav,CALL,CALL,s51,train,v2,clean,Make a call,,,1.000
-CALL/CALL_s51_v2_noisy.wav,CALL,CALL,s51,train,v2,noisy,Make a call,,,1.000
-CALL/CALL_s51_v3_clean.wav,CALL,CALL,s51,train,v3,clean,Make a phone call,,,1.080
-CALL/CALL_s51_v3_noisy.wav,CALL,CALL,s51,train,v3,noisy,Make a phone call,,,1.080
-CALL/CALL_s52_v1_clean.wav,CALL,CALL,s52,train,v1,clean,Call,,,0.660
-CALL/CALL_s52_v1_noisy.wav,CALL,CALL,s52,train,v1,noisy,Call,,,0.660
-CALL/CALL_s52_v2_clean.wav,CALL,CALL,s52,train,v2,clean,Make a call,,,0.860
-CALL/CALL_s52_v2_noisy.wav,CALL,CALL,s52,train,v2,noisy,Make a call,,,0.860
-CALL/CALL_s52_v3_clean.wav,CALL,CALL,s52,train,v3,clean,Make a phone call,,,1.500
-CALL/CALL_s52_v3_noisy.wav,CALL,CALL,s52,train,v3,noisy,Make a phone call,,,1.500
-CALL/CALL_s53_v1_clean.wav,CALL,CALL,s53,train,v1,clean,Call,,,0.740
-CALL/CALL_s53_v1_noisy.wav,CALL,CALL,s53,train,v1,noisy,Call,,,0.740
-CALL/CALL_s53_v2_clean.wav,CALL,CALL,s53,train,v2,clean,Make a call,,,1.300
-CALL/CALL_s53_v2_noisy.wav,CALL,CALL,s53,train,v2,noisy,Make a call,,,1.300
-CALL/CALL_s53_v3_clean.wav,CALL,CALL,s53,train,v3,clean,Make a phone call,,,1.100
-CALL/CALL_s53_v3_noisy.wav,CALL,CALL,s53,train,v3,noisy,Make a phone call,,,1.100
-CALL/CALL_s54_v2_clean.wav,CALL,CALL,s54,train,v2,clean,Make a call,,,1.240
-CALL/CALL_s54_v2_noisy.wav,CALL,CALL,s54,train,v2,noisy,Make a call,,,1.240
-CALL/CALL_s54_v3_clean.wav,CALL,CALL,s54,train,v3,clean,Make a phone call,,,1.640
-CALL/CALL_s54_v3_noisy.wav,CALL,CALL,s54,train,v3,noisy,Make a phone call,,,1.640
-CALL/CALL_s55_v1_clean.wav,CALL,CALL,s55,train,v1,clean,Call,,,0.680
-CALL/CALL_s55_v1_noisy.wav,CALL,CALL,s55,train,v1,noisy,Call,,,0.680
-CALL/CALL_s55_v2_clean.wav,CALL,CALL,s55,train,v2,clean,Make a call,,,1.160
-CALL/CALL_s55_v2_noisy.wav,CALL,CALL,s55,train,v2,noisy,Make a call,,,1.160
-CALL/CALL_s55_v3_clean.wav,CALL,CALL,s55,train,v3,clean,Make a phone call,,,1.160
-CALL/CALL_s55_v3_noisy.wav,CALL,CALL,s55,train,v3,noisy,Make a phone call,,,1.160
-CALL/CALL_s56_v1_clean.wav,CALL,CALL,s56,train,v1,clean,Call,,,0.740
-CALL/CALL_s56_v1_noisy.wav,CALL,CALL,s56,train,v1,noisy,Call,,,0.740
-CALL/CALL_s56_v2_clean.wav,CALL,CALL,s56,train,v2,clean,Make a call,,,1.100
-CALL/CALL_s56_v2_noisy.wav,CALL,CALL,s56,train,v2,noisy,Make a call,,,1.100
-CALL/CALL_s56_v3_clean.wav,CALL,CALL,s56,train,v3,clean,Make a phone call,,,1.180
-CALL/CALL_s56_v3_noisy.wav,CALL,CALL,s56,train,v3,noisy,Make a phone call,,,1.180
-CALL/CALL_s57_v1_clean.wav,CALL,CALL,s57,train,v1,clean,Call,,,0.800
-CALL/CALL_s57_v1_noisy.wav,CALL,CALL,s57,train,v1,noisy,Call,,,0.800
-CALL/CALL_s57_v2_clean.wav,CALL,CALL,s57,train,v2,clean,Make a call,,,1.160
-CALL/CALL_s57_v2_noisy.wav,CALL,CALL,s57,train,v2,noisy,Make a call,,,1.160
-CALL/CALL_s57_v3_clean.wav,CALL,CALL,s57,train,v3,clean,Make a phone call,,,1.440
-CALL/CALL_s57_v3_noisy.wav,CALL,CALL,s57,train,v3,noisy,Make a phone call,,,1.440
-CALL/CALL_s58_v1_clean.wav,CALL,CALL,s58,train,v1,clean,Call,,,0.820
-CALL/CALL_s58_v1_noisy.wav,CALL,CALL,s58,train,v1,noisy,Call,,,0.820
-CALL/CALL_s58_v2_clean.wav,CALL,CALL,s58,train,v2,clean,Make a call,,,1.220
-CALL/CALL_s58_v2_noisy.wav,CALL,CALL,s58,train,v2,noisy,Make a call,,,1.220
-CALL/CALL_s58_v3_clean.wav,CALL,CALL,s58,train,v3,clean,Make a phone call,,,1.420
-CALL/CALL_s58_v3_noisy.wav,CALL,CALL,s58,train,v3,noisy,Make a phone call,,,1.420
-CALL/CALL_s59_v2_clean.wav,CALL,CALL,s59,train,v2,clean,Make a call,,,1.020
-CALL/CALL_s59_v2_noisy.wav,CALL,CALL,s59,train,v2,noisy,Make a call,,,1.020
-CALL/CALL_s59_v3_clean.wav,CALL,CALL,s59,train,v3,clean,Make a phone call,,,1.180
-CALL/CALL_s59_v3_noisy.wav,CALL,CALL,s59,train,v3,noisy,Make a phone call,,,1.180
-CALL/CALL_s5_v1_clean.wav,CALL,CALL,s5,train,v1,clean,Call,,,0.800
-CALL/CALL_s5_v1_noisy.wav,CALL,CALL,s5,train,v1,noisy,Call,,,0.800
-CALL/CALL_s5_v2_clean.wav,CALL,CALL,s5,train,v2,clean,Make a call,,,0.880
-CALL/CALL_s5_v2_noisy.wav,CALL,CALL,s5,train,v2,noisy,Make a call,,,0.880
-CALL/CALL_s60_v2_clean.wav,CALL,CALL,s60,train,v2,clean,Make a call,,,0.820
-CALL/CALL_s60_v2_noisy.wav,CALL,CALL,s60,train,v2,noisy,Make a call,,,0.820
-CALL/CALL_s60_v3_clean.wav,CALL,CALL,s60,train,v3,clean,Make a phone call,,,1.260
-CALL/CALL_s60_v3_noisy.wav,CALL,CALL,s60,train,v3,noisy,Make a phone call,,,1.260
-CALL/CALL_s61_v2_clean.wav,CALL,CALL,s61,train,v2,clean,Make a call,,,1.120
-CALL/CALL_s61_v2_noisy.wav,CALL,CALL,s61,train,v2,noisy,Make a call,,,1.120
-CALL/CALL_s61_v3_clean.wav,CALL,CALL,s61,train,v3,clean,Make a phone call,,,1.440
-CALL/CALL_s61_v3_noisy.wav,CALL,CALL,s61,train,v3,noisy,Make a phone call,,,1.440
-CALL/CALL_s62_v2_clean.wav,CALL,CALL,s62,train,v2,clean,Make a call,,,1.060
-CALL/CALL_s62_v2_noisy.wav,CALL,CALL,s62,train,v2,noisy,Make a call,,,1.060
-CALL/CALL_s62_v3_clean.wav,CALL,CALL,s62,train,v3,clean,Make a phone call,,,1.180
-CALL/CALL_s62_v3_noisy.wav,CALL,CALL,s62,train,v3,noisy,Make a phone call,,,1.180
-CALL/CALL_s63_v1_clean.wav,CALL,CALL,s63,train,v1,clean,Call,,,0.800
-CALL/CALL_s63_v1_noisy.wav,CALL,CALL,s63,train,v1,noisy,Call,,,0.800
-CALL/CALL_s63_v2_clean.wav,CALL,CALL,s63,train,v2,clean,Make a call,,,1.000
-CALL/CALL_s63_v2_noisy.wav,CALL,CALL,s63,train,v2,noisy,Make a call,,,1.000
-CALL/CALL_s63_v3_clean.wav,CALL,CALL,s63,train,v3,clean,Make a phone call,,,1.000
-CALL/CALL_s63_v3_noisy.wav,CALL,CALL,s63,train,v3,noisy,Make a phone call,,,1.000
-CALL/CALL_s64_v1_clean.wav,CALL,CALL,s64,train,v1,clean,Call,,,0.860
-CALL/CALL_s64_v1_noisy.wav,CALL,CALL,s64,train,v1,noisy,Call,,,0.860
-CALL/CALL_s64_v2_clean.wav,CALL,CALL,s64,train,v2,clean,Make a call,,,1.100
-CALL/CALL_s64_v2_noisy.wav,CALL,CALL,s64,train,v2,noisy,Make a call,,,1.100
-CALL/CALL_s64_v3_clean.wav,CALL,CALL,s64,train,v3,clean,Make a phone call,,,1.300
-CALL/CALL_s64_v3_noisy.wav,CALL,CALL,s64,train,v3,noisy,Make a phone call,,,1.300
-CALL/CALL_s65_v1_clean.wav,CALL,CALL,s65,train,v1,clean,Call,,,0.720
-CALL/CALL_s65_v1_noisy.wav,CALL,CALL,s65,train,v1,noisy,Call,,,0.720
-CALL/CALL_s65_v2_clean.wav,CALL,CALL,s65,train,v2,clean,Make a call,,,0.960
-CALL/CALL_s65_v2_noisy.wav,CALL,CALL,s65,train,v2,noisy,Make a call,,,0.960
-CALL/CALL_s65_v3_clean.wav,CALL,CALL,s65,train,v3,clean,Make a phone call,,,1.160
-CALL/CALL_s65_v3_noisy.wav,CALL,CALL,s65,train,v3,noisy,Make a phone call,,,1.160
-CALL/CALL_s66_v1_clean.wav,CALL,CALL,s66,train,v1,clean,Call,,,0.900
-CALL/CALL_s66_v1_noisy.wav,CALL,CALL,s66,train,v1,noisy,Call,,,0.900
-CALL/CALL_s66_v2_clean.wav,CALL,CALL,s66,train,v2,clean,Make a call,,,0.900
-CALL/CALL_s66_v2_noisy.wav,CALL,CALL,s66,train,v2,noisy,Make a call,,,0.900
-CALL/CALL_s66_v3_clean.wav,CALL,CALL,s66,train,v3,clean,Make a phone call,,,1.100
-CALL/CALL_s66_v3_noisy.wav,CALL,CALL,s66,train,v3,noisy,Make a phone call,,,1.100
-CALL/CALL_s67_v2_clean.wav,CALL,CALL,s67,train,v2,clean,Make a call,,,0.900
-CALL/CALL_s67_v2_noisy.wav,CALL,CALL,s67,train,v2,noisy,Make a call,,,0.900
-CALL/CALL_s67_v3_clean.wav,CALL,CALL,s67,train,v3,clean,Make a phone call,,,1.060
-CALL/CALL_s67_v3_noisy.wav,CALL,CALL,s67,train,v3,noisy,Make a phone call,,,1.060
-CALL/CALL_s68_v1_clean.wav,CALL,CALL,s68,train,v1,clean,Call,,,0.920
-CALL/CALL_s68_v1_noisy.wav,CALL,CALL,s68,train,v1,noisy,Call,,,0.920
-CALL/CALL_s68_v2_clean.wav,CALL,CALL,s68,train,v2,clean,Make a call,,,1.000
-CALL/CALL_s68_v2_noisy.wav,CALL,CALL,s68,train,v2,noisy,Make a call,,,1.000
-CALL/CALL_s68_v3_clean.wav,CALL,CALL,s68,train,v3,clean,Make a phone call,,,1.360
-CALL/CALL_s68_v3_noisy.wav,CALL,CALL,s68,train,v3,noisy,Make a phone call,,,1.360
-CALL/CALL_s69_v1_clean.wav,CALL,CALL,s69,train,v1,clean,Call,,,0.640
-CALL/CALL_s69_v1_noisy.wav,CALL,CALL,s69,train,v1,noisy,Call,,,0.640
-CALL/CALL_s69_v2_clean.wav,CALL,CALL,s69,train,v2,clean,Make a call,,,0.800
-CALL/CALL_s69_v2_noisy.wav,CALL,CALL,s69,train,v2,noisy,Make a call,,,0.800
-CALL/CALL_s69_v3_clean.wav,CALL,CALL,s69,train,v3,clean,Make a phone call,,,0.760
-CALL/CALL_s69_v3_noisy.wav,CALL,CALL,s69,train,v3,noisy,Make a phone call,,,0.760
-CALL/CALL_s6_v2_clean.wav,CALL,CALL,s6,train,v2,clean,Make a call,,,1.280
-CALL/CALL_s6_v2_noisy.wav,CALL,CALL,s6,train,v2,noisy,Make a call,,,1.280
-CALL/CALL_s6_v3_clean.wav,CALL,CALL,s6,train,v3,clean,Make a phone call,,,1.560
-CALL/CALL_s6_v3_noisy.wav,CALL,CALL,s6,train,v3,noisy,Make a phone call,,,1.560
-CALL/CALL_s70_v2_clean.wav,CALL,CALL,s70,train,v2,clean,Make a call,,,1.160
-CALL/CALL_s70_v2_noisy.wav,CALL,CALL,s70,train,v2,noisy,Make a call,,,1.160
-CALL/CALL_s70_v3_clean.wav,CALL,CALL,s70,train,v3,clean,Make a phone call,,,1.400
-CALL/CALL_s70_v3_noisy.wav,CALL,CALL,s70,train,v3,noisy,Make a phone call,,,1.400
-CALL/CALL_s71_v1_clean.wav,CALL,CALL,s71,train,v1,clean,Call,,,0.640
-CALL/CALL_s71_v1_noisy.wav,CALL,CALL,s71,train,v1,noisy,Call,,,0.640
-CALL/CALL_s71_v2_clean.wav,CALL,CALL,s71,train,v2,clean,Make a call,,,0.920
-CALL/CALL_s71_v2_noisy.wav,CALL,CALL,s71,train,v2,noisy,Make a call,,,0.920
-CALL/CALL_s72_v2_clean.wav,CALL,CALL,s72,train,v2,clean,Make a call,,,0.800
-CALL/CALL_s72_v2_noisy.wav,CALL,CALL,s72,train,v2,noisy,Make a call,,,0.800
-CALL/CALL_s72_v3_clean.wav,CALL,CALL,s72,train,v3,clean,Make a phone call,,,1.080
-CALL/CALL_s72_v3_noisy.wav,CALL,CALL,s72,train,v3,noisy,Make a phone call,,,1.080
-CALL/CALL_s73_v2_clean.wav,CALL,CALL,s73,train,v2,clean,Make a call,,,1.320
-CALL/CALL_s73_v2_noisy.wav,CALL,CALL,s73,train,v2,noisy,Make a call,,,1.320
-CALL/CALL_s73_v3_clean.wav,CALL,CALL,s73,train,v3,clean,Make a phone call,,,1.240
-CALL/CALL_s73_v3_noisy.wav,CALL,CALL,s73,train,v3,noisy,Make a phone call,,,1.240
-CALL/CALL_s74_v2_clean.wav,CALL,CALL,s74,train,v2,clean,Make a call,,,0.840
-CALL/CALL_s74_v2_noisy.wav,CALL,CALL,s74,train,v2,noisy,Make a call,,,0.840
-CALL/CALL_s74_v3_clean.wav,CALL,CALL,s74,train,v3,clean,Make a phone call,,,1.120
-CALL/CALL_s74_v3_noisy.wav,CALL,CALL,s74,train,v3,noisy,Make a phone call,,,1.120
-CALL/CALL_s75_v2_clean.wav,CALL,CALL,s75,train,v2,clean,Make a call,,,8.200
-CALL/CALL_s75_v2_noisy.wav,CALL,CALL,s75,train,v2,noisy,Make a call,,,8.200
-CALL/CALL_s75_v3_clean.wav,CALL,CALL,s75,train,v3,clean,Make a phone call,,,2.720
-CALL/CALL_s75_v3_noisy.wav,CALL,CALL,s75,train,v3,noisy,Make a phone call,,,2.720
-CALL/CALL_s76_v1_clean.wav,CALL,CALL,s76,train,v1,clean,Call,,,0.640
-CALL/CALL_s76_v1_noisy.wav,CALL,CALL,s76,train,v1,noisy,Call,,,0.640
-CALL/CALL_s76_v3_clean.wav,CALL,CALL,s76,train,v3,clean,Make a phone call,,,1.480
-CALL/CALL_s76_v3_noisy.wav,CALL,CALL,s76,train,v3,noisy,Make a phone call,,,1.480
-CALL/CALL_s77_v2_clean.wav,CALL,CALL,s77,train,v2,clean,Make a call,,,0.840
-CALL/CALL_s77_v2_noisy.wav,CALL,CALL,s77,train,v2,noisy,Make a call,,,0.840
-CALL/CALL_s77_v3_clean.wav,CALL,CALL,s77,train,v3,clean,Make a phone call,,,1.000
-CALL/CALL_s77_v3_noisy.wav,CALL,CALL,s77,train,v3,noisy,Make a phone call,,,1.000
-CALL/CALL_s78_v1_clean.wav,CALL,CALL,s78,train,v1,clean,Call,,,0.640
-CALL/CALL_s78_v1_noisy.wav,CALL,CALL,s78,train,v1,noisy,Call,,,0.640
-CALL/CALL_s78_v2_clean.wav,CALL,CALL,s78,train,v2,clean,Make a call,,,0.880
-CALL/CALL_s78_v2_noisy.wav,CALL,CALL,s78,train,v2,noisy,Make a call,,,0.880
-CALL/CALL_s78_v3_clean.wav,CALL,CALL,s78,train,v3,clean,Make a phone call,,,1.200
-CALL/CALL_s78_v3_noisy.wav,CALL,CALL,s78,train,v3,noisy,Make a phone call,,,1.200
-CALL/CALL_s79_v3_clean.wav,CALL,CALL,s79,train,v3,clean,Make a phone call,,,1.720
-CALL/CALL_s79_v3_noisy.wav,CALL,CALL,s79,train,v3,noisy,Make a phone call,,,1.720
-CALL/CALL_s7_v1_clean.wav,CALL,CALL,s7,train,v1,clean,Call,,,0.800
-CALL/CALL_s7_v1_noisy.wav,CALL,CALL,s7,train,v1,noisy,Call,,,0.800
-CALL/CALL_s7_v2_clean.wav,CALL,CALL,s7,train,v2,clean,Make a call,,,1.040
-CALL/CALL_s7_v2_noisy.wav,CALL,CALL,s7,train,v2,noisy,Make a call,,,1.040
-CALL/CALL_s7_v3_clean.wav,CALL,CALL,s7,train,v3,clean,Make a phone call,,,1.400
-CALL/CALL_s7_v3_noisy.wav,CALL,CALL,s7,train,v3,noisy,Make a phone call,,,1.400
-CALL/CALL_s80_v1_clean.wav,CALL,CALL,s80,train,v1,clean,Call,,,0.840
-CALL/CALL_s80_v1_noisy.wav,CALL,CALL,s80,train,v1,noisy,Call,,,0.840
-CALL/CALL_s80_v2_clean.wav,CALL,CALL,s80,train,v2,clean,Make a call,,,1.200
-CALL/CALL_s80_v2_noisy.wav,CALL,CALL,s80,train,v2,noisy,Make a call,,,1.200
-CALL/CALL_s80_v3_clean.wav,CALL,CALL,s80,train,v3,clean,Make a phone call,,,1.040
-CALL/CALL_s80_v3_noisy.wav,CALL,CALL,s80,train,v3,noisy,Make a phone call,,,1.040
-CALL/CALL_s81_v1_clean.wav,CALL,CALL,s81,val,v1,clean,Call,,,1.080
-CALL/CALL_s81_v1_noisy.wav,CALL,CALL,s81,val,v1,noisy,Call,,,1.080
-CALL/CALL_s81_v3_clean.wav,CALL,CALL,s81,val,v3,clean,Make a phone call,,,1.240
-CALL/CALL_s81_v3_noisy.wav,CALL,CALL,s81,val,v3,noisy,Make a phone call,,,1.240
-CALL/CALL_s82_v1_clean.wav,CALL,CALL,s82,val,v1,clean,Call,,,0.740
-CALL/CALL_s82_v1_noisy.wav,CALL,CALL,s82,val,v1,noisy,Call,,,0.740
-CALL/CALL_s82_v2_clean.wav,CALL,CALL,s82,val,v2,clean,Make a call,,,1.140
-CALL/CALL_s82_v2_noisy.wav,CALL,CALL,s82,val,v2,noisy,Make a call,,,1.140
-CALL/CALL_s82_v3_clean.wav,CALL,CALL,s82,val,v3,clean,Make a phone call,,,1.260
-CALL/CALL_s82_v3_noisy.wav,CALL,CALL,s82,val,v3,noisy,Make a phone call,,,1.260
-CALL/CALL_s83_v2_clean.wav,CALL,CALL,s83,val,v2,clean,Make a call,,,1.280
-CALL/CALL_s83_v2_noisy.wav,CALL,CALL,s83,val,v2,noisy,Make a call,,,1.280
-CALL/CALL_s83_v3_clean.wav,CALL,CALL,s83,val,v3,clean,Make a phone call,,,1.680
-CALL/CALL_s83_v3_noisy.wav,CALL,CALL,s83,val,v3,noisy,Make a phone call,,,1.680
-CALL/CALL_s84_v1_clean.wav,CALL,CALL,s84,val,v1,clean,Call,,,0.860
-CALL/CALL_s84_v1_noisy.wav,CALL,CALL,s84,val,v1,noisy,Call,,,0.860
-CALL/CALL_s84_v2_clean.wav,CALL,CALL,s84,val,v2,clean,Make a call,,,1.060
-CALL/CALL_s84_v2_noisy.wav,CALL,CALL,s84,val,v2,noisy,Make a call,,,1.060
-CALL/CALL_s84_v3_clean.wav,CALL,CALL,s84,val,v3,clean,Make a phone call,,,1.340
-CALL/CALL_s84_v3_noisy.wav,CALL,CALL,s84,val,v3,noisy,Make a phone call,,,1.340
-CALL/CALL_s85_v1_clean.wav,CALL,CALL,s85,val,v1,clean,Call,,,0.620
-CALL/CALL_s85_v1_noisy.wav,CALL,CALL,s85,val,v1,noisy,Call,,,0.620
-CALL/CALL_s85_v2_clean.wav,CALL,CALL,s85,val,v2,clean,Make a call,,,0.980
-CALL/CALL_s85_v2_noisy.wav,CALL,CALL,s85,val,v2,noisy,Make a call,,,0.980
-CALL/CALL_s85_v3_clean.wav,CALL,CALL,s85,val,v3,clean,Make a phone call,,,1.340
-CALL/CALL_s85_v3_noisy.wav,CALL,CALL,s85,val,v3,noisy,Make a phone call,,,1.340
-CALL/CALL_s86_v2_clean.wav,CALL,CALL,s86,val,v2,clean,Make a call,,,1.680
-CALL/CALL_s86_v2_noisy.wav,CALL,CALL,s86,val,v2,noisy,Make a call,,,1.680
-CALL/CALL_s86_v3_clean.wav,CALL,CALL,s86,val,v3,clean,Make a phone call,,,1.320
-CALL/CALL_s86_v3_noisy.wav,CALL,CALL,s86,val,v3,noisy,Make a phone call,,,1.320
-CALL/CALL_s87_v1_clean.wav,CALL,CALL,s87,val,v1,clean,Call,,,0.700
-CALL/CALL_s87_v1_noisy.wav,CALL,CALL,s87,val,v1,noisy,Call,,,0.700
-CALL/CALL_s87_v2_clean.wav,CALL,CALL,s87,val,v2,clean,Make a call,,,1.180
-CALL/CALL_s87_v2_noisy.wav,CALL,CALL,s87,val,v2,noisy,Make a call,,,1.180
-CALL/CALL_s87_v3_clean.wav,CALL,CALL,s87,val,v3,clean,Make a phone call,,,1.380
-CALL/CALL_s87_v3_noisy.wav,CALL,CALL,s87,val,v3,noisy,Make a phone call,,,1.380
-CALL/CALL_s88_v1_clean.wav,CALL,CALL,s88,val,v1,clean,Call,,,0.600
-CALL/CALL_s88_v1_noisy.wav,CALL,CALL,s88,val,v1,noisy,Call,,,0.600
-CALL/CALL_s88_v2_clean.wav,CALL,CALL,s88,val,v2,clean,Make a call,,,0.960
-CALL/CALL_s88_v2_noisy.wav,CALL,CALL,s88,val,v2,noisy,Make a call,,,0.960
-CALL/CALL_s88_v3_clean.wav,CALL,CALL,s88,val,v3,clean,Make a phone call,,,1.040
-CALL/CALL_s88_v3_noisy.wav,CALL,CALL,s88,val,v3,noisy,Make a phone call,,,1.040
-CALL/CALL_s89_v1_clean.wav,CALL,CALL,s89,val,v1,clean,Call,,,0.660
-CALL/CALL_s89_v1_noisy.wav,CALL,CALL,s89,val,v1,noisy,Call,,,0.660
-CALL/CALL_s89_v2_clean.wav,CALL,CALL,s89,val,v2,clean,Make a call,,,0.940
-CALL/CALL_s89_v2_noisy.wav,CALL,CALL,s89,val,v2,noisy,Make a call,,,0.940
-CALL/CALL_s89_v3_clean.wav,CALL,CALL,s89,val,v3,clean,Make a phone call,,,0.980
-CALL/CALL_s89_v3_noisy.wav,CALL,CALL,s89,val,v3,noisy,Make a phone call,,,0.980
-CALL/CALL_s8_v1_clean.wav,CALL,CALL,s8,train,v1,clean,Call,,,0.520
-CALL/CALL_s8_v1_noisy.wav,CALL,CALL,s8,train,v1,noisy,Call,,,0.520
-CALL/CALL_s8_v2_clean.wav,CALL,CALL,s8,train,v2,clean,Make a call,,,1.280
-CALL/CALL_s8_v2_noisy.wav,CALL,CALL,s8,train,v2,noisy,Make a call,,,1.280
-CALL/CALL_s8_v3_clean.wav,CALL,CALL,s8,train,v3,clean,Make a phone call,,,1.320
-CALL/CALL_s8_v3_noisy.wav,CALL,CALL,s8,train,v3,noisy,Make a phone call,,,1.320
-CALL/CALL_s90_v1_clean.wav,CALL,CALL,s90,val,v1,clean,Call,,,0.480
-CALL/CALL_s90_v1_noisy.wav,CALL,CALL,s90,val,v1,noisy,Call,,,0.480
-CALL/CALL_s90_v2_clean.wav,CALL,CALL,s90,val,v2,clean,Make a call,,,1.600
-CALL/CALL_s90_v2_noisy.wav,CALL,CALL,s90,val,v2,noisy,Make a call,,,1.600
-CALL/CALL_s90_v3_clean.wav,CALL,CALL,s90,val,v3,clean,Make a phone call,,,0.920
-CALL/CALL_s90_v3_noisy.wav,CALL,CALL,s90,val,v3,noisy,Make a phone call,,,0.920
-CALL/CALL_s91_v1_clean.wav,CALL,CALL,s91,test,v1,clean,Call,,,0.800
-CALL/CALL_s91_v1_noisy.wav,CALL,CALL,s91,test,v1,noisy,Call,,,0.800
-CALL/CALL_s91_v2_clean.wav,CALL,CALL,s91,test,v2,clean,Make a call,,,1.120
-CALL/CALL_s91_v2_noisy.wav,CALL,CALL,s91,test,v2,noisy,Make a call,,,1.120
-CALL/CALL_s91_v3_clean.wav,CALL,CALL,s91,test,v3,clean,Make a phone call,,,1.360
-CALL/CALL_s91_v3_noisy.wav,CALL,CALL,s91,test,v3,noisy,Make a phone call,,,1.360
-CALL/CALL_s92_v2_clean.wav,CALL,CALL,s92,test,v2,clean,Make a call,,,1.080
-CALL/CALL_s92_v2_noisy.wav,CALL,CALL,s92,test,v2,noisy,Make a call,,,1.080
-CALL/CALL_s92_v3_clean.wav,CALL,CALL,s92,test,v3,clean,Make a phone call,,,1.520
-CALL/CALL_s92_v3_noisy.wav,CALL,CALL,s92,test,v3,noisy,Make a phone call,,,1.520
-CALL/CALL_s93_v2_clean.wav,CALL,CALL,s93,test,v2,clean,Make a call,,,1.120
-CALL/CALL_s93_v2_noisy.wav,CALL,CALL,s93,test,v2,noisy,Make a call,,,1.120
-CALL/CALL_s93_v3_clean.wav,CALL,CALL,s93,test,v3,clean,Make a phone call,,,1.160
-CALL/CALL_s93_v3_noisy.wav,CALL,CALL,s93,test,v3,noisy,Make a phone call,,,1.160
-CALL/CALL_s94_v1_clean.wav,CALL,CALL,s94,test,v1,clean,Call,,,0.720
-CALL/CALL_s94_v1_noisy.wav,CALL,CALL,s94,test,v1,noisy,Call,,,0.720
-CALL/CALL_s94_v2_clean.wav,CALL,CALL,s94,test,v2,clean,Make a call,,,1.080
-CALL/CALL_s94_v2_noisy.wav,CALL,CALL,s94,test,v2,noisy,Make a call,,,1.080
-CALL/CALL_s94_v3_clean.wav,CALL,CALL,s94,test,v3,clean,Make a phone call,,,1.200
-CALL/CALL_s94_v3_noisy.wav,CALL,CALL,s94,test,v3,noisy,Make a phone call,,,1.200
-CALL/CALL_s95_v3_clean.wav,CALL,CALL,s95,test,v3,clean,Make a phone call,,,1.320
-CALL/CALL_s95_v3_noisy.wav,CALL,CALL,s95,test,v3,noisy,Make a phone call,,,1.320
-CALL/CALL_s96_v1_clean.wav,CALL,CALL,s96,test,v1,clean,Call,,,0.740
-CALL/CALL_s96_v1_noisy.wav,CALL,CALL,s96,test,v1,noisy,Call,,,0.740
-CALL/CALL_s96_v2_clean.wav,CALL,CALL,s96,test,v2,clean,Make a call,,,0.980
-CALL/CALL_s96_v2_noisy.wav,CALL,CALL,s96,test,v2,noisy,Make a call,,,0.980
-CALL/CALL_s96_v3_clean.wav,CALL,CALL,s96,test,v3,clean,Make a phone call,,,0.980
-CALL/CALL_s96_v3_noisy.wav,CALL,CALL,s96,test,v3,noisy,Make a phone call,,,0.980
-CALL/CALL_s97_v2_clean.wav,CALL,CALL,s97,test,v2,clean,Make a call,,,0.820
-CALL/CALL_s97_v2_noisy.wav,CALL,CALL,s97,test,v2,noisy,Make a call,,,0.820
-CALL/CALL_s97_v3_clean.wav,CALL,CALL,s97,test,v3,clean,Make a phone call,,,1.180
-CALL/CALL_s97_v3_noisy.wav,CALL,CALL,s97,test,v3,noisy,Make a phone call,,,1.180
-CALL/CALL_s98_v2_clean.wav,CALL,CALL,s98,test,v2,clean,Make a call,,,1.160
-CALL/CALL_s98_v2_noisy.wav,CALL,CALL,s98,test,v2,noisy,Make a call,,,1.160
-CALL/CALL_s98_v3_clean.wav,CALL,CALL,s98,test,v3,clean,Make a phone call,,,1.400
-CALL/CALL_s98_v3_noisy.wav,CALL,CALL,s98,test,v3,noisy,Make a phone call,,,1.400
-CALL/CALL_s99_v1_clean.wav,CALL,CALL,s99,test,v1,clean,Call,,,0.780
-CALL/CALL_s99_v1_noisy.wav,CALL,CALL,s99,test,v1,noisy,Call,,,0.780
-CALL/CALL_s99_v2_clean.wav,CALL,CALL,s99,test,v2,clean,Make a call,,,1.380
-CALL/CALL_s99_v2_noisy.wav,CALL,CALL,s99,test,v2,noisy,Make a call,,,1.380
-CALL/CALL_s99_v3_clean.wav,CALL,CALL,s99,test,v3,clean,Make a phone call,,,1.220
-CALL/CALL_s99_v3_noisy.wav,CALL,CALL,s99,test,v3,noisy,Make a phone call,,,1.220
-CALL/CALL_s9_v1_clean.wav,CALL,CALL,s9,train,v1,clean,Call,,,0.600
-CALL/CALL_s9_v1_noisy.wav,CALL,CALL,s9,train,v1,noisy,Call,,,0.600
-CALL/CALL_s9_v2_clean.wav,CALL,CALL,s9,train,v2,clean,Make a call,,,0.960
-CALL/CALL_s9_v2_noisy.wav,CALL,CALL,s9,train,v2,noisy,Make a call,,,0.960
-CALL/CALL_s9_v3_clean.wav,CALL,CALL,s9,train,v3,clean,Make a phone call,,,1.200
-CALL/CALL_s9_v3_noisy.wav,CALL,CALL,s9,train,v3,noisy,Make a phone call,,,1.200
 COLOR_BLUE/COLOR_BLUE_s100_v1_clean.wav,COLOR_BLUE,COLOR,s100,test,v1,clean,Color blue,color,blue,0.980
 COLOR_BLUE/COLOR_BLUE_s100_v1_noisy.wav,COLOR_BLUE,COLOR,s100,test,v1,noisy,Color blue,color,blue,0.980
 COLOR_BLUE/COLOR_BLUE_s100_v2_clean.wav,COLOR_BLUE,COLOR,s100,test,v2,clean,Change the lights to blue,color,blue,1.420
@@ -16107,8 +15609,14 @@ WEATHER/WEATHER_s9_v3_clean.wav,WEATHER,WEATHER,s9,train,v3,clean,Tell me the we
 WEATHER/WEATHER_s9_v3_noisy.wav,WEATHER,WEATHER,s9,train,v3,noisy,Tell me the weather,,,1.280
 VOLUME_DOWN/VOLUME_DOWN_s91_v2_clean.wav,VOLUME_DOWN,VOLUME_DOWN,s91,test,v2,clean,Lower the volume,,,1.360
 VOLUME_DOWN/VOLUME_DOWN_s91_v2_noisy.wav,VOLUME_DOWN,VOLUME_DOWN,s91,test,v2,noisy,Lower the volume,,,1.360
+NEXT/NEXT_s1_v1_clean.wav,NEXT,NEXT,s1,train,v1,clean,Next,,,0.920
+NEXT/NEXT_s1_v1_noisy.wav,NEXT,NEXT,s1,train,v1,noisy,Next,,,0.920
+NEXT/NEXT_s1_v2_clean.wav,NEXT,NEXT,s1,train,v2,clean,Next track,,,1.040
+NEXT/NEXT_s1_v2_noisy.wav,NEXT,NEXT,s1,train,v2,noisy,Next track,,,1.040
 NEXT/NEXT_s1_v3_clean.wav,NEXT,NEXT,s1,train,v3,clean,Play next song,,,0.960
 NEXT/NEXT_s1_v3_noisy.wav,NEXT,NEXT,s1,train,v3,noisy,Play next song,,,0.960
+NEXT/NEXT_s2_v1_clean.wav,NEXT,NEXT,s2,train,v1,clean,Next,,,0.820
+NEXT/NEXT_s2_v1_noisy.wav,NEXT,NEXT,s2,train,v1,noisy,Next,,,0.820
 NEXT/NEXT_s2_v2_clean.wav,NEXT,NEXT,s2,train,v2,clean,Next track,,,1.180
 NEXT/NEXT_s2_v2_noisy.wav,NEXT,NEXT,s2,train,v2,noisy,Next track,,,1.180
 NEXT/NEXT_s2_v3_clean.wav,NEXT,NEXT,s2,train,v3,clean,Play next song,,,1.420
@@ -16127,6 +15635,8 @@ NEXT/NEXT_s5_v1_clean.wav,NEXT,NEXT,s5,train,v1,clean,Next,,,0.680
 NEXT/NEXT_s5_v1_noisy.wav,NEXT,NEXT,s5,train,v1,noisy,Next,,,0.680
 NEXT/NEXT_s5_v2_clean.wav,NEXT,NEXT,s5,train,v2,clean,Next track,,,0.800
 NEXT/NEXT_s5_v2_noisy.wav,NEXT,NEXT,s5,train,v2,noisy,Next track,,,0.800
+NEXT/NEXT_s5_v3_clean.wav,NEXT,NEXT,s5,train,v3,clean,Play next song,,,0.920
+NEXT/NEXT_s5_v3_noisy.wav,NEXT,NEXT,s5,train,v3,noisy,Play next song,,,0.920
 NEXT/NEXT_s6_v2_clean.wav,NEXT,NEXT,s6,train,v2,clean,Next track,,,1.640
 NEXT/NEXT_s6_v2_noisy.wav,NEXT,NEXT,s6,train,v2,noisy,Next track,,,1.640
 NEXT/NEXT_s6_v3_clean.wav,NEXT,NEXT,s6,train,v3,clean,Play next song,,,1.240
@@ -16167,6 +15677,8 @@ NEXT/NEXT_s12_v3_clean.wav,NEXT,NEXT,s12,train,v3,clean,Play next song,,,1.420
 NEXT/NEXT_s12_v3_noisy.wav,NEXT,NEXT,s12,train,v3,noisy,Play next song,,,1.420
 NEXT/NEXT_s13_v1_clean.wav,NEXT,NEXT,s13,train,v1,clean,Next,,,0.880
 NEXT/NEXT_s13_v1_noisy.wav,NEXT,NEXT,s13,train,v1,noisy,Next,,,0.880
+NEXT/NEXT_s13_v2_clean.wav,NEXT,NEXT,s13,train,v2,clean,Next track,,,1.720
+NEXT/NEXT_s13_v2_noisy.wav,NEXT,NEXT,s13,train,v2,noisy,Next track,,,1.720
 NEXT/NEXT_s13_v3_clean.wav,NEXT,NEXT,s13,train,v3,clean,Play next song,,,1.160
 NEXT/NEXT_s13_v3_noisy.wav,NEXT,NEXT,s13,train,v3,noisy,Play next song,,,1.160
 NEXT/NEXT_s14_v1_clean.wav,NEXT,NEXT,s14,train,v1,clean,Next,,,0.840
@@ -16193,6 +15705,8 @@ NEXT/NEXT_s17_v2_clean.wav,NEXT,NEXT,s17,train,v2,clean,Next track,,,0.840
 NEXT/NEXT_s17_v2_noisy.wav,NEXT,NEXT,s17,train,v2,noisy,Next track,,,0.840
 NEXT/NEXT_s17_v3_clean.wav,NEXT,NEXT,s17,train,v3,clean,Play next song,,,1.240
 NEXT/NEXT_s17_v3_noisy.wav,NEXT,NEXT,s17,train,v3,noisy,Play next song,,,1.240
+NEXT/NEXT_s18_v1_clean.wav,NEXT,NEXT,s18,train,v1,clean,Next,,,1.120
+NEXT/NEXT_s18_v1_noisy.wav,NEXT,NEXT,s18,train,v1,noisy,Next,,,1.120
 NEXT/NEXT_s18_v2_clean.wav,NEXT,NEXT,s18,train,v2,clean,Next track,,,1.960
 NEXT/NEXT_s18_v2_noisy.wav,NEXT,NEXT,s18,train,v2,noisy,Next track,,,1.960
 NEXT/NEXT_s18_v3_clean.wav,NEXT,NEXT,s18,train,v3,clean,Play next song,,,1.680
@@ -16215,6 +15729,8 @@ NEXT/NEXT_s21_v2_clean.wav,NEXT,NEXT,s21,train,v2,clean,Next track,,,1.420
 NEXT/NEXT_s21_v2_noisy.wav,NEXT,NEXT,s21,train,v2,noisy,Next track,,,1.420
 NEXT/NEXT_s21_v3_clean.wav,NEXT,NEXT,s21,train,v3,clean,Play next song,,,1.820
 NEXT/NEXT_s21_v3_noisy.wav,NEXT,NEXT,s21,train,v3,noisy,Play next song,,,1.820
+NEXT/NEXT_s22_v3_clean.wav,NEXT,NEXT,s22,train,v3,clean,Play next song,,,1.400
+NEXT/NEXT_s22_v3_noisy.wav,NEXT,NEXT,s22,train,v3,noisy,Play next song,,,1.400
 NEXT/NEXT_s23_v1_clean.wav,NEXT,NEXT,s23,train,v1,clean,Next,,,0.660
 NEXT/NEXT_s23_v1_noisy.wav,NEXT,NEXT,s23,train,v1,noisy,Next,,,0.660
 NEXT/NEXT_s23_v2_clean.wav,NEXT,NEXT,s23,train,v2,clean,Next track,,,0.980
@@ -16307,8 +15823,12 @@ NEXT/NEXT_s38_v2_clean.wav,NEXT,NEXT,s38,train,v2,clean,Next track,,,0.940
 NEXT/NEXT_s38_v2_noisy.wav,NEXT,NEXT,s38,train,v2,noisy,Next track,,,0.940
 NEXT/NEXT_s38_v3_clean.wav,NEXT,NEXT,s38,train,v3,clean,Play next song,,,1.340
 NEXT/NEXT_s38_v3_noisy.wav,NEXT,NEXT,s38,train,v3,noisy,Play next song,,,1.340
+NEXT/NEXT_s39_v2_clean.wav,NEXT,NEXT,s39,train,v2,clean,Next track,,,1.000
+NEXT/NEXT_s39_v2_noisy.wav,NEXT,NEXT,s39,train,v2,noisy,Next track,,,1.000
 NEXT/NEXT_s39_v3_clean.wav,NEXT,NEXT,s39,train,v3,clean,Play next song,,,1.360
 NEXT/NEXT_s39_v3_noisy.wav,NEXT,NEXT,s39,train,v3,noisy,Play next song,,,1.360
+NEXT/NEXT_s40_v1_clean.wav,NEXT,NEXT,s40,train,v1,clean,Next,,,0.800
+NEXT/NEXT_s40_v1_noisy.wav,NEXT,NEXT,s40,train,v1,noisy,Next,,,0.800
 NEXT/NEXT_s40_v2_clean.wav,NEXT,NEXT,s40,train,v2,clean,Next track,,,1.080
 NEXT/NEXT_s40_v2_noisy.wav,NEXT,NEXT,s40,train,v2,noisy,Next track,,,1.080
 NEXT/NEXT_s40_v3_clean.wav,NEXT,NEXT,s40,train,v3,clean,Play next song,,,1.200
@@ -16337,16 +15857,24 @@ NEXT/NEXT_s44_v2_clean.wav,NEXT,NEXT,s44,train,v2,clean,Next track,,,0.900
 NEXT/NEXT_s44_v2_noisy.wav,NEXT,NEXT,s44,train,v2,noisy,Next track,,,0.900
 NEXT/NEXT_s44_v3_clean.wav,NEXT,NEXT,s44,train,v3,clean,Play next song,,,1.580
 NEXT/NEXT_s44_v3_noisy.wav,NEXT,NEXT,s44,train,v3,noisy,Play next song,,,1.580
+NEXT/NEXT_s45_v1_clean.wav,NEXT,NEXT,s45,train,v1,clean,Next,,,0.820
+NEXT/NEXT_s45_v1_noisy.wav,NEXT,NEXT,s45,train,v1,noisy,Next,,,0.820
 NEXT/NEXT_s45_v2_clean.wav,NEXT,NEXT,s45,train,v2,clean,Next track,,,1.260
 NEXT/NEXT_s45_v2_noisy.wav,NEXT,NEXT,s45,train,v2,noisy,Next track,,,1.260
 NEXT/NEXT_s45_v3_clean.wav,NEXT,NEXT,s45,train,v3,clean,Play next song,,,1.460
 NEXT/NEXT_s45_v3_noisy.wav,NEXT,NEXT,s45,train,v3,noisy,Play next song,,,1.460
 NEXT/NEXT_s46_v1_clean.wav,NEXT,NEXT,s46,train,v1,clean,Next,,,1.240
 NEXT/NEXT_s46_v1_noisy.wav,NEXT,NEXT,s46,train,v1,noisy,Next,,,1.240
+NEXT/NEXT_s46_v2_clean.wav,NEXT,NEXT,s46,train,v2,clean,Next track,,,1.760
+NEXT/NEXT_s46_v2_noisy.wav,NEXT,NEXT,s46,train,v2,noisy,Next track,,,1.760
 NEXT/NEXT_s46_v3_clean.wav,NEXT,NEXT,s46,train,v3,clean,Play next song,,,2.000
 NEXT/NEXT_s46_v3_noisy.wav,NEXT,NEXT,s46,train,v3,noisy,Play next song,,,2.000
 NEXT/NEXT_s47_v1_clean.wav,NEXT,NEXT,s47,train,v1,clean,Next,,,1.860
 NEXT/NEXT_s47_v1_noisy.wav,NEXT,NEXT,s47,train,v1,noisy,Next,,,1.860
+NEXT/NEXT_s47_v2_clean.wav,NEXT,NEXT,s47,train,v2,clean,Next track,,,1.940
+NEXT/NEXT_s47_v2_noisy.wav,NEXT,NEXT,s47,train,v2,noisy,Next track,,,1.940
+NEXT/NEXT_s47_v3_clean.wav,NEXT,NEXT,s47,train,v3,clean,Play next song,,,1.020
+NEXT/NEXT_s47_v3_noisy.wav,NEXT,NEXT,s47,train,v3,noisy,Play next song,,,1.020
 NEXT/NEXT_s48_v2_clean.wav,NEXT,NEXT,s48,train,v2,clean,Next track,,,1.280
 NEXT/NEXT_s48_v2_noisy.wav,NEXT,NEXT,s48,train,v2,noisy,Next track,,,1.280
 NEXT/NEXT_s48_v3_clean.wav,NEXT,NEXT,s48,train,v3,clean,Play next song,,,1.200
@@ -16405,6 +15933,8 @@ NEXT/NEXT_s57_v2_clean.wav,NEXT,NEXT,s57,train,v2,clean,Next track,,,1.480
 NEXT/NEXT_s57_v2_noisy.wav,NEXT,NEXT,s57,train,v2,noisy,Next track,,,1.480
 NEXT/NEXT_s57_v3_clean.wav,NEXT,NEXT,s57,train,v3,clean,Play next song,,,1.400
 NEXT/NEXT_s57_v3_noisy.wav,NEXT,NEXT,s57,train,v3,noisy,Play next song,,,1.400
+NEXT/NEXT_s58_v1_clean.wav,NEXT,NEXT,s58,train,v1,clean,Next,,,1.020
+NEXT/NEXT_s58_v1_noisy.wav,NEXT,NEXT,s58,train,v1,noisy,Next,,,1.020
 NEXT/NEXT_s58_v2_clean.wav,NEXT,NEXT,s58,train,v2,clean,Next track,,,1.420
 NEXT/NEXT_s58_v2_noisy.wav,NEXT,NEXT,s58,train,v2,noisy,Next track,,,1.420
 NEXT/NEXT_s58_v3_clean.wav,NEXT,NEXT,s58,train,v3,clean,Play next song,,,1.460
@@ -16423,6 +15953,8 @@ NEXT/NEXT_s61_v2_clean.wav,NEXT,NEXT,s61,train,v2,clean,Next track,,,1.280
 NEXT/NEXT_s61_v2_noisy.wav,NEXT,NEXT,s61,train,v2,noisy,Next track,,,1.280
 NEXT/NEXT_s61_v3_clean.wav,NEXT,NEXT,s61,train,v3,clean,Play next song,,,1.400
 NEXT/NEXT_s61_v3_noisy.wav,NEXT,NEXT,s61,train,v3,noisy,Play next song,,,1.400
+NEXT/NEXT_s62_v1_clean.wav,NEXT,NEXT,s62,train,v1,clean,Next,,,0.900
+NEXT/NEXT_s62_v1_noisy.wav,NEXT,NEXT,s62,train,v1,noisy,Next,,,0.900
 NEXT/NEXT_s62_v2_clean.wav,NEXT,NEXT,s62,train,v2,clean,Next track,,,1.300
 NEXT/NEXT_s62_v2_noisy.wav,NEXT,NEXT,s62,train,v2,noisy,Next track,,,1.300
 NEXT/NEXT_s62_v3_clean.wav,NEXT,NEXT,s62,train,v3,clean,Play next song,,,1.660
@@ -16629,6 +16161,8 @@ NEXT/NEXT_s100_v2_clean.wav,NEXT,NEXT,s100,test,v2,clean,Next track,,,0.940
 NEXT/NEXT_s100_v2_noisy.wav,NEXT,NEXT,s100,test,v2,noisy,Next track,,,0.940
 NEXT/NEXT_s100_v3_clean.wav,NEXT,NEXT,s100,test,v3,clean,Play next song,,,1.140
 NEXT/NEXT_s100_v3_noisy.wav,NEXT,NEXT,s100,test,v3,noisy,Play next song,,,1.140
+PAUSE/PAUSE_s1_v1_clean.wav,PAUSE,PAUSE,s1,train,v1,clean,Pause,,,0.960
+PAUSE/PAUSE_s1_v1_noisy.wav,PAUSE,PAUSE,s1,train,v1,noisy,Pause,,,0.960
 PAUSE/PAUSE_s1_v2_clean.wav,PAUSE,PAUSE,s1,train,v2,clean,Pause audio,,,1.280
 PAUSE/PAUSE_s1_v2_noisy.wav,PAUSE,PAUSE,s1,train,v2,noisy,Pause audio,,,1.280
 PAUSE/PAUSE_s1_v3_clean.wav,PAUSE,PAUSE,s1,train,v3,clean,Pause for now,,,1.080
@@ -16645,6 +16179,8 @@ PAUSE/PAUSE_s3_v2_clean.wav,PAUSE,PAUSE,s3,train,v2,clean,Pause audio,,,1.060
 PAUSE/PAUSE_s3_v2_noisy.wav,PAUSE,PAUSE,s3,train,v2,noisy,Pause audio,,,1.060
 PAUSE/PAUSE_s3_v3_clean.wav,PAUSE,PAUSE,s3,train,v3,clean,Pause for now,,,0.940
 PAUSE/PAUSE_s3_v3_noisy.wav,PAUSE,PAUSE,s3,train,v3,noisy,Pause for now,,,0.940
+PAUSE/PAUSE_s4_v2_clean.wav,PAUSE,PAUSE,s4,train,v2,clean,Pause audio,,,1.360
+PAUSE/PAUSE_s4_v2_noisy.wav,PAUSE,PAUSE,s4,train,v2,noisy,Pause audio,,,1.360
 PAUSE/PAUSE_s4_v3_clean.wav,PAUSE,PAUSE,s4,train,v3,clean,Pause for now,,,1.160
 PAUSE/PAUSE_s4_v3_noisy.wav,PAUSE,PAUSE,s4,train,v3,noisy,Pause for now,,,1.160
 PAUSE/PAUSE_s5_v1_clean.wav,PAUSE,PAUSE,s5,train,v1,clean,Pause,,,1.000
@@ -16657,12 +16193,16 @@ PAUSE/PAUSE_s6_v1_clean.wav,PAUSE,PAUSE,s6,train,v1,clean,Pause,,,0.840
 PAUSE/PAUSE_s6_v1_noisy.wav,PAUSE,PAUSE,s6,train,v1,noisy,Pause,,,0.840
 PAUSE/PAUSE_s6_v2_clean.wav,PAUSE,PAUSE,s6,train,v2,clean,Pause audio,,,1.240
 PAUSE/PAUSE_s6_v2_noisy.wav,PAUSE,PAUSE,s6,train,v2,noisy,Pause audio,,,1.240
+PAUSE/PAUSE_s6_v3_clean.wav,PAUSE,PAUSE,s6,train,v3,clean,Pause for now,,,1.040
+PAUSE/PAUSE_s6_v3_noisy.wav,PAUSE,PAUSE,s6,train,v3,noisy,Pause for now,,,1.040
 PAUSE/PAUSE_s7_v1_clean.wav,PAUSE,PAUSE,s7,train,v1,clean,Pause,,,0.960
 PAUSE/PAUSE_s7_v1_noisy.wav,PAUSE,PAUSE,s7,train,v1,noisy,Pause,,,0.960
 PAUSE/PAUSE_s7_v2_clean.wav,PAUSE,PAUSE,s7,train,v2,clean,Pause audio,,,1.040
 PAUSE/PAUSE_s7_v2_noisy.wav,PAUSE,PAUSE,s7,train,v2,noisy,Pause audio,,,1.040
 PAUSE/PAUSE_s7_v3_clean.wav,PAUSE,PAUSE,s7,train,v3,clean,Pause for now,,,1.480
 PAUSE/PAUSE_s7_v3_noisy.wav,PAUSE,PAUSE,s7,train,v3,noisy,Pause for now,,,1.480
+PAUSE/PAUSE_s8_v1_clean.wav,PAUSE,PAUSE,s8,train,v1,clean,Pause,,,1.120
+PAUSE/PAUSE_s8_v1_noisy.wav,PAUSE,PAUSE,s8,train,v1,noisy,Pause,,,1.120
 PAUSE/PAUSE_s8_v2_clean.wav,PAUSE,PAUSE,s8,train,v2,clean,Pause audio,,,1.600
 PAUSE/PAUSE_s8_v2_noisy.wav,PAUSE,PAUSE,s8,train,v2,noisy,Pause audio,,,1.600
 PAUSE/PAUSE_s8_v3_clean.wav,PAUSE,PAUSE,s8,train,v3,clean,Pause for now,,,1.440
@@ -16681,6 +16221,8 @@ PAUSE/PAUSE_s10_v3_clean.wav,PAUSE,PAUSE,s10,train,v3,clean,Pause for now,,,1.46
 PAUSE/PAUSE_s10_v3_noisy.wav,PAUSE,PAUSE,s10,train,v3,noisy,Pause for now,,,1.460
 PAUSE/PAUSE_s11_v1_clean.wav,PAUSE,PAUSE,s11,train,v1,clean,Pause,,,0.720
 PAUSE/PAUSE_s11_v1_noisy.wav,PAUSE,PAUSE,s11,train,v1,noisy,Pause,,,0.720
+PAUSE/PAUSE_s11_v2_clean.wav,PAUSE,PAUSE,s11,train,v2,clean,Pause audio,,,1.040
+PAUSE/PAUSE_s11_v2_noisy.wav,PAUSE,PAUSE,s11,train,v2,noisy,Pause audio,,,1.040
 PAUSE/PAUSE_s11_v3_clean.wav,PAUSE,PAUSE,s11,train,v3,clean,Pause for now,,,1.280
 PAUSE/PAUSE_s11_v3_noisy.wav,PAUSE,PAUSE,s11,train,v3,noisy,Pause for now,,,1.280
 PAUSE/PAUSE_s12_v1_clean.wav,PAUSE,PAUSE,s12,train,v1,clean,Pause,,,0.740
@@ -16705,6 +16247,8 @@ PAUSE/PAUSE_s15_v2_clean.wav,PAUSE,PAUSE,s15,train,v2,clean,Pause audio,,,1.220
 PAUSE/PAUSE_s15_v2_noisy.wav,PAUSE,PAUSE,s15,train,v2,noisy,Pause audio,,,1.220
 PAUSE/PAUSE_s15_v3_clean.wav,PAUSE,PAUSE,s15,train,v3,clean,Pause for now,,,1.060
 PAUSE/PAUSE_s15_v3_noisy.wav,PAUSE,PAUSE,s15,train,v3,noisy,Pause for now,,,1.060
+PAUSE/PAUSE_s16_v1_clean.wav,PAUSE,PAUSE,s16,train,v1,clean,Pause,,,0.700
+PAUSE/PAUSE_s16_v1_noisy.wav,PAUSE,PAUSE,s16,train,v1,noisy,Pause,,,0.700
 PAUSE/PAUSE_s16_v2_clean.wav,PAUSE,PAUSE,s16,train,v2,clean,Pause audio,,,0.980
 PAUSE/PAUSE_s16_v2_noisy.wav,PAUSE,PAUSE,s16,train,v2,noisy,Pause audio,,,0.980
 PAUSE/PAUSE_s16_v3_clean.wav,PAUSE,PAUSE,s16,train,v3,clean,Pause for now,,,0.700
@@ -16715,6 +16259,8 @@ PAUSE/PAUSE_s17_v2_clean.wav,PAUSE,PAUSE,s17,train,v2,clean,Pause audio,,,1.120
 PAUSE/PAUSE_s17_v2_noisy.wav,PAUSE,PAUSE,s17,train,v2,noisy,Pause audio,,,1.120
 PAUSE/PAUSE_s17_v3_clean.wav,PAUSE,PAUSE,s17,train,v3,clean,Pause for now,,,1.000
 PAUSE/PAUSE_s17_v3_noisy.wav,PAUSE,PAUSE,s17,train,v3,noisy,Pause for now,,,1.000
+PAUSE/PAUSE_s18_v1_clean.wav,PAUSE,PAUSE,s18,train,v1,clean,Pause,,,1.680
+PAUSE/PAUSE_s18_v1_noisy.wav,PAUSE,PAUSE,s18,train,v1,noisy,Pause,,,1.680
 PAUSE/PAUSE_s18_v2_clean.wav,PAUSE,PAUSE,s18,train,v2,clean,Pause audio,,,1.680
 PAUSE/PAUSE_s18_v2_noisy.wav,PAUSE,PAUSE,s18,train,v2,noisy,Pause audio,,,1.680
 PAUSE/PAUSE_s19_v1_clean.wav,PAUSE,PAUSE,s19,train,v1,clean,Pause,,,1.240
@@ -16799,10 +16345,14 @@ PAUSE/PAUSE_s33_v2_clean.wav,PAUSE,PAUSE,s33,train,v2,clean,Pause audio,,,1.320
 PAUSE/PAUSE_s33_v2_noisy.wav,PAUSE,PAUSE,s33,train,v2,noisy,Pause audio,,,1.320
 PAUSE/PAUSE_s33_v3_clean.wav,PAUSE,PAUSE,s33,train,v3,clean,Pause for now,,,1.280
 PAUSE/PAUSE_s33_v3_noisy.wav,PAUSE,PAUSE,s33,train,v3,noisy,Pause for now,,,1.280
+PAUSE/PAUSE_s34_v1_clean.wav,PAUSE,PAUSE,s34,train,v1,clean,Pause,,,0.740
+PAUSE/PAUSE_s34_v1_noisy.wav,PAUSE,PAUSE,s34,train,v1,noisy,Pause,,,0.740
 PAUSE/PAUSE_s34_v2_clean.wav,PAUSE,PAUSE,s34,train,v2,clean,Pause audio,,,1.020
 PAUSE/PAUSE_s34_v2_noisy.wav,PAUSE,PAUSE,s34,train,v2,noisy,Pause audio,,,1.020
 PAUSE/PAUSE_s34_v3_clean.wav,PAUSE,PAUSE,s34,train,v3,clean,Pause for now,,,1.060
 PAUSE/PAUSE_s34_v3_noisy.wav,PAUSE,PAUSE,s34,train,v3,noisy,Pause for now,,,1.060
+PAUSE/PAUSE_s35_v1_clean.wav,PAUSE,PAUSE,s35,train,v1,clean,Pause,,,1.160
+PAUSE/PAUSE_s35_v1_noisy.wav,PAUSE,PAUSE,s35,train,v1,noisy,Pause,,,1.160
 PAUSE/PAUSE_s35_v2_clean.wav,PAUSE,PAUSE,s35,train,v2,clean,Pause audio,,,1.320
 PAUSE/PAUSE_s35_v2_noisy.wav,PAUSE,PAUSE,s35,train,v2,noisy,Pause audio,,,1.320
 PAUSE/PAUSE_s35_v3_clean.wav,PAUSE,PAUSE,s35,train,v3,clean,Pause for now,,,1.200
@@ -16851,8 +16401,12 @@ PAUSE/PAUSE_s43_v2_clean.wav,PAUSE,PAUSE,s43,train,v2,clean,Pause audio,,,1.500
 PAUSE/PAUSE_s43_v2_noisy.wav,PAUSE,PAUSE,s43,train,v2,noisy,Pause audio,,,1.500
 PAUSE/PAUSE_s43_v3_clean.wav,PAUSE,PAUSE,s43,train,v3,clean,Pause for now,,,1.220
 PAUSE/PAUSE_s43_v3_noisy.wav,PAUSE,PAUSE,s43,train,v3,noisy,Pause for now,,,1.220
+PAUSE/PAUSE_s44_v1_clean.wav,PAUSE,PAUSE,s44,train,v1,clean,Pause,,,0.780
+PAUSE/PAUSE_s44_v1_noisy.wav,PAUSE,PAUSE,s44,train,v1,noisy,Pause,,,0.780
 PAUSE/PAUSE_s44_v2_clean.wav,PAUSE,PAUSE,s44,train,v2,clean,Pause audio,,,1.220
 PAUSE/PAUSE_s44_v2_noisy.wav,PAUSE,PAUSE,s44,train,v2,noisy,Pause audio,,,1.220
+PAUSE/PAUSE_s44_v3_clean.wav,PAUSE,PAUSE,s44,train,v3,clean,Pause for now,,,0.980
+PAUSE/PAUSE_s44_v3_noisy.wav,PAUSE,PAUSE,s44,train,v3,noisy,Pause for now,,,0.980
 PAUSE/PAUSE_s45_v1_clean.wav,PAUSE,PAUSE,s45,train,v1,clean,Pause,,,0.740
 PAUSE/PAUSE_s45_v1_noisy.wav,PAUSE,PAUSE,s45,train,v1,noisy,Pause,,,0.740
 PAUSE/PAUSE_s45_v2_clean.wav,PAUSE,PAUSE,s45,train,v2,clean,Pause audio,,,1.380
@@ -16863,12 +16417,20 @@ PAUSE/PAUSE_s46_v2_clean.wav,PAUSE,PAUSE,s46,train,v2,clean,Pause audio,,,1.480
 PAUSE/PAUSE_s46_v2_noisy.wav,PAUSE,PAUSE,s46,train,v2,noisy,Pause audio,,,1.480
 PAUSE/PAUSE_s46_v3_clean.wav,PAUSE,PAUSE,s46,train,v3,clean,Pause for now,,,1.400
 PAUSE/PAUSE_s46_v3_noisy.wav,PAUSE,PAUSE,s46,train,v3,noisy,Pause for now,,,1.400
+PAUSE/PAUSE_s47_v1_clean.wav,PAUSE,PAUSE,s47,train,v1,clean,Pause,,,0.700
+PAUSE/PAUSE_s47_v1_noisy.wav,PAUSE,PAUSE,s47,train,v1,noisy,Pause,,,0.700
+PAUSE/PAUSE_s47_v2_clean.wav,PAUSE,PAUSE,s47,train,v2,clean,Pause audio,,,1.100
+PAUSE/PAUSE_s47_v2_noisy.wav,PAUSE,PAUSE,s47,train,v2,noisy,Pause audio,,,1.100
+PAUSE/PAUSE_s47_v3_clean.wav,PAUSE,PAUSE,s47,train,v3,clean,Pause for now,,,1.100
+PAUSE/PAUSE_s47_v3_noisy.wav,PAUSE,PAUSE,s47,train,v3,noisy,Pause for now,,,1.100
 PAUSE/PAUSE_s48_v1_clean.wav,PAUSE,PAUSE,s48,train,v1,clean,Pause,,,0.600
 PAUSE/PAUSE_s48_v1_noisy.wav,PAUSE,PAUSE,s48,train,v1,noisy,Pause,,,0.600
 PAUSE/PAUSE_s48_v2_clean.wav,PAUSE,PAUSE,s48,train,v2,clean,Pause audio,,,1.440
 PAUSE/PAUSE_s48_v2_noisy.wav,PAUSE,PAUSE,s48,train,v2,noisy,Pause audio,,,1.440
 PAUSE/PAUSE_s48_v3_clean.wav,PAUSE,PAUSE,s48,train,v3,clean,Pause for now,,,1.760
 PAUSE/PAUSE_s48_v3_noisy.wav,PAUSE,PAUSE,s48,train,v3,noisy,Pause for now,,,1.760
+PAUSE/PAUSE_s49_v1_clean.wav,PAUSE,PAUSE,s49,train,v1,clean,Pause,,,0.800
+PAUSE/PAUSE_s49_v1_noisy.wav,PAUSE,PAUSE,s49,train,v1,noisy,Pause,,,0.800
 PAUSE/PAUSE_s49_v2_clean.wav,PAUSE,PAUSE,s49,train,v2,clean,Pause audio,,,0.880
 PAUSE/PAUSE_s49_v2_noisy.wav,PAUSE,PAUSE,s49,train,v2,noisy,Pause audio,,,0.880
 PAUSE/PAUSE_s49_v3_clean.wav,PAUSE,PAUSE,s49,train,v3,clean,Pause for now,,,1.280
@@ -16889,10 +16451,14 @@ PAUSE/PAUSE_s52_v2_clean.wav,PAUSE,PAUSE,s52,train,v2,clean,Pause audio,,,1.180
 PAUSE/PAUSE_s52_v2_noisy.wav,PAUSE,PAUSE,s52,train,v2,noisy,Pause audio,,,1.180
 PAUSE/PAUSE_s52_v3_clean.wav,PAUSE,PAUSE,s52,train,v3,clean,Pause for now,,,1.540
 PAUSE/PAUSE_s52_v3_noisy.wav,PAUSE,PAUSE,s52,train,v3,noisy,Pause for now,,,1.540
+PAUSE/PAUSE_s53_v1_clean.wav,PAUSE,PAUSE,s53,train,v1,clean,Pause,,,0.860
+PAUSE/PAUSE_s53_v1_noisy.wav,PAUSE,PAUSE,s53,train,v1,noisy,Pause,,,0.860
 PAUSE/PAUSE_s53_v2_clean.wav,PAUSE,PAUSE,s53,train,v2,clean,Pause audio,,,1.220
 PAUSE/PAUSE_s53_v2_noisy.wav,PAUSE,PAUSE,s53,train,v2,noisy,Pause audio,,,1.220
 PAUSE/PAUSE_s53_v3_clean.wav,PAUSE,PAUSE,s53,train,v3,clean,Pause for now,,,1.220
 PAUSE/PAUSE_s53_v3_noisy.wav,PAUSE,PAUSE,s53,train,v3,noisy,Pause for now,,,1.220
+PAUSE/PAUSE_s54_v1_clean.wav,PAUSE,PAUSE,s54,train,v1,clean,Pause,,,1.200
+PAUSE/PAUSE_s54_v1_noisy.wav,PAUSE,PAUSE,s54,train,v1,noisy,Pause,,,1.200
 PAUSE/PAUSE_s54_v2_clean.wav,PAUSE,PAUSE,s54,train,v2,clean,Pause audio,,,1.720
 PAUSE/PAUSE_s54_v2_noisy.wav,PAUSE,PAUSE,s54,train,v2,noisy,Pause audio,,,1.720
 PAUSE/PAUSE_s54_v3_clean.wav,PAUSE,PAUSE,s54,train,v3,clean,Pause for now,,,1.040
@@ -16951,6 +16517,8 @@ PAUSE/PAUSE_s63_v2_clean.wav,PAUSE,PAUSE,s63,train,v2,clean,Pause audio,,,1.320
 PAUSE/PAUSE_s63_v2_noisy.wav,PAUSE,PAUSE,s63,train,v2,noisy,Pause audio,,,1.320
 PAUSE/PAUSE_s63_v3_clean.wav,PAUSE,PAUSE,s63,train,v3,clean,Pause for now,,,1.120
 PAUSE/PAUSE_s63_v3_noisy.wav,PAUSE,PAUSE,s63,train,v3,noisy,Pause for now,,,1.120
+PAUSE/PAUSE_s64_v1_clean.wav,PAUSE,PAUSE,s64,train,v1,clean,Pause,,,0.780
+PAUSE/PAUSE_s64_v1_noisy.wav,PAUSE,PAUSE,s64,train,v1,noisy,Pause,,,0.780
 PAUSE/PAUSE_s64_v2_clean.wav,PAUSE,PAUSE,s64,train,v2,clean,Pause audio,,,1.460
 PAUSE/PAUSE_s64_v2_noisy.wav,PAUSE,PAUSE,s64,train,v2,noisy,Pause audio,,,1.460
 PAUSE/PAUSE_s64_v3_clean.wav,PAUSE,PAUSE,s64,train,v3,clean,Pause for now,,,1.060
@@ -16977,8 +16545,16 @@ PAUSE/PAUSE_s68_v2_clean.wav,PAUSE,PAUSE,s68,train,v2,clean,Pause audio,,,1.600
 PAUSE/PAUSE_s68_v2_noisy.wav,PAUSE,PAUSE,s68,train,v2,noisy,Pause audio,,,1.600
 PAUSE/PAUSE_s68_v3_clean.wav,PAUSE,PAUSE,s68,train,v3,clean,Pause for now,,,1.120
 PAUSE/PAUSE_s68_v3_noisy.wav,PAUSE,PAUSE,s68,train,v3,noisy,Pause for now,,,1.120
+PAUSE/PAUSE_s69_v1_clean.wav,PAUSE,PAUSE,s69,train,v1,clean,Pause,,,0.800
+PAUSE/PAUSE_s69_v1_noisy.wav,PAUSE,PAUSE,s69,train,v1,noisy,Pause,,,0.800
+PAUSE/PAUSE_s69_v2_clean.wav,PAUSE,PAUSE,s69,train,v2,clean,Pause audio,,,1.120
+PAUSE/PAUSE_s69_v2_noisy.wav,PAUSE,PAUSE,s69,train,v2,noisy,Pause audio,,,1.120
 PAUSE/PAUSE_s69_v3_clean.wav,PAUSE,PAUSE,s69,train,v3,clean,Pause for now,,,0.880
 PAUSE/PAUSE_s69_v3_noisy.wav,PAUSE,PAUSE,s69,train,v3,noisy,Pause for now,,,0.880
+PAUSE/PAUSE_s70_v1_clean.wav,PAUSE,PAUSE,s70,train,v1,clean,Pause,,,0.680
+PAUSE/PAUSE_s70_v1_noisy.wav,PAUSE,PAUSE,s70,train,v1,noisy,Pause,,,0.680
+PAUSE/PAUSE_s70_v2_clean.wav,PAUSE,PAUSE,s70,train,v2,clean,Pause audio,,,2.360
+PAUSE/PAUSE_s70_v2_noisy.wav,PAUSE,PAUSE,s70,train,v2,noisy,Pause audio,,,2.360
 PAUSE/PAUSE_s70_v3_clean.wav,PAUSE,PAUSE,s70,train,v3,clean,Pause for now,,,1.640
 PAUSE/PAUSE_s70_v3_noisy.wav,PAUSE,PAUSE,s70,train,v3,noisy,Pause for now,,,1.640
 PAUSE/PAUSE_s71_v1_clean.wav,PAUSE,PAUSE,s71,train,v1,clean,Pause,,,0.840
@@ -17003,6 +16579,10 @@ PAUSE/PAUSE_s75_v1_clean.wav,PAUSE,PAUSE,s75,train,v1,clean,Pause,,,1.440
 PAUSE/PAUSE_s75_v1_noisy.wav,PAUSE,PAUSE,s75,train,v1,noisy,Pause,,,1.440
 PAUSE/PAUSE_s75_v2_clean.wav,PAUSE,PAUSE,s75,train,v2,clean,Pause audio,,,1.840
 PAUSE/PAUSE_s75_v2_noisy.wav,PAUSE,PAUSE,s75,train,v2,noisy,Pause audio,,,1.840
+PAUSE/PAUSE_s75_v3_clean.wav,PAUSE,PAUSE,s75,train,v3,clean,Pause for now,,,1.320
+PAUSE/PAUSE_s75_v3_noisy.wav,PAUSE,PAUSE,s75,train,v3,noisy,Pause for now,,,1.320
+PAUSE/PAUSE_s76_v1_clean.wav,PAUSE,PAUSE,s76,train,v1,clean,Pause,,,0.920
+PAUSE/PAUSE_s76_v1_noisy.wav,PAUSE,PAUSE,s76,train,v1,noisy,Pause,,,0.920
 PAUSE/PAUSE_s76_v3_clean.wav,PAUSE,PAUSE,s76,train,v3,clean,Pause for now,,,1.000
 PAUSE/PAUSE_s76_v3_noisy.wav,PAUSE,PAUSE,s76,train,v3,noisy,Pause for now,,,1.000
 PAUSE/PAUSE_s77_v1_clean.wav,PAUSE,PAUSE,s77,train,v1,clean,Pause,,,0.840
@@ -17019,6 +16599,10 @@ PAUSE/PAUSE_s79_v1_clean.wav,PAUSE,PAUSE,s79,train,v1,clean,Pause,,,0.680
 PAUSE/PAUSE_s79_v1_noisy.wav,PAUSE,PAUSE,s79,train,v1,noisy,Pause,,,0.680
 PAUSE/PAUSE_s79_v2_clean.wav,PAUSE,PAUSE,s79,train,v2,clean,Pause audio,,,1.120
 PAUSE/PAUSE_s79_v2_noisy.wav,PAUSE,PAUSE,s79,train,v2,noisy,Pause audio,,,1.120
+PAUSE/PAUSE_s79_v3_clean.wav,PAUSE,PAUSE,s79,train,v3,clean,Pause for now,,,1.280
+PAUSE/PAUSE_s79_v3_noisy.wav,PAUSE,PAUSE,s79,train,v3,noisy,Pause for now,,,1.280
+PAUSE/PAUSE_s80_v1_clean.wav,PAUSE,PAUSE,s80,train,v1,clean,Pause,,,0.840
+PAUSE/PAUSE_s80_v1_noisy.wav,PAUSE,PAUSE,s80,train,v1,noisy,Pause,,,0.840
 PAUSE/PAUSE_s80_v2_clean.wav,PAUSE,PAUSE,s80,train,v2,clean,Pause audio,,,1.000
 PAUSE/PAUSE_s80_v2_noisy.wav,PAUSE,PAUSE,s80,train,v2,noisy,Pause audio,,,1.000
 PAUSE/PAUSE_s80_v3_clean.wav,PAUSE,PAUSE,s80,train,v3,clean,Pause for now,,,0.960
@@ -17033,6 +16617,10 @@ PAUSE/PAUSE_s82_v2_clean.wav,PAUSE,PAUSE,s82,val,v2,clean,Pause audio,,,0.980
 PAUSE/PAUSE_s82_v2_noisy.wav,PAUSE,PAUSE,s82,val,v2,noisy,Pause audio,,,0.980
 PAUSE/PAUSE_s82_v3_clean.wav,PAUSE,PAUSE,s82,val,v3,clean,Pause for now,,,1.060
 PAUSE/PAUSE_s82_v3_noisy.wav,PAUSE,PAUSE,s82,val,v3,noisy,Pause for now,,,1.060
+PAUSE/PAUSE_s83_v1_clean.wav,PAUSE,PAUSE,s83,val,v1,clean,Pause,,,0.840
+PAUSE/PAUSE_s83_v1_noisy.wav,PAUSE,PAUSE,s83,val,v1,noisy,Pause,,,0.840
+PAUSE/PAUSE_s83_v2_clean.wav,PAUSE,PAUSE,s83,val,v2,clean,Pause audio,,,1.640
+PAUSE/PAUSE_s83_v2_noisy.wav,PAUSE,PAUSE,s83,val,v2,noisy,Pause audio,,,1.640
 PAUSE/PAUSE_s83_v3_clean.wav,PAUSE,PAUSE,s83,val,v3,clean,Pause for now,,,1.400
 PAUSE/PAUSE_s83_v3_noisy.wav,PAUSE,PAUSE,s83,val,v3,noisy,Pause for now,,,1.400
 PAUSE/PAUSE_s84_v1_clean.wav,PAUSE,PAUSE,s84,val,v1,clean,Pause,,,1.100
@@ -17071,12 +16659,16 @@ PAUSE/PAUSE_s89_v3_clean.wav,PAUSE,PAUSE,s89,val,v3,clean,Pause for now,,,0.860
 PAUSE/PAUSE_s89_v3_noisy.wav,PAUSE,PAUSE,s89,val,v3,noisy,Pause for now,,,0.860
 PAUSE/PAUSE_s90_v1_clean.wav,PAUSE,PAUSE,s90,val,v1,clean,Pause,,,0.480
 PAUSE/PAUSE_s90_v1_noisy.wav,PAUSE,PAUSE,s90,val,v1,noisy,Pause,,,0.480
+PAUSE/PAUSE_s90_v2_clean.wav,PAUSE,PAUSE,s90,val,v2,clean,Pause audio,,,0.840
+PAUSE/PAUSE_s90_v2_noisy.wav,PAUSE,PAUSE,s90,val,v2,noisy,Pause audio,,,0.840
 PAUSE/PAUSE_s90_v3_clean.wav,PAUSE,PAUSE,s90,val,v3,clean,Pause for now,,,1.120
 PAUSE/PAUSE_s90_v3_noisy.wav,PAUSE,PAUSE,s90,val,v3,noisy,Pause for now,,,1.120
 PAUSE/PAUSE_s91_v2_clean.wav,PAUSE,PAUSE,s91,test,v2,clean,Pause audio,,,1.160
 PAUSE/PAUSE_s91_v2_noisy.wav,PAUSE,PAUSE,s91,test,v2,noisy,Pause audio,,,1.160
 PAUSE/PAUSE_s91_v3_clean.wav,PAUSE,PAUSE,s91,test,v3,clean,Pause for now,,,1.600
 PAUSE/PAUSE_s91_v3_noisy.wav,PAUSE,PAUSE,s91,test,v3,noisy,Pause for now,,,1.600
+PAUSE/PAUSE_s92_v2_clean.wav,PAUSE,PAUSE,s92,test,v2,clean,Pause audio,,,1.920
+PAUSE/PAUSE_s92_v2_noisy.wav,PAUSE,PAUSE,s92,test,v2,noisy,Pause audio,,,1.920
 PAUSE/PAUSE_s92_v3_clean.wav,PAUSE,PAUSE,s92,test,v3,clean,Pause for now,,,1.160
 PAUSE/PAUSE_s92_v3_noisy.wav,PAUSE,PAUSE,s92,test,v3,noisy,Pause for now,,,1.160
 PAUSE/PAUSE_s93_v2_clean.wav,PAUSE,PAUSE,s93,test,v2,clean,Pause audio,,,1.560
@@ -17121,6 +16713,8 @@ PAUSE/PAUSE_s100_v2_clean.wav,PAUSE,PAUSE,s100,test,v2,clean,Pause audio,,,1.140
 PAUSE/PAUSE_s100_v2_noisy.wav,PAUSE,PAUSE,s100,test,v2,noisy,Pause audio,,,1.140
 PAUSE/PAUSE_s100_v3_clean.wav,PAUSE,PAUSE,s100,test,v3,clean,Pause for now,,,1.180
 PAUSE/PAUSE_s100_v3_noisy.wav,PAUSE,PAUSE,s100,test,v3,noisy,Pause for now,,,1.180
+STOP/STOP_s1_v1_clean.wav,STOP,STOP,s1,train,v1,clean,Stop,,,1.320
+STOP/STOP_s1_v1_noisy.wav,STOP,STOP,s1,train,v1,noisy,Stop,,,1.320
 STOP/STOP_s1_v2_clean.wav,STOP,STOP,s1,train,v2,clean,Stop playback,,,1.240
 STOP/STOP_s1_v2_noisy.wav,STOP,STOP,s1,train,v2,noisy,Stop playback,,,1.240
 STOP/STOP_s1_v3_clean.wav,STOP,STOP,s1,train,v3,clean,Stop playing,,,1.160
@@ -17133,6 +16727,8 @@ STOP/STOP_s2_v3_clean.wav,STOP,STOP,s2,train,v3,clean,Stop playing,,,1.380
 STOP/STOP_s2_v3_noisy.wav,STOP,STOP,s2,train,v3,noisy,Stop playing,,,1.380
 STOP/STOP_s3_v2_clean.wav,STOP,STOP,s3,train,v2,clean,Stop playback,,,1.100
 STOP/STOP_s3_v2_noisy.wav,STOP,STOP,s3,train,v2,noisy,Stop playback,,,1.100
+STOP/STOP_s3_v3_clean.wav,STOP,STOP,s3,train,v3,clean,Stop playing,,,0.940
+STOP/STOP_s3_v3_noisy.wav,STOP,STOP,s3,train,v3,noisy,Stop playing,,,0.940
 STOP/STOP_s4_v2_clean.wav,STOP,STOP,s4,train,v2,clean,Stop playback,,,1.400
 STOP/STOP_s4_v2_noisy.wav,STOP,STOP,s4,train,v2,noisy,Stop playback,,,1.400
 STOP/STOP_s4_v3_clean.wav,STOP,STOP,s4,train,v3,clean,Stop playing,,,2.280
@@ -17143,6 +16739,8 @@ STOP/STOP_s5_v2_clean.wav,STOP,STOP,s5,train,v2,clean,Stop playback,,,1.640
 STOP/STOP_s5_v2_noisy.wav,STOP,STOP,s5,train,v2,noisy,Stop playback,,,1.640
 STOP/STOP_s5_v3_clean.wav,STOP,STOP,s5,train,v3,clean,Stop playing,,,0.920
 STOP/STOP_s5_v3_noisy.wav,STOP,STOP,s5,train,v3,noisy,Stop playing,,,0.920
+STOP/STOP_s6_v1_clean.wav,STOP,STOP,s6,train,v1,clean,Stop,,,0.760
+STOP/STOP_s6_v1_noisy.wav,STOP,STOP,s6,train,v1,noisy,Stop,,,0.760
 STOP/STOP_s6_v2_clean.wav,STOP,STOP,s6,train,v2,clean,Stop playback,,,1.520
 STOP/STOP_s6_v2_noisy.wav,STOP,STOP,s6,train,v2,noisy,Stop playback,,,1.520
 STOP/STOP_s6_v3_clean.wav,STOP,STOP,s6,train,v3,clean,Stop playing,,,1.160
@@ -17177,6 +16775,8 @@ STOP/STOP_s12_v1_clean.wav,STOP,STOP,s12,train,v1,clean,Stop,,,0.580
 STOP/STOP_s12_v1_noisy.wav,STOP,STOP,s12,train,v1,noisy,Stop,,,0.580
 STOP/STOP_s12_v2_clean.wav,STOP,STOP,s12,train,v2,clean,Stop playback,,,1.500
 STOP/STOP_s12_v2_noisy.wav,STOP,STOP,s12,train,v2,noisy,Stop playback,,,1.500
+STOP/STOP_s12_v3_clean.wav,STOP,STOP,s12,train,v3,clean,Stop playing,,,1.140
+STOP/STOP_s12_v3_noisy.wav,STOP,STOP,s12,train,v3,noisy,Stop playing,,,1.140
 STOP/STOP_s13_v2_clean.wav,STOP,STOP,s13,train,v2,clean,Stop playback,,,1.280
 STOP/STOP_s13_v2_noisy.wav,STOP,STOP,s13,train,v2,noisy,Stop playback,,,1.280
 STOP/STOP_s13_v3_clean.wav,STOP,STOP,s13,train,v3,clean,Stop playing,,,1.600
@@ -17187,6 +16787,8 @@ STOP/STOP_s14_v2_clean.wav,STOP,STOP,s14,train,v2,clean,Stop playback,,,1.880
 STOP/STOP_s14_v2_noisy.wav,STOP,STOP,s14,train,v2,noisy,Stop playback,,,1.880
 STOP/STOP_s14_v3_clean.wav,STOP,STOP,s14,train,v3,clean,Stop playing,,,1.320
 STOP/STOP_s14_v3_noisy.wav,STOP,STOP,s14,train,v3,noisy,Stop playing,,,1.320
+STOP/STOP_s15_v1_clean.wav,STOP,STOP,s15,train,v1,clean,Stop,,,0.500
+STOP/STOP_s15_v1_noisy.wav,STOP,STOP,s15,train,v1,noisy,Stop,,,0.500
 STOP/STOP_s15_v2_clean.wav,STOP,STOP,s15,train,v2,clean,Stop playback,,,1.340
 STOP/STOP_s15_v2_noisy.wav,STOP,STOP,s15,train,v2,noisy,Stop playback,,,1.340
 STOP/STOP_s15_v3_clean.wav,STOP,STOP,s15,train,v3,clean,Stop playing,,,1.460
@@ -17219,6 +16821,8 @@ STOP/STOP_s20_v2_clean.wav,STOP,STOP,s20,train,v2,clean,Stop playback,,,1.080
 STOP/STOP_s20_v2_noisy.wav,STOP,STOP,s20,train,v2,noisy,Stop playback,,,1.080
 STOP/STOP_s20_v3_clean.wav,STOP,STOP,s20,train,v3,clean,Stop playing,,,1.080
 STOP/STOP_s20_v3_noisy.wav,STOP,STOP,s20,train,v3,noisy,Stop playing,,,1.080
+STOP/STOP_s21_v1_clean.wav,STOP,STOP,s21,train,v1,clean,Stop,,,0.820
+STOP/STOP_s21_v1_noisy.wav,STOP,STOP,s21,train,v1,noisy,Stop,,,0.820
 STOP/STOP_s21_v2_clean.wav,STOP,STOP,s21,train,v2,clean,Stop playback,,,1.500
 STOP/STOP_s21_v2_noisy.wav,STOP,STOP,s21,train,v2,noisy,Stop playback,,,1.500
 STOP/STOP_s21_v3_clean.wav,STOP,STOP,s21,train,v3,clean,Stop playing,,,1.100
@@ -17241,6 +16845,8 @@ STOP/STOP_s24_v3_clean.wav,STOP,STOP,s24,train,v3,clean,Stop playing,,,1.160
 STOP/STOP_s24_v3_noisy.wav,STOP,STOP,s24,train,v3,noisy,Stop playing,,,1.160
 STOP/STOP_s25_v2_clean.wav,STOP,STOP,s25,train,v2,clean,Stop playback,,,1.200
 STOP/STOP_s25_v2_noisy.wav,STOP,STOP,s25,train,v2,noisy,Stop playback,,,1.200
+STOP/STOP_s25_v3_clean.wav,STOP,STOP,s25,train,v3,clean,Stop playing,,,0.960
+STOP/STOP_s25_v3_noisy.wav,STOP,STOP,s25,train,v3,noisy,Stop playing,,,0.960
 STOP/STOP_s26_v1_clean.wav,STOP,STOP,s26,train,v1,clean,Stop,,,0.960
 STOP/STOP_s26_v1_noisy.wav,STOP,STOP,s26,train,v1,noisy,Stop,,,0.960
 STOP/STOP_s26_v2_clean.wav,STOP,STOP,s26,train,v2,clean,Stop playback,,,1.360
@@ -17257,10 +16863,14 @@ STOP/STOP_s28_v2_clean.wav,STOP,STOP,s28,train,v2,clean,Stop playback,,,1.300
 STOP/STOP_s28_v2_noisy.wav,STOP,STOP,s28,train,v2,noisy,Stop playback,,,1.300
 STOP/STOP_s28_v3_clean.wav,STOP,STOP,s28,train,v3,clean,Stop playing,,,1.380
 STOP/STOP_s28_v3_noisy.wav,STOP,STOP,s28,train,v3,noisy,Stop playing,,,1.380
+STOP/STOP_s29_v1_clean.wav,STOP,STOP,s29,train,v1,clean,Stop,,,0.760
+STOP/STOP_s29_v1_noisy.wav,STOP,STOP,s29,train,v1,noisy,Stop,,,0.760
 STOP/STOP_s29_v2_clean.wav,STOP,STOP,s29,train,v2,clean,Stop playback,,,1.240
 STOP/STOP_s29_v2_noisy.wav,STOP,STOP,s29,train,v2,noisy,Stop playback,,,1.240
 STOP/STOP_s29_v3_clean.wav,STOP,STOP,s29,train,v3,clean,Stop playing,,,0.960
 STOP/STOP_s29_v3_noisy.wav,STOP,STOP,s29,train,v3,noisy,Stop playing,,,0.960
+STOP/STOP_s30_v1_clean.wav,STOP,STOP,s30,train,v1,clean,Stop,,,0.680
+STOP/STOP_s30_v1_noisy.wav,STOP,STOP,s30,train,v1,noisy,Stop,,,0.680
 STOP/STOP_s30_v2_clean.wav,STOP,STOP,s30,train,v2,clean,Stop playback,,,1.440
 STOP/STOP_s30_v2_noisy.wav,STOP,STOP,s30,train,v2,noisy,Stop playback,,,1.440
 STOP/STOP_s30_v3_clean.wav,STOP,STOP,s30,train,v3,clean,Stop playing,,,1.360
@@ -17293,6 +16903,8 @@ STOP/STOP_s35_v2_clean.wav,STOP,STOP,s35,train,v2,clean,Stop playback,,,1.360
 STOP/STOP_s35_v2_noisy.wav,STOP,STOP,s35,train,v2,noisy,Stop playback,,,1.360
 STOP/STOP_s35_v3_clean.wav,STOP,STOP,s35,train,v3,clean,Stop playing,,,1.280
 STOP/STOP_s35_v3_noisy.wav,STOP,STOP,s35,train,v3,noisy,Stop playing,,,1.280
+STOP/STOP_s36_v1_clean.wav,STOP,STOP,s36,train,v1,clean,Stop,,,0.700
+STOP/STOP_s36_v1_noisy.wav,STOP,STOP,s36,train,v1,noisy,Stop,,,0.700
 STOP/STOP_s36_v2_clean.wav,STOP,STOP,s36,train,v2,clean,Stop playback,,,1.500
 STOP/STOP_s36_v2_noisy.wav,STOP,STOP,s36,train,v2,noisy,Stop playback,,,1.500
 STOP/STOP_s36_v3_clean.wav,STOP,STOP,s36,train,v3,clean,Stop playing,,,1.380
@@ -17303,10 +16915,14 @@ STOP/STOP_s37_v2_clean.wav,STOP,STOP,s37,train,v2,clean,Stop playback,,,1.280
 STOP/STOP_s37_v2_noisy.wav,STOP,STOP,s37,train,v2,noisy,Stop playback,,,1.280
 STOP/STOP_s37_v3_clean.wav,STOP,STOP,s37,train,v3,clean,Stop playing,,,1.200
 STOP/STOP_s37_v3_noisy.wav,STOP,STOP,s37,train,v3,noisy,Stop playing,,,1.200
+STOP/STOP_s38_v1_clean.wav,STOP,STOP,s38,train,v1,clean,Stop,,,1.580
+STOP/STOP_s38_v1_noisy.wav,STOP,STOP,s38,train,v1,noisy,Stop,,,1.580
 STOP/STOP_s38_v2_clean.wav,STOP,STOP,s38,train,v2,clean,Stop playback,,,1.220
 STOP/STOP_s38_v2_noisy.wav,STOP,STOP,s38,train,v2,noisy,Stop playback,,,1.220
 STOP/STOP_s38_v3_clean.wav,STOP,STOP,s38,train,v3,clean,Stop playing,,,1.420
 STOP/STOP_s38_v3_noisy.wav,STOP,STOP,s38,train,v3,noisy,Stop playing,,,1.420
+STOP/STOP_s39_v2_clean.wav,STOP,STOP,s39,train,v2,clean,Stop playback,,,1.200
+STOP/STOP_s39_v2_noisy.wav,STOP,STOP,s39,train,v2,noisy,Stop playback,,,1.200
 STOP/STOP_s39_v3_clean.wav,STOP,STOP,s39,train,v3,clean,Stop playing,,,1.200
 STOP/STOP_s39_v3_noisy.wav,STOP,STOP,s39,train,v3,noisy,Stop playing,,,1.200
 STOP/STOP_s40_v2_clean.wav,STOP,STOP,s40,train,v2,clean,Stop playback,,,1.760
@@ -17353,10 +16969,14 @@ STOP/STOP_s47_v2_clean.wav,STOP,STOP,s47,train,v2,clean,Stop playback,,,0.980
 STOP/STOP_s47_v2_noisy.wav,STOP,STOP,s47,train,v2,noisy,Stop playback,,,0.980
 STOP/STOP_s47_v3_clean.wav,STOP,STOP,s47,train,v3,clean,Stop playing,,,1.460
 STOP/STOP_s47_v3_noisy.wav,STOP,STOP,s47,train,v3,noisy,Stop playing,,,1.460
+STOP/STOP_s48_v1_clean.wav,STOP,STOP,s48,train,v1,clean,Stop,,,0.840
+STOP/STOP_s48_v1_noisy.wav,STOP,STOP,s48,train,v1,noisy,Stop,,,0.840
 STOP/STOP_s48_v2_clean.wav,STOP,STOP,s48,train,v2,clean,Stop playback,,,1.840
 STOP/STOP_s48_v2_noisy.wav,STOP,STOP,s48,train,v2,noisy,Stop playback,,,1.840
 STOP/STOP_s48_v3_clean.wav,STOP,STOP,s48,train,v3,clean,Stop playing,,,1.240
 STOP/STOP_s48_v3_noisy.wav,STOP,STOP,s48,train,v3,noisy,Stop playing,,,1.240
+STOP/STOP_s49_v1_clean.wav,STOP,STOP,s49,train,v1,clean,Stop,,,0.680
+STOP/STOP_s49_v1_noisy.wav,STOP,STOP,s49,train,v1,noisy,Stop,,,0.680
 STOP/STOP_s49_v2_clean.wav,STOP,STOP,s49,train,v2,clean,Stop playback,,,1.240
 STOP/STOP_s49_v2_noisy.wav,STOP,STOP,s49,train,v2,noisy,Stop playback,,,1.240
 STOP/STOP_s49_v3_clean.wav,STOP,STOP,s49,train,v3,clean,Stop playing,,,1.360
@@ -17385,6 +17005,8 @@ STOP/STOP_s53_v2_clean.wav,STOP,STOP,s53,train,v2,clean,Stop playback,,,1.220
 STOP/STOP_s53_v2_noisy.wav,STOP,STOP,s53,train,v2,noisy,Stop playback,,,1.220
 STOP/STOP_s53_v3_clean.wav,STOP,STOP,s53,train,v3,clean,Stop playing,,,1.180
 STOP/STOP_s53_v3_noisy.wav,STOP,STOP,s53,train,v3,noisy,Stop playing,,,1.180
+STOP/STOP_s54_v1_clean.wav,STOP,STOP,s54,train,v1,clean,Stop,,,0.680
+STOP/STOP_s54_v1_noisy.wav,STOP,STOP,s54,train,v1,noisy,Stop,,,0.680
 STOP/STOP_s54_v2_clean.wav,STOP,STOP,s54,train,v2,clean,Stop playback,,,1.480
 STOP/STOP_s54_v2_noisy.wav,STOP,STOP,s54,train,v2,noisy,Stop playback,,,1.480
 STOP/STOP_s54_v3_clean.wav,STOP,STOP,s54,train,v3,clean,Stop playing,,,1.280
@@ -17417,12 +17039,18 @@ STOP/STOP_s59_v1_clean.wav,STOP,STOP,s59,train,v1,clean,Stop,,,0.860
 STOP/STOP_s59_v1_noisy.wav,STOP,STOP,s59,train,v1,noisy,Stop,,,0.860
 STOP/STOP_s59_v2_clean.wav,STOP,STOP,s59,train,v2,clean,Stop playback,,,1.260
 STOP/STOP_s59_v2_noisy.wav,STOP,STOP,s59,train,v2,noisy,Stop playback,,,1.260
+STOP/STOP_s60_v2_clean.wav,STOP,STOP,s60,train,v2,clean,Stop playback,,,1.060
+STOP/STOP_s60_v2_noisy.wav,STOP,STOP,s60,train,v2,noisy,Stop playback,,,1.060
 STOP/STOP_s60_v3_clean.wav,STOP,STOP,s60,train,v3,clean,Stop playing,,,1.780
 STOP/STOP_s60_v3_noisy.wav,STOP,STOP,s60,train,v3,noisy,Stop playing,,,1.780
+STOP/STOP_s61_v1_clean.wav,STOP,STOP,s61,train,v1,clean,Stop,,,0.640
+STOP/STOP_s61_v1_noisy.wav,STOP,STOP,s61,train,v1,noisy,Stop,,,0.640
 STOP/STOP_s61_v2_clean.wav,STOP,STOP,s61,train,v2,clean,Stop playback,,,1.240
 STOP/STOP_s61_v2_noisy.wav,STOP,STOP,s61,train,v2,noisy,Stop playback,,,1.240
 STOP/STOP_s61_v3_clean.wav,STOP,STOP,s61,train,v3,clean,Stop playing,,,1.240
 STOP/STOP_s61_v3_noisy.wav,STOP,STOP,s61,train,v3,noisy,Stop playing,,,1.240
+STOP/STOP_s62_v1_clean.wav,STOP,STOP,s62,train,v1,clean,Stop,,,0.740
+STOP/STOP_s62_v1_noisy.wav,STOP,STOP,s62,train,v1,noisy,Stop,,,0.740
 STOP/STOP_s62_v2_clean.wav,STOP,STOP,s62,train,v2,clean,Stop playback,,,2.140
 STOP/STOP_s62_v2_noisy.wav,STOP,STOP,s62,train,v2,noisy,Stop playback,,,2.140
 STOP/STOP_s62_v3_clean.wav,STOP,STOP,s62,train,v3,clean,Stop playing,,,1.700
@@ -17447,6 +17075,10 @@ STOP/STOP_s65_v3_clean.wav,STOP,STOP,s65,train,v3,clean,Stop playing,,,0.960
 STOP/STOP_s65_v3_noisy.wav,STOP,STOP,s65,train,v3,noisy,Stop playing,,,0.960
 STOP/STOP_s66_v1_clean.wav,STOP,STOP,s66,train,v1,clean,Stop,,,0.620
 STOP/STOP_s66_v1_noisy.wav,STOP,STOP,s66,train,v1,noisy,Stop,,,0.620
+STOP/STOP_s66_v2_clean.wav,STOP,STOP,s66,train,v2,clean,Stop playback,,,1.020
+STOP/STOP_s66_v2_noisy.wav,STOP,STOP,s66,train,v2,noisy,Stop playback,,,1.020
+STOP/STOP_s66_v3_clean.wav,STOP,STOP,s66,train,v3,clean,Stop playing,,,0.940
+STOP/STOP_s66_v3_noisy.wav,STOP,STOP,s66,train,v3,noisy,Stop playing,,,0.940
 STOP/STOP_s67_v1_clean.wav,STOP,STOP,s67,train,v1,clean,Stop,,,0.900
 STOP/STOP_s67_v1_noisy.wav,STOP,STOP,s67,train,v1,noisy,Stop,,,0.900
 STOP/STOP_s67_v2_clean.wav,STOP,STOP,s67,train,v2,clean,Stop playback,,,1.660
@@ -17459,6 +17091,8 @@ STOP/STOP_s68_v2_clean.wav,STOP,STOP,s68,train,v2,clean,Stop playback,,,1.480
 STOP/STOP_s68_v2_noisy.wav,STOP,STOP,s68,train,v2,noisy,Stop playback,,,1.480
 STOP/STOP_s68_v3_clean.wav,STOP,STOP,s68,train,v3,clean,Stop playing,,,1.200
 STOP/STOP_s68_v3_noisy.wav,STOP,STOP,s68,train,v3,noisy,Stop playing,,,1.200
+STOP/STOP_s69_v1_clean.wav,STOP,STOP,s69,train,v1,clean,Stop,,,2.600
+STOP/STOP_s69_v1_noisy.wav,STOP,STOP,s69,train,v1,noisy,Stop,,,2.600
 STOP/STOP_s69_v2_clean.wav,STOP,STOP,s69,train,v2,clean,Stop playback,,,1.040
 STOP/STOP_s69_v2_noisy.wav,STOP,STOP,s69,train,v2,noisy,Stop playback,,,1.040
 STOP/STOP_s69_v3_clean.wav,STOP,STOP,s69,train,v3,clean,Stop playing,,,0.920
@@ -17469,6 +17103,8 @@ STOP/STOP_s70_v2_clean.wav,STOP,STOP,s70,train,v2,clean,Stop playback,,,1.240
 STOP/STOP_s70_v2_noisy.wav,STOP,STOP,s70,train,v2,noisy,Stop playback,,,1.240
 STOP/STOP_s70_v3_clean.wav,STOP,STOP,s70,train,v3,clean,Stop playing,,,1.360
 STOP/STOP_s70_v3_noisy.wav,STOP,STOP,s70,train,v3,noisy,Stop playing,,,1.360
+STOP/STOP_s71_v1_clean.wav,STOP,STOP,s71,train,v1,clean,Stop,,,0.720
+STOP/STOP_s71_v1_noisy.wav,STOP,STOP,s71,train,v1,noisy,Stop,,,0.720
 STOP/STOP_s71_v2_clean.wav,STOP,STOP,s71,train,v2,clean,Stop playback,,,1.080
 STOP/STOP_s71_v2_noisy.wav,STOP,STOP,s71,train,v2,noisy,Stop playback,,,1.080
 STOP/STOP_s71_v3_clean.wav,STOP,STOP,s71,train,v3,clean,Stop playing,,,1.120
@@ -17501,8 +17137,14 @@ STOP/STOP_s76_v3_clean.wav,STOP,STOP,s76,train,v3,clean,Stop playing,,,1.200
 STOP/STOP_s76_v3_noisy.wav,STOP,STOP,s76,train,v3,noisy,Stop playing,,,1.200
 STOP/STOP_s77_v1_clean.wav,STOP,STOP,s77,train,v1,clean,Stop,,,0.800
 STOP/STOP_s77_v1_noisy.wav,STOP,STOP,s77,train,v1,noisy,Stop,,,0.800
+STOP/STOP_s77_v2_clean.wav,STOP,STOP,s77,train,v2,clean,Stop playback,,,1.400
+STOP/STOP_s77_v2_noisy.wav,STOP,STOP,s77,train,v2,noisy,Stop playback,,,1.400
 STOP/STOP_s77_v3_clean.wav,STOP,STOP,s77,train,v3,clean,Stop playing,,,1.080
 STOP/STOP_s77_v3_noisy.wav,STOP,STOP,s77,train,v3,noisy,Stop playing,,,1.080
+STOP/STOP_s78_v1_clean.wav,STOP,STOP,s78,train,v1,clean,Stop,,,0.760
+STOP/STOP_s78_v1_noisy.wav,STOP,STOP,s78,train,v1,noisy,Stop,,,0.760
+STOP/STOP_s78_v2_clean.wav,STOP,STOP,s78,train,v2,clean,Stop playback,,,1.160
+STOP/STOP_s78_v2_noisy.wav,STOP,STOP,s78,train,v2,noisy,Stop playback,,,1.160
 STOP/STOP_s78_v3_clean.wav,STOP,STOP,s78,train,v3,clean,Stop playing,,,1.240
 STOP/STOP_s78_v3_noisy.wav,STOP,STOP,s78,train,v3,noisy,Stop playing,,,1.240
 STOP/STOP_s79_v1_clean.wav,STOP,STOP,s79,train,v1,clean,Stop,,,0.680
@@ -17623,3 +17265,555 @@ STOP/STOP_s100_v2_clean.wav,STOP,STOP,s100,test,v2,clean,Stop playback,,,1.380
 STOP/STOP_s100_v2_noisy.wav,STOP,STOP,s100,test,v2,noisy,Stop playback,,,1.380
 STOP/STOP_s100_v3_clean.wav,STOP,STOP,s100,test,v3,clean,Stop playing,,,1.740
 STOP/STOP_s100_v3_noisy.wav,STOP,STOP,s100,test,v3,noisy,Stop playing,,,1.740
+CALL/CALL_s1_v2_clean.wav,CALL,CALL,s1,train,v2,clean,Make a call,,,0.920
+CALL/CALL_s1_v2_noisy.wav,CALL,CALL,s1,train,v2,noisy,Make a call,,,0.920
+CALL/CALL_s1_v3_clean.wav,CALL,CALL,s1,train,v3,clean,Make a phone call,,,1.160
+CALL/CALL_s1_v3_noisy.wav,CALL,CALL,s1,train,v3,noisy,Make a phone call,,,1.160
+CALL/CALL_s2_v2_clean.wav,CALL,CALL,s2,train,v2,clean,Make a call,,,1.260
+CALL/CALL_s2_v2_noisy.wav,CALL,CALL,s2,train,v2,noisy,Make a call,,,1.260
+CALL/CALL_s2_v3_clean.wav,CALL,CALL,s2,train,v3,clean,Make a phone call,,,1.060
+CALL/CALL_s2_v3_noisy.wav,CALL,CALL,s2,train,v3,noisy,Make a phone call,,,1.060
+CALL/CALL_s3_v1_clean.wav,CALL,CALL,s3,train,v1,clean,Call,,,0.620
+CALL/CALL_s3_v1_noisy.wav,CALL,CALL,s3,train,v1,noisy,Call,,,0.620
+CALL/CALL_s3_v2_clean.wav,CALL,CALL,s3,train,v2,clean,Make a call,,,1.460
+CALL/CALL_s3_v2_noisy.wav,CALL,CALL,s3,train,v2,noisy,Make a call,,,1.460
+CALL/CALL_s3_v3_clean.wav,CALL,CALL,s3,train,v3,clean,Make a phone call,,,0.940
+CALL/CALL_s3_v3_noisy.wav,CALL,CALL,s3,train,v3,noisy,Make a phone call,,,0.940
+CALL/CALL_s4_v2_clean.wav,CALL,CALL,s4,train,v2,clean,Make a call,,,1.840
+CALL/CALL_s4_v2_noisy.wav,CALL,CALL,s4,train,v2,noisy,Make a call,,,1.840
+CALL/CALL_s4_v3_clean.wav,CALL,CALL,s4,train,v3,clean,Make a phone call,,,1.360
+CALL/CALL_s4_v3_noisy.wav,CALL,CALL,s4,train,v3,noisy,Make a phone call,,,1.360
+CALL/CALL_s5_v1_clean.wav,CALL,CALL,s5,train,v1,clean,Call,,,0.800
+CALL/CALL_s5_v1_noisy.wav,CALL,CALL,s5,train,v1,noisy,Call,,,0.800
+CALL/CALL_s5_v2_clean.wav,CALL,CALL,s5,train,v2,clean,Make a call,,,0.880
+CALL/CALL_s5_v2_noisy.wav,CALL,CALL,s5,train,v2,noisy,Make a call,,,0.880
+CALL/CALL_s5_v3_clean.wav,CALL,CALL,s5,train,v3,clean,Make a phone call,,,0.920
+CALL/CALL_s5_v3_noisy.wav,CALL,CALL,s5,train,v3,noisy,Make a phone call,,,0.920
+CALL/CALL_s6_v2_clean.wav,CALL,CALL,s6,train,v2,clean,Make a call,,,1.280
+CALL/CALL_s6_v2_noisy.wav,CALL,CALL,s6,train,v2,noisy,Make a call,,,1.280
+CALL/CALL_s6_v3_clean.wav,CALL,CALL,s6,train,v3,clean,Make a phone call,,,1.560
+CALL/CALL_s6_v3_noisy.wav,CALL,CALL,s6,train,v3,noisy,Make a phone call,,,1.560
+CALL/CALL_s7_v1_clean.wav,CALL,CALL,s7,train,v1,clean,Call,,,0.800
+CALL/CALL_s7_v1_noisy.wav,CALL,CALL,s7,train,v1,noisy,Call,,,0.800
+CALL/CALL_s7_v2_clean.wav,CALL,CALL,s7,train,v2,clean,Make a call,,,1.040
+CALL/CALL_s7_v2_noisy.wav,CALL,CALL,s7,train,v2,noisy,Make a call,,,1.040
+CALL/CALL_s7_v3_clean.wav,CALL,CALL,s7,train,v3,clean,Make a phone call,,,1.400
+CALL/CALL_s7_v3_noisy.wav,CALL,CALL,s7,train,v3,noisy,Make a phone call,,,1.400
+CALL/CALL_s8_v1_clean.wav,CALL,CALL,s8,train,v1,clean,Call,,,0.520
+CALL/CALL_s8_v1_noisy.wav,CALL,CALL,s8,train,v1,noisy,Call,,,0.520
+CALL/CALL_s8_v2_clean.wav,CALL,CALL,s8,train,v2,clean,Make a call,,,1.280
+CALL/CALL_s8_v2_noisy.wav,CALL,CALL,s8,train,v2,noisy,Make a call,,,1.280
+CALL/CALL_s8_v3_clean.wav,CALL,CALL,s8,train,v3,clean,Make a phone call,,,1.320
+CALL/CALL_s8_v3_noisy.wav,CALL,CALL,s8,train,v3,noisy,Make a phone call,,,1.320
+CALL/CALL_s9_v1_clean.wav,CALL,CALL,s9,train,v1,clean,Call,,,0.600
+CALL/CALL_s9_v1_noisy.wav,CALL,CALL,s9,train,v1,noisy,Call,,,0.600
+CALL/CALL_s9_v2_clean.wav,CALL,CALL,s9,train,v2,clean,Make a call,,,0.960
+CALL/CALL_s9_v2_noisy.wav,CALL,CALL,s9,train,v2,noisy,Make a call,,,0.960
+CALL/CALL_s9_v3_clean.wav,CALL,CALL,s9,train,v3,clean,Make a phone call,,,1.200
+CALL/CALL_s9_v3_noisy.wav,CALL,CALL,s9,train,v3,noisy,Make a phone call,,,1.200
+CALL/CALL_s10_v1_clean.wav,CALL,CALL,s10,train,v1,clean,Call,,,0.700
+CALL/CALL_s10_v1_noisy.wav,CALL,CALL,s10,train,v1,noisy,Call,,,0.700
+CALL/CALL_s10_v2_clean.wav,CALL,CALL,s10,train,v2,clean,Make a call,,,1.060
+CALL/CALL_s10_v2_noisy.wav,CALL,CALL,s10,train,v2,noisy,Make a call,,,1.060
+CALL/CALL_s10_v3_clean.wav,CALL,CALL,s10,train,v3,clean,Make a phone call,,,1.140
+CALL/CALL_s10_v3_noisy.wav,CALL,CALL,s10,train,v3,noisy,Make a phone call,,,1.140
+CALL/CALL_s11_v1_clean.wav,CALL,CALL,s11,train,v1,clean,Call,,,0.880
+CALL/CALL_s11_v1_noisy.wav,CALL,CALL,s11,train,v1,noisy,Call,,,0.880
+CALL/CALL_s11_v2_clean.wav,CALL,CALL,s11,train,v2,clean,Make a call,,,1.880
+CALL/CALL_s11_v2_noisy.wav,CALL,CALL,s11,train,v2,noisy,Make a call,,,1.880
+CALL/CALL_s11_v3_clean.wav,CALL,CALL,s11,train,v3,clean,Make a phone call,,,1.800
+CALL/CALL_s11_v3_noisy.wav,CALL,CALL,s11,train,v3,noisy,Make a phone call,,,1.800
+CALL/CALL_s12_v2_clean.wav,CALL,CALL,s12,train,v2,clean,Make a call,,,0.940
+CALL/CALL_s12_v2_noisy.wav,CALL,CALL,s12,train,v2,noisy,Make a call,,,0.940
+CALL/CALL_s12_v3_clean.wav,CALL,CALL,s12,train,v3,clean,Make a phone call,,,1.180
+CALL/CALL_s12_v3_noisy.wav,CALL,CALL,s12,train,v3,noisy,Make a phone call,,,1.180
+CALL/CALL_s13_v2_clean.wav,CALL,CALL,s13,train,v2,clean,Make a call,,,1.040
+CALL/CALL_s13_v2_noisy.wav,CALL,CALL,s13,train,v2,noisy,Make a call,,,1.040
+CALL/CALL_s13_v3_clean.wav,CALL,CALL,s13,train,v3,clean,Make a phone call,,,1.160
+CALL/CALL_s13_v3_noisy.wav,CALL,CALL,s13,train,v3,noisy,Make a phone call,,,1.160
+CALL/CALL_s14_v1_clean.wav,CALL,CALL,s14,train,v1,clean,Call,,,0.760
+CALL/CALL_s14_v1_noisy.wav,CALL,CALL,s14,train,v1,noisy,Call,,,0.760
+CALL/CALL_s14_v2_clean.wav,CALL,CALL,s14,train,v2,clean,Make a call,,,1.240
+CALL/CALL_s14_v2_noisy.wav,CALL,CALL,s14,train,v2,noisy,Make a call,,,1.240
+CALL/CALL_s14_v3_clean.wav,CALL,CALL,s14,train,v3,clean,Make a phone call,,,1.120
+CALL/CALL_s14_v3_noisy.wav,CALL,CALL,s14,train,v3,noisy,Make a phone call,,,1.120
+CALL/CALL_s15_v1_clean.wav,CALL,CALL,s15,train,v1,clean,Call,,,0.900
+CALL/CALL_s15_v1_noisy.wav,CALL,CALL,s15,train,v1,noisy,Call,,,0.900
+CALL/CALL_s15_v2_clean.wav,CALL,CALL,s15,train,v2,clean,Make a call,,,1.180
+CALL/CALL_s15_v2_noisy.wav,CALL,CALL,s15,train,v2,noisy,Make a call,,,1.180
+CALL/CALL_s15_v3_clean.wav,CALL,CALL,s15,train,v3,clean,Make a phone call,,,1.300
+CALL/CALL_s15_v3_noisy.wav,CALL,CALL,s15,train,v3,noisy,Make a phone call,,,1.300
+CALL/CALL_s16_v1_clean.wav,CALL,CALL,s16,train,v1,clean,Call,,,0.620
+CALL/CALL_s16_v1_noisy.wav,CALL,CALL,s16,train,v1,noisy,Call,,,0.620
+CALL/CALL_s16_v2_clean.wav,CALL,CALL,s16,train,v2,clean,Make a call,,,0.900
+CALL/CALL_s16_v2_noisy.wav,CALL,CALL,s16,train,v2,noisy,Make a call,,,0.900
+CALL/CALL_s16_v3_clean.wav,CALL,CALL,s16,train,v3,clean,Make a phone call,,,1.100
+CALL/CALL_s16_v3_noisy.wav,CALL,CALL,s16,train,v3,noisy,Make a phone call,,,1.100
+CALL/CALL_s17_v1_clean.wav,CALL,CALL,s17,train,v1,clean,Call,,,0.640
+CALL/CALL_s17_v1_noisy.wav,CALL,CALL,s17,train,v1,noisy,Call,,,0.640
+CALL/CALL_s17_v2_clean.wav,CALL,CALL,s17,train,v2,clean,Make a call,,,0.760
+CALL/CALL_s17_v2_noisy.wav,CALL,CALL,s17,train,v2,noisy,Make a call,,,0.760
+CALL/CALL_s17_v3_clean.wav,CALL,CALL,s17,train,v3,clean,Make a phone call,,,0.920
+CALL/CALL_s17_v3_noisy.wav,CALL,CALL,s17,train,v3,noisy,Make a phone call,,,0.920
+CALL/CALL_s18_v1_clean.wav,CALL,CALL,s18,train,v1,clean,Call,,,0.840
+CALL/CALL_s18_v1_noisy.wav,CALL,CALL,s18,train,v1,noisy,Call,,,0.840
+CALL/CALL_s18_v2_clean.wav,CALL,CALL,s18,train,v2,clean,Make a call,,,1.440
+CALL/CALL_s18_v2_noisy.wav,CALL,CALL,s18,train,v2,noisy,Make a call,,,1.440
+CALL/CALL_s18_v3_clean.wav,CALL,CALL,s18,train,v3,clean,Make a phone call,,,1.640
+CALL/CALL_s18_v3_noisy.wav,CALL,CALL,s18,train,v3,noisy,Make a phone call,,,1.640
+CALL/CALL_s19_v1_clean.wav,CALL,CALL,s19,train,v1,clean,Call,,,1.840
+CALL/CALL_s19_v1_noisy.wav,CALL,CALL,s19,train,v1,noisy,Call,,,1.840
+CALL/CALL_s19_v2_clean.wav,CALL,CALL,s19,train,v2,clean,Make a call,,,1.280
+CALL/CALL_s19_v2_noisy.wav,CALL,CALL,s19,train,v2,noisy,Make a call,,,1.280
+CALL/CALL_s19_v3_clean.wav,CALL,CALL,s19,train,v3,clean,Make a phone call,,,1.280
+CALL/CALL_s19_v3_noisy.wav,CALL,CALL,s19,train,v3,noisy,Make a phone call,,,1.280
+CALL/CALL_s20_v1_clean.wav,CALL,CALL,s20,train,v1,clean,Call,,,0.600
+CALL/CALL_s20_v1_noisy.wav,CALL,CALL,s20,train,v1,noisy,Call,,,0.600
+CALL/CALL_s20_v2_clean.wav,CALL,CALL,s20,train,v2,clean,Make a call,,,0.960
+CALL/CALL_s20_v2_noisy.wav,CALL,CALL,s20,train,v2,noisy,Make a call,,,0.960
+CALL/CALL_s20_v3_clean.wav,CALL,CALL,s20,train,v3,clean,Make a phone call,,,1.080
+CALL/CALL_s20_v3_noisy.wav,CALL,CALL,s20,train,v3,noisy,Make a phone call,,,1.080
+CALL/CALL_s21_v1_clean.wav,CALL,CALL,s21,train,v1,clean,Call,,,0.900
+CALL/CALL_s21_v1_noisy.wav,CALL,CALL,s21,train,v1,noisy,Call,,,0.900
+CALL/CALL_s21_v2_clean.wav,CALL,CALL,s21,train,v2,clean,Make a call,,,1.500
+CALL/CALL_s21_v2_noisy.wav,CALL,CALL,s21,train,v2,noisy,Make a call,,,1.500
+CALL/CALL_s21_v3_clean.wav,CALL,CALL,s21,train,v3,clean,Make a phone call,,,1.300
+CALL/CALL_s21_v3_noisy.wav,CALL,CALL,s21,train,v3,noisy,Make a phone call,,,1.300
+CALL/CALL_s22_v1_clean.wav,CALL,CALL,s22,train,v1,clean,Call,,,0.920
+CALL/CALL_s22_v1_noisy.wav,CALL,CALL,s22,train,v1,noisy,Call,,,0.920
+CALL/CALL_s22_v2_clean.wav,CALL,CALL,s22,train,v2,clean,Make a call,,,1.240
+CALL/CALL_s22_v2_noisy.wav,CALL,CALL,s22,train,v2,noisy,Make a call,,,1.240
+CALL/CALL_s22_v3_clean.wav,CALL,CALL,s22,train,v3,clean,Make a phone call,,,1.200
+CALL/CALL_s22_v3_noisy.wav,CALL,CALL,s22,train,v3,noisy,Make a phone call,,,1.200
+CALL/CALL_s23_v1_clean.wav,CALL,CALL,s23,train,v1,clean,Call,,,0.820
+CALL/CALL_s23_v1_noisy.wav,CALL,CALL,s23,train,v1,noisy,Call,,,0.820
+CALL/CALL_s23_v2_clean.wav,CALL,CALL,s23,train,v2,clean,Make a call,,,0.980
+CALL/CALL_s23_v2_noisy.wav,CALL,CALL,s23,train,v2,noisy,Make a call,,,0.980
+CALL/CALL_s23_v3_clean.wav,CALL,CALL,s23,train,v3,clean,Make a phone call,,,1.060
+CALL/CALL_s23_v3_noisy.wav,CALL,CALL,s23,train,v3,noisy,Make a phone call,,,1.060
+CALL/CALL_s24_v1_clean.wav,CALL,CALL,s24,train,v1,clean,Call,,,0.720
+CALL/CALL_s24_v1_noisy.wav,CALL,CALL,s24,train,v1,noisy,Call,,,0.720
+CALL/CALL_s24_v2_clean.wav,CALL,CALL,s24,train,v2,clean,Make a call,,,1.120
+CALL/CALL_s24_v2_noisy.wav,CALL,CALL,s24,train,v2,noisy,Make a call,,,1.120
+CALL/CALL_s24_v3_clean.wav,CALL,CALL,s24,train,v3,clean,Make a phone call,,,1.280
+CALL/CALL_s24_v3_noisy.wav,CALL,CALL,s24,train,v3,noisy,Make a phone call,,,1.280
+CALL/CALL_s25_v2_clean.wav,CALL,CALL,s25,train,v2,clean,Make a call,,,0.960
+CALL/CALL_s25_v2_noisy.wav,CALL,CALL,s25,train,v2,noisy,Make a call,,,0.960
+CALL/CALL_s25_v3_clean.wav,CALL,CALL,s25,train,v3,clean,Make a phone call,,,1.200
+CALL/CALL_s25_v3_noisy.wav,CALL,CALL,s25,train,v3,noisy,Make a phone call,,,1.200
+CALL/CALL_s26_v1_clean.wav,CALL,CALL,s26,train,v1,clean,Call,,,1.080
+CALL/CALL_s26_v1_noisy.wav,CALL,CALL,s26,train,v1,noisy,Call,,,1.080
+CALL/CALL_s26_v2_clean.wav,CALL,CALL,s26,train,v2,clean,Make a call,,,1.240
+CALL/CALL_s26_v2_noisy.wav,CALL,CALL,s26,train,v2,noisy,Make a call,,,1.240
+CALL/CALL_s26_v3_clean.wav,CALL,CALL,s26,train,v3,clean,Make a phone call,,,1.240
+CALL/CALL_s26_v3_noisy.wav,CALL,CALL,s26,train,v3,noisy,Make a phone call,,,1.240
+CALL/CALL_s27_v2_clean.wav,CALL,CALL,s27,train,v2,clean,Make a call,,,1.480
+CALL/CALL_s27_v2_noisy.wav,CALL,CALL,s27,train,v2,noisy,Make a call,,,1.480
+CALL/CALL_s27_v3_clean.wav,CALL,CALL,s27,train,v3,clean,Make a phone call,,,1.840
+CALL/CALL_s27_v3_noisy.wav,CALL,CALL,s27,train,v3,noisy,Make a phone call,,,1.840
+CALL/CALL_s28_v1_clean.wav,CALL,CALL,s28,train,v1,clean,Call,,,0.740
+CALL/CALL_s28_v1_noisy.wav,CALL,CALL,s28,train,v1,noisy,Call,,,0.740
+CALL/CALL_s28_v2_clean.wav,CALL,CALL,s28,train,v2,clean,Make a call,,,1.060
+CALL/CALL_s28_v2_noisy.wav,CALL,CALL,s28,train,v2,noisy,Make a call,,,1.060
+CALL/CALL_s28_v3_clean.wav,CALL,CALL,s28,train,v3,clean,Make a phone call,,,1.300
+CALL/CALL_s28_v3_noisy.wav,CALL,CALL,s28,train,v3,noisy,Make a phone call,,,1.300
+CALL/CALL_s29_v1_clean.wav,CALL,CALL,s29,train,v1,clean,Call,,,0.760
+CALL/CALL_s29_v1_noisy.wav,CALL,CALL,s29,train,v1,noisy,Call,,,0.760
+CALL/CALL_s29_v2_clean.wav,CALL,CALL,s29,train,v2,clean,Make a call,,,1.520
+CALL/CALL_s29_v2_noisy.wav,CALL,CALL,s29,train,v2,noisy,Make a call,,,1.520
+CALL/CALL_s29_v3_clean.wav,CALL,CALL,s29,train,v3,clean,Make a phone call,,,1.600
+CALL/CALL_s29_v3_noisy.wav,CALL,CALL,s29,train,v3,noisy,Make a phone call,,,1.600
+CALL/CALL_s30_v1_clean.wav,CALL,CALL,s30,train,v1,clean,Call,,,0.760
+CALL/CALL_s30_v1_noisy.wav,CALL,CALL,s30,train,v1,noisy,Call,,,0.760
+CALL/CALL_s30_v2_clean.wav,CALL,CALL,s30,train,v2,clean,Make a call,,,1.560
+CALL/CALL_s30_v2_noisy.wav,CALL,CALL,s30,train,v2,noisy,Make a call,,,1.560
+CALL/CALL_s30_v3_clean.wav,CALL,CALL,s30,train,v3,clean,Make a phone call,,,1.120
+CALL/CALL_s30_v3_noisy.wav,CALL,CALL,s30,train,v3,noisy,Make a phone call,,,1.120
+CALL/CALL_s31_v1_clean.wav,CALL,CALL,s31,train,v1,clean,Call,,,0.760
+CALL/CALL_s31_v1_noisy.wav,CALL,CALL,s31,train,v1,noisy,Call,,,0.760
+CALL/CALL_s31_v2_clean.wav,CALL,CALL,s31,train,v2,clean,Make a call,,,1.720
+CALL/CALL_s31_v2_noisy.wav,CALL,CALL,s31,train,v2,noisy,Make a call,,,1.720
+CALL/CALL_s31_v3_clean.wav,CALL,CALL,s31,train,v3,clean,Make a phone call,,,1.200
+CALL/CALL_s31_v3_noisy.wav,CALL,CALL,s31,train,v3,noisy,Make a phone call,,,1.200
+CALL/CALL_s32_v1_clean.wav,CALL,CALL,s32,train,v1,clean,Call,,,0.800
+CALL/CALL_s32_v1_noisy.wav,CALL,CALL,s32,train,v1,noisy,Call,,,0.800
+CALL/CALL_s32_v2_clean.wav,CALL,CALL,s32,train,v2,clean,Make a call,,,1.080
+CALL/CALL_s32_v2_noisy.wav,CALL,CALL,s32,train,v2,noisy,Make a call,,,1.080
+CALL/CALL_s32_v3_clean.wav,CALL,CALL,s32,train,v3,clean,Make a phone call,,,1.400
+CALL/CALL_s32_v3_noisy.wav,CALL,CALL,s32,train,v3,noisy,Make a phone call,,,1.400
+CALL/CALL_s33_v1_clean.wav,CALL,CALL,s33,train,v1,clean,Call,,,0.720
+CALL/CALL_s33_v1_noisy.wav,CALL,CALL,s33,train,v1,noisy,Call,,,0.720
+CALL/CALL_s33_v2_clean.wav,CALL,CALL,s33,train,v2,clean,Make a call,,,1.040
+CALL/CALL_s33_v2_noisy.wav,CALL,CALL,s33,train,v2,noisy,Make a call,,,1.040
+CALL/CALL_s33_v3_clean.wav,CALL,CALL,s33,train,v3,clean,Make a phone call,,,1.160
+CALL/CALL_s33_v3_noisy.wav,CALL,CALL,s33,train,v3,noisy,Make a phone call,,,1.160
+CALL/CALL_s34_v1_clean.wav,CALL,CALL,s34,train,v1,clean,Call,,,0.700
+CALL/CALL_s34_v1_noisy.wav,CALL,CALL,s34,train,v1,noisy,Call,,,0.700
+CALL/CALL_s34_v2_clean.wav,CALL,CALL,s34,train,v2,clean,Make a call,,,0.980
+CALL/CALL_s34_v2_noisy.wav,CALL,CALL,s34,train,v2,noisy,Make a call,,,0.980
+CALL/CALL_s34_v3_clean.wav,CALL,CALL,s34,train,v3,clean,Make a phone call,,,1.180
+CALL/CALL_s34_v3_noisy.wav,CALL,CALL,s34,train,v3,noisy,Make a phone call,,,1.180
+CALL/CALL_s35_v1_clean.wav,CALL,CALL,s35,train,v1,clean,Call,,,0.760
+CALL/CALL_s35_v1_noisy.wav,CALL,CALL,s35,train,v1,noisy,Call,,,0.760
+CALL/CALL_s35_v2_clean.wav,CALL,CALL,s35,train,v2,clean,Make a call,,,1.160
+CALL/CALL_s35_v2_noisy.wav,CALL,CALL,s35,train,v2,noisy,Make a call,,,1.160
+CALL/CALL_s35_v3_clean.wav,CALL,CALL,s35,train,v3,clean,Make a phone call,,,1.120
+CALL/CALL_s35_v3_noisy.wav,CALL,CALL,s35,train,v3,noisy,Make a phone call,,,1.120
+CALL/CALL_s36_v1_clean.wav,CALL,CALL,s36,train,v1,clean,Call,,,0.860
+CALL/CALL_s36_v1_noisy.wav,CALL,CALL,s36,train,v1,noisy,Call,,,0.860
+CALL/CALL_s36_v2_clean.wav,CALL,CALL,s36,train,v2,clean,Make a call,,,1.180
+CALL/CALL_s36_v2_noisy.wav,CALL,CALL,s36,train,v2,noisy,Make a call,,,1.180
+CALL/CALL_s36_v3_clean.wav,CALL,CALL,s36,train,v3,clean,Make a phone call,,,1.260
+CALL/CALL_s36_v3_noisy.wav,CALL,CALL,s36,train,v3,noisy,Make a phone call,,,1.260
+CALL/CALL_s37_v1_clean.wav,CALL,CALL,s37,train,v1,clean,Call,,,0.640
+CALL/CALL_s37_v1_noisy.wav,CALL,CALL,s37,train,v1,noisy,Call,,,0.640
+CALL/CALL_s37_v2_clean.wav,CALL,CALL,s37,train,v2,clean,Make a call,,,1.080
+CALL/CALL_s37_v2_noisy.wav,CALL,CALL,s37,train,v2,noisy,Make a call,,,1.080
+CALL/CALL_s37_v3_clean.wav,CALL,CALL,s37,train,v3,clean,Make a phone call,,,1.160
+CALL/CALL_s37_v3_noisy.wav,CALL,CALL,s37,train,v3,noisy,Make a phone call,,,1.160
+CALL/CALL_s38_v1_clean.wav,CALL,CALL,s38,train,v1,clean,Call,,,0.860
+CALL/CALL_s38_v1_noisy.wav,CALL,CALL,s38,train,v1,noisy,Call,,,0.860
+CALL/CALL_s38_v2_clean.wav,CALL,CALL,s38,train,v2,clean,Make a call,,,1.060
+CALL/CALL_s38_v2_noisy.wav,CALL,CALL,s38,train,v2,noisy,Make a call,,,1.060
+CALL/CALL_s38_v3_clean.wav,CALL,CALL,s38,train,v3,clean,Make a phone call,,,1.500
+CALL/CALL_s38_v3_noisy.wav,CALL,CALL,s38,train,v3,noisy,Make a phone call,,,1.500
+CALL/CALL_s39_v1_clean.wav,CALL,CALL,s39,train,v1,clean,Call,,,0.680
+CALL/CALL_s39_v1_noisy.wav,CALL,CALL,s39,train,v1,noisy,Call,,,0.680
+CALL/CALL_s39_v2_clean.wav,CALL,CALL,s39,train,v2,clean,Make a call,,,1.520
+CALL/CALL_s39_v2_noisy.wav,CALL,CALL,s39,train,v2,noisy,Make a call,,,1.520
+CALL/CALL_s39_v3_clean.wav,CALL,CALL,s39,train,v3,clean,Make a phone call,,,1.360
+CALL/CALL_s39_v3_noisy.wav,CALL,CALL,s39,train,v3,noisy,Make a phone call,,,1.360
+CALL/CALL_s40_v1_clean.wav,CALL,CALL,s40,train,v1,clean,Call,,,0.600
+CALL/CALL_s40_v1_noisy.wav,CALL,CALL,s40,train,v1,noisy,Call,,,0.600
+CALL/CALL_s40_v2_clean.wav,CALL,CALL,s40,train,v2,clean,Make a call,,,1.120
+CALL/CALL_s40_v2_noisy.wav,CALL,CALL,s40,train,v2,noisy,Make a call,,,1.120
+CALL/CALL_s40_v3_clean.wav,CALL,CALL,s40,train,v3,clean,Make a phone call,,,1.120
+CALL/CALL_s40_v3_noisy.wav,CALL,CALL,s40,train,v3,noisy,Make a phone call,,,1.120
+CALL/CALL_s41_v1_clean.wav,CALL,CALL,s41,train,v1,clean,Call,,,1.040
+CALL/CALL_s41_v1_noisy.wav,CALL,CALL,s41,train,v1,noisy,Call,,,1.040
+CALL/CALL_s41_v2_clean.wav,CALL,CALL,s41,train,v2,clean,Make a call,,,1.640
+CALL/CALL_s41_v2_noisy.wav,CALL,CALL,s41,train,v2,noisy,Make a call,,,1.640
+CALL/CALL_s41_v3_clean.wav,CALL,CALL,s41,train,v3,clean,Make a phone call,,,1.400
+CALL/CALL_s41_v3_noisy.wav,CALL,CALL,s41,train,v3,noisy,Make a phone call,,,1.400
+CALL/CALL_s42_v2_clean.wav,CALL,CALL,s42,train,v2,clean,Make a call,,,1.140
+CALL/CALL_s42_v2_noisy.wav,CALL,CALL,s42,train,v2,noisy,Make a call,,,1.140
+CALL/CALL_s42_v3_clean.wav,CALL,CALL,s42,train,v3,clean,Make a phone call,,,1.140
+CALL/CALL_s42_v3_noisy.wav,CALL,CALL,s42,train,v3,noisy,Make a phone call,,,1.140
+CALL/CALL_s43_v1_clean.wav,CALL,CALL,s43,train,v1,clean,Call,,,0.860
+CALL/CALL_s43_v1_noisy.wav,CALL,CALL,s43,train,v1,noisy,Call,,,0.860
+CALL/CALL_s43_v2_clean.wav,CALL,CALL,s43,train,v2,clean,Make a call,,,1.100
+CALL/CALL_s43_v2_noisy.wav,CALL,CALL,s43,train,v2,noisy,Make a call,,,1.100
+CALL/CALL_s43_v3_clean.wav,CALL,CALL,s43,train,v3,clean,Make a phone call,,,1.060
+CALL/CALL_s43_v3_noisy.wav,CALL,CALL,s43,train,v3,noisy,Make a phone call,,,1.060
+CALL/CALL_s44_v1_clean.wav,CALL,CALL,s44,train,v1,clean,Call,,,0.780
+CALL/CALL_s44_v1_noisy.wav,CALL,CALL,s44,train,v1,noisy,Call,,,0.780
+CALL/CALL_s44_v2_clean.wav,CALL,CALL,s44,train,v2,clean,Make a call,,,1.060
+CALL/CALL_s44_v2_noisy.wav,CALL,CALL,s44,train,v2,noisy,Make a call,,,1.060
+CALL/CALL_s44_v3_clean.wav,CALL,CALL,s44,train,v3,clean,Make a phone call,,,1.060
+CALL/CALL_s44_v3_noisy.wav,CALL,CALL,s44,train,v3,noisy,Make a phone call,,,1.060
+CALL/CALL_s45_v1_clean.wav,CALL,CALL,s45,train,v1,clean,Call,,,0.780
+CALL/CALL_s45_v1_noisy.wav,CALL,CALL,s45,train,v1,noisy,Call,,,0.780
+CALL/CALL_s45_v2_clean.wav,CALL,CALL,s45,train,v2,clean,Make a call,,,1.100
+CALL/CALL_s45_v2_noisy.wav,CALL,CALL,s45,train,v2,noisy,Make a call,,,1.100
+CALL/CALL_s45_v3_clean.wav,CALL,CALL,s45,train,v3,clean,Make a phone call,,,1.180
+CALL/CALL_s45_v3_noisy.wav,CALL,CALL,s45,train,v3,noisy,Make a phone call,,,1.180
+CALL/CALL_s46_v2_clean.wav,CALL,CALL,s46,train,v2,clean,Make a call,,,1.480
+CALL/CALL_s46_v2_noisy.wav,CALL,CALL,s46,train,v2,noisy,Make a call,,,1.480
+CALL/CALL_s46_v3_clean.wav,CALL,CALL,s46,train,v3,clean,Make a phone call,,,1.320
+CALL/CALL_s46_v3_noisy.wav,CALL,CALL,s46,train,v3,noisy,Make a phone call,,,1.320
+CALL/CALL_s47_v1_clean.wav,CALL,CALL,s47,train,v1,clean,Call,,,0.660
+CALL/CALL_s47_v1_noisy.wav,CALL,CALL,s47,train,v1,noisy,Call,,,0.660
+CALL/CALL_s47_v2_clean.wav,CALL,CALL,s47,train,v2,clean,Make a call,,,1.540
+CALL/CALL_s47_v2_noisy.wav,CALL,CALL,s47,train,v2,noisy,Make a call,,,1.540
+CALL/CALL_s47_v3_clean.wav,CALL,CALL,s47,train,v3,clean,Make a phone call,,,1.140
+CALL/CALL_s47_v3_noisy.wav,CALL,CALL,s47,train,v3,noisy,Make a phone call,,,1.140
+CALL/CALL_s48_v1_clean.wav,CALL,CALL,s48,train,v1,clean,Call,,,0.560
+CALL/CALL_s48_v1_noisy.wav,CALL,CALL,s48,train,v1,noisy,Call,,,0.560
+CALL/CALL_s48_v2_clean.wav,CALL,CALL,s48,train,v2,clean,Make a call,,,1.160
+CALL/CALL_s48_v2_noisy.wav,CALL,CALL,s48,train,v2,noisy,Make a call,,,1.160
+CALL/CALL_s48_v3_clean.wav,CALL,CALL,s48,train,v3,clean,Make a phone call,,,2.080
+CALL/CALL_s48_v3_noisy.wav,CALL,CALL,s48,train,v3,noisy,Make a phone call,,,2.080
+CALL/CALL_s49_v1_clean.wav,CALL,CALL,s49,train,v1,clean,Call,,,0.720
+CALL/CALL_s49_v1_noisy.wav,CALL,CALL,s49,train,v1,noisy,Call,,,0.720
+CALL/CALL_s49_v2_clean.wav,CALL,CALL,s49,train,v2,clean,Make a call,,,1.200
+CALL/CALL_s49_v2_noisy.wav,CALL,CALL,s49,train,v2,noisy,Make a call,,,1.200
+CALL/CALL_s49_v3_clean.wav,CALL,CALL,s49,train,v3,clean,Make a phone call,,,1.240
+CALL/CALL_s49_v3_noisy.wav,CALL,CALL,s49,train,v3,noisy,Make a phone call,,,1.240
+CALL/CALL_s50_v1_clean.wav,CALL,CALL,s50,train,v1,clean,Call,,,0.720
+CALL/CALL_s50_v1_noisy.wav,CALL,CALL,s50,train,v1,noisy,Call,,,0.720
+CALL/CALL_s50_v2_clean.wav,CALL,CALL,s50,train,v2,clean,Make a call,,,1.280
+CALL/CALL_s50_v2_noisy.wav,CALL,CALL,s50,train,v2,noisy,Make a call,,,1.280
+CALL/CALL_s50_v3_clean.wav,CALL,CALL,s50,train,v3,clean,Make a phone call,,,1.240
+CALL/CALL_s50_v3_noisy.wav,CALL,CALL,s50,train,v3,noisy,Make a phone call,,,1.240
+CALL/CALL_s51_v1_clean.wav,CALL,CALL,s51,train,v1,clean,Call,,,1.120
+CALL/CALL_s51_v1_noisy.wav,CALL,CALL,s51,train,v1,noisy,Call,,,1.120
+CALL/CALL_s51_v2_clean.wav,CALL,CALL,s51,train,v2,clean,Make a call,,,1.000
+CALL/CALL_s51_v2_noisy.wav,CALL,CALL,s51,train,v2,noisy,Make a call,,,1.000
+CALL/CALL_s51_v3_clean.wav,CALL,CALL,s51,train,v3,clean,Make a phone call,,,1.080
+CALL/CALL_s51_v3_noisy.wav,CALL,CALL,s51,train,v3,noisy,Make a phone call,,,1.080
+CALL/CALL_s52_v1_clean.wav,CALL,CALL,s52,train,v1,clean,Call,,,0.660
+CALL/CALL_s52_v1_noisy.wav,CALL,CALL,s52,train,v1,noisy,Call,,,0.660
+CALL/CALL_s52_v2_clean.wav,CALL,CALL,s52,train,v2,clean,Make a call,,,0.860
+CALL/CALL_s52_v2_noisy.wav,CALL,CALL,s52,train,v2,noisy,Make a call,,,0.860
+CALL/CALL_s52_v3_clean.wav,CALL,CALL,s52,train,v3,clean,Make a phone call,,,1.500
+CALL/CALL_s52_v3_noisy.wav,CALL,CALL,s52,train,v3,noisy,Make a phone call,,,1.500
+CALL/CALL_s53_v1_clean.wav,CALL,CALL,s53,train,v1,clean,Call,,,0.740
+CALL/CALL_s53_v1_noisy.wav,CALL,CALL,s53,train,v1,noisy,Call,,,0.740
+CALL/CALL_s53_v2_clean.wav,CALL,CALL,s53,train,v2,clean,Make a call,,,1.300
+CALL/CALL_s53_v2_noisy.wav,CALL,CALL,s53,train,v2,noisy,Make a call,,,1.300
+CALL/CALL_s53_v3_clean.wav,CALL,CALL,s53,train,v3,clean,Make a phone call,,,1.100
+CALL/CALL_s53_v3_noisy.wav,CALL,CALL,s53,train,v3,noisy,Make a phone call,,,1.100
+CALL/CALL_s54_v2_clean.wav,CALL,CALL,s54,train,v2,clean,Make a call,,,1.240
+CALL/CALL_s54_v2_noisy.wav,CALL,CALL,s54,train,v2,noisy,Make a call,,,1.240
+CALL/CALL_s54_v3_clean.wav,CALL,CALL,s54,train,v3,clean,Make a phone call,,,1.640
+CALL/CALL_s54_v3_noisy.wav,CALL,CALL,s54,train,v3,noisy,Make a phone call,,,1.640
+CALL/CALL_s55_v1_clean.wav,CALL,CALL,s55,train,v1,clean,Call,,,0.680
+CALL/CALL_s55_v1_noisy.wav,CALL,CALL,s55,train,v1,noisy,Call,,,0.680
+CALL/CALL_s55_v2_clean.wav,CALL,CALL,s55,train,v2,clean,Make a call,,,1.160
+CALL/CALL_s55_v2_noisy.wav,CALL,CALL,s55,train,v2,noisy,Make a call,,,1.160
+CALL/CALL_s55_v3_clean.wav,CALL,CALL,s55,train,v3,clean,Make a phone call,,,1.160
+CALL/CALL_s55_v3_noisy.wav,CALL,CALL,s55,train,v3,noisy,Make a phone call,,,1.160
+CALL/CALL_s56_v1_clean.wav,CALL,CALL,s56,train,v1,clean,Call,,,0.740
+CALL/CALL_s56_v1_noisy.wav,CALL,CALL,s56,train,v1,noisy,Call,,,0.740
+CALL/CALL_s56_v2_clean.wav,CALL,CALL,s56,train,v2,clean,Make a call,,,1.100
+CALL/CALL_s56_v2_noisy.wav,CALL,CALL,s56,train,v2,noisy,Make a call,,,1.100
+CALL/CALL_s56_v3_clean.wav,CALL,CALL,s56,train,v3,clean,Make a phone call,,,1.180
+CALL/CALL_s56_v3_noisy.wav,CALL,CALL,s56,train,v3,noisy,Make a phone call,,,1.180
+CALL/CALL_s57_v1_clean.wav,CALL,CALL,s57,train,v1,clean,Call,,,0.800
+CALL/CALL_s57_v1_noisy.wav,CALL,CALL,s57,train,v1,noisy,Call,,,0.800
+CALL/CALL_s57_v2_clean.wav,CALL,CALL,s57,train,v2,clean,Make a call,,,1.160
+CALL/CALL_s57_v2_noisy.wav,CALL,CALL,s57,train,v2,noisy,Make a call,,,1.160
+CALL/CALL_s57_v3_clean.wav,CALL,CALL,s57,train,v3,clean,Make a phone call,,,1.440
+CALL/CALL_s57_v3_noisy.wav,CALL,CALL,s57,train,v3,noisy,Make a phone call,,,1.440
+CALL/CALL_s58_v1_clean.wav,CALL,CALL,s58,train,v1,clean,Call,,,0.820
+CALL/CALL_s58_v1_noisy.wav,CALL,CALL,s58,train,v1,noisy,Call,,,0.820
+CALL/CALL_s58_v2_clean.wav,CALL,CALL,s58,train,v2,clean,Make a call,,,1.220
+CALL/CALL_s58_v2_noisy.wav,CALL,CALL,s58,train,v2,noisy,Make a call,,,1.220
+CALL/CALL_s58_v3_clean.wav,CALL,CALL,s58,train,v3,clean,Make a phone call,,,1.420
+CALL/CALL_s58_v3_noisy.wav,CALL,CALL,s58,train,v3,noisy,Make a phone call,,,1.420
+CALL/CALL_s59_v2_clean.wav,CALL,CALL,s59,train,v2,clean,Make a call,,,1.020
+CALL/CALL_s59_v2_noisy.wav,CALL,CALL,s59,train,v2,noisy,Make a call,,,1.020
+CALL/CALL_s59_v3_clean.wav,CALL,CALL,s59,train,v3,clean,Make a phone call,,,1.180
+CALL/CALL_s59_v3_noisy.wav,CALL,CALL,s59,train,v3,noisy,Make a phone call,,,1.180
+CALL/CALL_s60_v2_clean.wav,CALL,CALL,s60,train,v2,clean,Make a call,,,0.820
+CALL/CALL_s60_v2_noisy.wav,CALL,CALL,s60,train,v2,noisy,Make a call,,,0.820
+CALL/CALL_s60_v3_clean.wav,CALL,CALL,s60,train,v3,clean,Make a phone call,,,1.260
+CALL/CALL_s60_v3_noisy.wav,CALL,CALL,s60,train,v3,noisy,Make a phone call,,,1.260
+CALL/CALL_s61_v1_clean.wav,CALL,CALL,s61,train,v1,clean,Call,,,0.840
+CALL/CALL_s61_v1_noisy.wav,CALL,CALL,s61,train,v1,noisy,Call,,,0.840
+CALL/CALL_s61_v2_clean.wav,CALL,CALL,s61,train,v2,clean,Make a call,,,1.120
+CALL/CALL_s61_v2_noisy.wav,CALL,CALL,s61,train,v2,noisy,Make a call,,,1.120
+CALL/CALL_s61_v3_clean.wav,CALL,CALL,s61,train,v3,clean,Make a phone call,,,1.440
+CALL/CALL_s61_v3_noisy.wav,CALL,CALL,s61,train,v3,noisy,Make a phone call,,,1.440
+CALL/CALL_s62_v2_clean.wav,CALL,CALL,s62,train,v2,clean,Make a call,,,1.060
+CALL/CALL_s62_v2_noisy.wav,CALL,CALL,s62,train,v2,noisy,Make a call,,,1.060
+CALL/CALL_s62_v3_clean.wav,CALL,CALL,s62,train,v3,clean,Make a phone call,,,1.180
+CALL/CALL_s62_v3_noisy.wav,CALL,CALL,s62,train,v3,noisy,Make a phone call,,,1.180
+CALL/CALL_s63_v1_clean.wav,CALL,CALL,s63,train,v1,clean,Call,,,0.800
+CALL/CALL_s63_v1_noisy.wav,CALL,CALL,s63,train,v1,noisy,Call,,,0.800
+CALL/CALL_s63_v2_clean.wav,CALL,CALL,s63,train,v2,clean,Make a call,,,1.000
+CALL/CALL_s63_v2_noisy.wav,CALL,CALL,s63,train,v2,noisy,Make a call,,,1.000
+CALL/CALL_s63_v3_clean.wav,CALL,CALL,s63,train,v3,clean,Make a phone call,,,1.000
+CALL/CALL_s63_v3_noisy.wav,CALL,CALL,s63,train,v3,noisy,Make a phone call,,,1.000
+CALL/CALL_s64_v1_clean.wav,CALL,CALL,s64,train,v1,clean,Call,,,0.860
+CALL/CALL_s64_v1_noisy.wav,CALL,CALL,s64,train,v1,noisy,Call,,,0.860
+CALL/CALL_s64_v2_clean.wav,CALL,CALL,s64,train,v2,clean,Make a call,,,1.100
+CALL/CALL_s64_v2_noisy.wav,CALL,CALL,s64,train,v2,noisy,Make a call,,,1.100
+CALL/CALL_s64_v3_clean.wav,CALL,CALL,s64,train,v3,clean,Make a phone call,,,1.300
+CALL/CALL_s64_v3_noisy.wav,CALL,CALL,s64,train,v3,noisy,Make a phone call,,,1.300
+CALL/CALL_s65_v1_clean.wav,CALL,CALL,s65,train,v1,clean,Call,,,0.720
+CALL/CALL_s65_v1_noisy.wav,CALL,CALL,s65,train,v1,noisy,Call,,,0.720
+CALL/CALL_s65_v2_clean.wav,CALL,CALL,s65,train,v2,clean,Make a call,,,0.960
+CALL/CALL_s65_v2_noisy.wav,CALL,CALL,s65,train,v2,noisy,Make a call,,,0.960
+CALL/CALL_s65_v3_clean.wav,CALL,CALL,s65,train,v3,clean,Make a phone call,,,1.160
+CALL/CALL_s65_v3_noisy.wav,CALL,CALL,s65,train,v3,noisy,Make a phone call,,,1.160
+CALL/CALL_s66_v1_clean.wav,CALL,CALL,s66,train,v1,clean,Call,,,0.900
+CALL/CALL_s66_v1_noisy.wav,CALL,CALL,s66,train,v1,noisy,Call,,,0.900
+CALL/CALL_s66_v2_clean.wav,CALL,CALL,s66,train,v2,clean,Make a call,,,0.900
+CALL/CALL_s66_v2_noisy.wav,CALL,CALL,s66,train,v2,noisy,Make a call,,,0.900
+CALL/CALL_s66_v3_clean.wav,CALL,CALL,s66,train,v3,clean,Make a phone call,,,1.100
+CALL/CALL_s66_v3_noisy.wav,CALL,CALL,s66,train,v3,noisy,Make a phone call,,,1.100
+CALL/CALL_s67_v2_clean.wav,CALL,CALL,s67,train,v2,clean,Make a call,,,0.900
+CALL/CALL_s67_v2_noisy.wav,CALL,CALL,s67,train,v2,noisy,Make a call,,,0.900
+CALL/CALL_s67_v3_clean.wav,CALL,CALL,s67,train,v3,clean,Make a phone call,,,1.060
+CALL/CALL_s67_v3_noisy.wav,CALL,CALL,s67,train,v3,noisy,Make a phone call,,,1.060
+CALL/CALL_s68_v1_clean.wav,CALL,CALL,s68,train,v1,clean,Call,,,0.920
+CALL/CALL_s68_v1_noisy.wav,CALL,CALL,s68,train,v1,noisy,Call,,,0.920
+CALL/CALL_s68_v2_clean.wav,CALL,CALL,s68,train,v2,clean,Make a call,,,1.000
+CALL/CALL_s68_v2_noisy.wav,CALL,CALL,s68,train,v2,noisy,Make a call,,,1.000
+CALL/CALL_s68_v3_clean.wav,CALL,CALL,s68,train,v3,clean,Make a phone call,,,1.360
+CALL/CALL_s68_v3_noisy.wav,CALL,CALL,s68,train,v3,noisy,Make a phone call,,,1.360
+CALL/CALL_s69_v1_clean.wav,CALL,CALL,s69,train,v1,clean,Call,,,0.640
+CALL/CALL_s69_v1_noisy.wav,CALL,CALL,s69,train,v1,noisy,Call,,,0.640
+CALL/CALL_s69_v2_clean.wav,CALL,CALL,s69,train,v2,clean,Make a call,,,0.800
+CALL/CALL_s69_v2_noisy.wav,CALL,CALL,s69,train,v2,noisy,Make a call,,,0.800
+CALL/CALL_s69_v3_clean.wav,CALL,CALL,s69,train,v3,clean,Make a phone call,,,0.760
+CALL/CALL_s69_v3_noisy.wav,CALL,CALL,s69,train,v3,noisy,Make a phone call,,,0.760
+CALL/CALL_s70_v1_clean.wav,CALL,CALL,s70,train,v1,clean,Call,,,0.680
+CALL/CALL_s70_v1_noisy.wav,CALL,CALL,s70,train,v1,noisy,Call,,,0.680
+CALL/CALL_s70_v2_clean.wav,CALL,CALL,s70,train,v2,clean,Make a call,,,1.160
+CALL/CALL_s70_v2_noisy.wav,CALL,CALL,s70,train,v2,noisy,Make a call,,,1.160
+CALL/CALL_s70_v3_clean.wav,CALL,CALL,s70,train,v3,clean,Make a phone call,,,1.400
+CALL/CALL_s70_v3_noisy.wav,CALL,CALL,s70,train,v3,noisy,Make a phone call,,,1.400
+CALL/CALL_s71_v1_clean.wav,CALL,CALL,s71,train,v1,clean,Call,,,0.640
+CALL/CALL_s71_v1_noisy.wav,CALL,CALL,s71,train,v1,noisy,Call,,,0.640
+CALL/CALL_s71_v2_clean.wav,CALL,CALL,s71,train,v2,clean,Make a call,,,0.920
+CALL/CALL_s71_v2_noisy.wav,CALL,CALL,s71,train,v2,noisy,Make a call,,,0.920
+CALL/CALL_s71_v3_clean.wav,CALL,CALL,s71,train,v3,clean,Make a phone call,,,1.280
+CALL/CALL_s71_v3_noisy.wav,CALL,CALL,s71,train,v3,noisy,Make a phone call,,,1.280
+CALL/CALL_s72_v2_clean.wav,CALL,CALL,s72,train,v2,clean,Make a call,,,0.800
+CALL/CALL_s72_v2_noisy.wav,CALL,CALL,s72,train,v2,noisy,Make a call,,,0.800
+CALL/CALL_s72_v3_clean.wav,CALL,CALL,s72,train,v3,clean,Make a phone call,,,1.080
+CALL/CALL_s72_v3_noisy.wav,CALL,CALL,s72,train,v3,noisy,Make a phone call,,,1.080
+CALL/CALL_s73_v1_clean.wav,CALL,CALL,s73,train,v1,clean,Call,,,1.000
+CALL/CALL_s73_v1_noisy.wav,CALL,CALL,s73,train,v1,noisy,Call,,,1.000
+CALL/CALL_s73_v2_clean.wav,CALL,CALL,s73,train,v2,clean,Make a call,,,1.320
+CALL/CALL_s73_v2_noisy.wav,CALL,CALL,s73,train,v2,noisy,Make a call,,,1.320
+CALL/CALL_s73_v3_clean.wav,CALL,CALL,s73,train,v3,clean,Make a phone call,,,1.240
+CALL/CALL_s73_v3_noisy.wav,CALL,CALL,s73,train,v3,noisy,Make a phone call,,,1.240
+CALL/CALL_s74_v1_clean.wav,CALL,CALL,s74,train,v1,clean,Call,,,0.640
+CALL/CALL_s74_v1_noisy.wav,CALL,CALL,s74,train,v1,noisy,Call,,,0.640
+CALL/CALL_s74_v2_clean.wav,CALL,CALL,s74,train,v2,clean,Make a call,,,0.840
+CALL/CALL_s74_v2_noisy.wav,CALL,CALL,s74,train,v2,noisy,Make a call,,,0.840
+CALL/CALL_s74_v3_clean.wav,CALL,CALL,s74,train,v3,clean,Make a phone call,,,1.120
+CALL/CALL_s74_v3_noisy.wav,CALL,CALL,s74,train,v3,noisy,Make a phone call,,,1.120
+CALL/CALL_s75_v2_clean.wav,CALL,CALL,s75,train,v2,clean,Make a call,,,8.200
+CALL/CALL_s75_v2_noisy.wav,CALL,CALL,s75,train,v2,noisy,Make a call,,,8.200
+CALL/CALL_s75_v3_clean.wav,CALL,CALL,s75,train,v3,clean,Make a phone call,,,2.720
+CALL/CALL_s75_v3_noisy.wav,CALL,CALL,s75,train,v3,noisy,Make a phone call,,,2.720
+CALL/CALL_s76_v1_clean.wav,CALL,CALL,s76,train,v1,clean,Call,,,0.640
+CALL/CALL_s76_v1_noisy.wav,CALL,CALL,s76,train,v1,noisy,Call,,,0.640
+CALL/CALL_s76_v2_clean.wav,CALL,CALL,s76,train,v2,clean,Make a call,,,1.000
+CALL/CALL_s76_v2_noisy.wav,CALL,CALL,s76,train,v2,noisy,Make a call,,,1.000
+CALL/CALL_s76_v3_clean.wav,CALL,CALL,s76,train,v3,clean,Make a phone call,,,1.480
+CALL/CALL_s76_v3_noisy.wav,CALL,CALL,s76,train,v3,noisy,Make a phone call,,,1.480
+CALL/CALL_s77_v1_clean.wav,CALL,CALL,s77,train,v1,clean,Call,,,0.560
+CALL/CALL_s77_v1_noisy.wav,CALL,CALL,s77,train,v1,noisy,Call,,,0.560
+CALL/CALL_s77_v2_clean.wav,CALL,CALL,s77,train,v2,clean,Make a call,,,0.840
+CALL/CALL_s77_v2_noisy.wav,CALL,CALL,s77,train,v2,noisy,Make a call,,,0.840
+CALL/CALL_s77_v3_clean.wav,CALL,CALL,s77,train,v3,clean,Make a phone call,,,1.000
+CALL/CALL_s77_v3_noisy.wav,CALL,CALL,s77,train,v3,noisy,Make a phone call,,,1.000
+CALL/CALL_s78_v1_clean.wav,CALL,CALL,s78,train,v1,clean,Call,,,0.640
+CALL/CALL_s78_v1_noisy.wav,CALL,CALL,s78,train,v1,noisy,Call,,,0.640
+CALL/CALL_s78_v2_clean.wav,CALL,CALL,s78,train,v2,clean,Make a call,,,0.880
+CALL/CALL_s78_v2_noisy.wav,CALL,CALL,s78,train,v2,noisy,Make a call,,,0.880
+CALL/CALL_s78_v3_clean.wav,CALL,CALL,s78,train,v3,clean,Make a phone call,,,1.200
+CALL/CALL_s78_v3_noisy.wav,CALL,CALL,s78,train,v3,noisy,Make a phone call,,,1.200
+CALL/CALL_s79_v3_clean.wav,CALL,CALL,s79,train,v3,clean,Make a phone call,,,1.720
+CALL/CALL_s79_v3_noisy.wav,CALL,CALL,s79,train,v3,noisy,Make a phone call,,,1.720
+CALL/CALL_s80_v1_clean.wav,CALL,CALL,s80,train,v1,clean,Call,,,0.840
+CALL/CALL_s80_v1_noisy.wav,CALL,CALL,s80,train,v1,noisy,Call,,,0.840
+CALL/CALL_s80_v2_clean.wav,CALL,CALL,s80,train,v2,clean,Make a call,,,1.200
+CALL/CALL_s80_v2_noisy.wav,CALL,CALL,s80,train,v2,noisy,Make a call,,,1.200
+CALL/CALL_s80_v3_clean.wav,CALL,CALL,s80,train,v3,clean,Make a phone call,,,1.040
+CALL/CALL_s80_v3_noisy.wav,CALL,CALL,s80,train,v3,noisy,Make a phone call,,,1.040
+CALL/CALL_s81_v1_clean.wav,CALL,CALL,s81,val,v1,clean,Call,,,1.080
+CALL/CALL_s81_v1_noisy.wav,CALL,CALL,s81,val,v1,noisy,Call,,,1.080
+CALL/CALL_s81_v2_clean.wav,CALL,CALL,s81,val,v2,clean,Make a call,,,1.320
+CALL/CALL_s81_v2_noisy.wav,CALL,CALL,s81,val,v2,noisy,Make a call,,,1.320
+CALL/CALL_s81_v3_clean.wav,CALL,CALL,s81,val,v3,clean,Make a phone call,,,1.240
+CALL/CALL_s81_v3_noisy.wav,CALL,CALL,s81,val,v3,noisy,Make a phone call,,,1.240
+CALL/CALL_s82_v1_clean.wav,CALL,CALL,s82,val,v1,clean,Call,,,0.740
+CALL/CALL_s82_v1_noisy.wav,CALL,CALL,s82,val,v1,noisy,Call,,,0.740
+CALL/CALL_s82_v2_clean.wav,CALL,CALL,s82,val,v2,clean,Make a call,,,1.140
+CALL/CALL_s82_v2_noisy.wav,CALL,CALL,s82,val,v2,noisy,Make a call,,,1.140
+CALL/CALL_s82_v3_clean.wav,CALL,CALL,s82,val,v3,clean,Make a phone call,,,1.260
+CALL/CALL_s82_v3_noisy.wav,CALL,CALL,s82,val,v3,noisy,Make a phone call,,,1.260
+CALL/CALL_s83_v2_clean.wav,CALL,CALL,s83,val,v2,clean,Make a call,,,1.280
+CALL/CALL_s83_v2_noisy.wav,CALL,CALL,s83,val,v2,noisy,Make a call,,,1.280
+CALL/CALL_s83_v3_clean.wav,CALL,CALL,s83,val,v3,clean,Make a phone call,,,1.680
+CALL/CALL_s83_v3_noisy.wav,CALL,CALL,s83,val,v3,noisy,Make a phone call,,,1.680
+CALL/CALL_s84_v1_clean.wav,CALL,CALL,s84,val,v1,clean,Call,,,0.860
+CALL/CALL_s84_v1_noisy.wav,CALL,CALL,s84,val,v1,noisy,Call,,,0.860
+CALL/CALL_s84_v2_clean.wav,CALL,CALL,s84,val,v2,clean,Make a call,,,1.060
+CALL/CALL_s84_v2_noisy.wav,CALL,CALL,s84,val,v2,noisy,Make a call,,,1.060
+CALL/CALL_s84_v3_clean.wav,CALL,CALL,s84,val,v3,clean,Make a phone call,,,1.340
+CALL/CALL_s84_v3_noisy.wav,CALL,CALL,s84,val,v3,noisy,Make a phone call,,,1.340
+CALL/CALL_s85_v1_clean.wav,CALL,CALL,s85,val,v1,clean,Call,,,0.620
+CALL/CALL_s85_v1_noisy.wav,CALL,CALL,s85,val,v1,noisy,Call,,,0.620
+CALL/CALL_s85_v2_clean.wav,CALL,CALL,s85,val,v2,clean,Make a call,,,0.980
+CALL/CALL_s85_v2_noisy.wav,CALL,CALL,s85,val,v2,noisy,Make a call,,,0.980
+CALL/CALL_s85_v3_clean.wav,CALL,CALL,s85,val,v3,clean,Make a phone call,,,1.340
+CALL/CALL_s85_v3_noisy.wav,CALL,CALL,s85,val,v3,noisy,Make a phone call,,,1.340
+CALL/CALL_s86_v2_clean.wav,CALL,CALL,s86,val,v2,clean,Make a call,,,1.680
+CALL/CALL_s86_v2_noisy.wav,CALL,CALL,s86,val,v2,noisy,Make a call,,,1.680
+CALL/CALL_s86_v3_clean.wav,CALL,CALL,s86,val,v3,clean,Make a phone call,,,1.320
+CALL/CALL_s86_v3_noisy.wav,CALL,CALL,s86,val,v3,noisy,Make a phone call,,,1.320
+CALL/CALL_s87_v1_clean.wav,CALL,CALL,s87,val,v1,clean,Call,,,0.700
+CALL/CALL_s87_v1_noisy.wav,CALL,CALL,s87,val,v1,noisy,Call,,,0.700
+CALL/CALL_s87_v2_clean.wav,CALL,CALL,s87,val,v2,clean,Make a call,,,1.180
+CALL/CALL_s87_v2_noisy.wav,CALL,CALL,s87,val,v2,noisy,Make a call,,,1.180
+CALL/CALL_s87_v3_clean.wav,CALL,CALL,s87,val,v3,clean,Make a phone call,,,1.380
+CALL/CALL_s87_v3_noisy.wav,CALL,CALL,s87,val,v3,noisy,Make a phone call,,,1.380
+CALL/CALL_s88_v1_clean.wav,CALL,CALL,s88,val,v1,clean,Call,,,0.600
+CALL/CALL_s88_v1_noisy.wav,CALL,CALL,s88,val,v1,noisy,Call,,,0.600
+CALL/CALL_s88_v2_clean.wav,CALL,CALL,s88,val,v2,clean,Make a call,,,0.960
+CALL/CALL_s88_v2_noisy.wav,CALL,CALL,s88,val,v2,noisy,Make a call,,,0.960
+CALL/CALL_s88_v3_clean.wav,CALL,CALL,s88,val,v3,clean,Make a phone call,,,1.040
+CALL/CALL_s88_v3_noisy.wav,CALL,CALL,s88,val,v3,noisy,Make a phone call,,,1.040
+CALL/CALL_s89_v1_clean.wav,CALL,CALL,s89,val,v1,clean,Call,,,0.660
+CALL/CALL_s89_v1_noisy.wav,CALL,CALL,s89,val,v1,noisy,Call,,,0.660
+CALL/CALL_s89_v2_clean.wav,CALL,CALL,s89,val,v2,clean,Make a call,,,0.940
+CALL/CALL_s89_v2_noisy.wav,CALL,CALL,s89,val,v2,noisy,Make a call,,,0.940
+CALL/CALL_s89_v3_clean.wav,CALL,CALL,s89,val,v3,clean,Make a phone call,,,0.980
+CALL/CALL_s89_v3_noisy.wav,CALL,CALL,s89,val,v3,noisy,Make a phone call,,,0.980
+CALL/CALL_s90_v1_clean.wav,CALL,CALL,s90,val,v1,clean,Call,,,0.480
+CALL/CALL_s90_v1_noisy.wav,CALL,CALL,s90,val,v1,noisy,Call,,,0.480
+CALL/CALL_s90_v2_clean.wav,CALL,CALL,s90,val,v2,clean,Make a call,,,1.600
+CALL/CALL_s90_v2_noisy.wav,CALL,CALL,s90,val,v2,noisy,Make a call,,,1.600
+CALL/CALL_s90_v3_clean.wav,CALL,CALL,s90,val,v3,clean,Make a phone call,,,0.920
+CALL/CALL_s90_v3_noisy.wav,CALL,CALL,s90,val,v3,noisy,Make a phone call,,,0.920
+CALL/CALL_s91_v1_clean.wav,CALL,CALL,s91,test,v1,clean,Call,,,0.800
+CALL/CALL_s91_v1_noisy.wav,CALL,CALL,s91,test,v1,noisy,Call,,,0.800
+CALL/CALL_s91_v2_clean.wav,CALL,CALL,s91,test,v2,clean,Make a call,,,1.120
+CALL/CALL_s91_v2_noisy.wav,CALL,CALL,s91,test,v2,noisy,Make a call,,,1.120
+CALL/CALL_s91_v3_clean.wav,CALL,CALL,s91,test,v3,clean,Make a phone call,,,1.360
+CALL/CALL_s91_v3_noisy.wav,CALL,CALL,s91,test,v3,noisy,Make a phone call,,,1.360
+CALL/CALL_s92_v2_clean.wav,CALL,CALL,s92,test,v2,clean,Make a call,,,1.080
+CALL/CALL_s92_v2_noisy.wav,CALL,CALL,s92,test,v2,noisy,Make a call,,,1.080
+CALL/CALL_s92_v3_clean.wav,CALL,CALL,s92,test,v3,clean,Make a phone call,,,1.520
+CALL/CALL_s92_v3_noisy.wav,CALL,CALL,s92,test,v3,noisy,Make a phone call,,,1.520
+CALL/CALL_s93_v1_clean.wav,CALL,CALL,s93,test,v1,clean,Call,,,0.680
+CALL/CALL_s93_v1_noisy.wav,CALL,CALL,s93,test,v1,noisy,Call,,,0.680
+CALL/CALL_s93_v2_clean.wav,CALL,CALL,s93,test,v2,clean,Make a call,,,1.120
+CALL/CALL_s93_v2_noisy.wav,CALL,CALL,s93,test,v2,noisy,Make a call,,,1.120
+CALL/CALL_s93_v3_clean.wav,CALL,CALL,s93,test,v3,clean,Make a phone call,,,1.160
+CALL/CALL_s93_v3_noisy.wav,CALL,CALL,s93,test,v3,noisy,Make a phone call,,,1.160
+CALL/CALL_s94_v1_clean.wav,CALL,CALL,s94,test,v1,clean,Call,,,0.720
+CALL/CALL_s94_v1_noisy.wav,CALL,CALL,s94,test,v1,noisy,Call,,,0.720
+CALL/CALL_s94_v2_clean.wav,CALL,CALL,s94,test,v2,clean,Make a call,,,1.080
+CALL/CALL_s94_v2_noisy.wav,CALL,CALL,s94,test,v2,noisy,Make a call,,,1.080
+CALL/CALL_s94_v3_clean.wav,CALL,CALL,s94,test,v3,clean,Make a phone call,,,1.200
+CALL/CALL_s94_v3_noisy.wav,CALL,CALL,s94,test,v3,noisy,Make a phone call,,,1.200
+CALL/CALL_s95_v2_clean.wav,CALL,CALL,s95,test,v2,clean,Make a call,,,1.080
+CALL/CALL_s95_v2_noisy.wav,CALL,CALL,s95,test,v2,noisy,Make a call,,,1.080
+CALL/CALL_s95_v3_clean.wav,CALL,CALL,s95,test,v3,clean,Make a phone call,,,1.320
+CALL/CALL_s95_v3_noisy.wav,CALL,CALL,s95,test,v3,noisy,Make a phone call,,,1.320
+CALL/CALL_s96_v1_clean.wav,CALL,CALL,s96,test,v1,clean,Call,,,0.740
+CALL/CALL_s96_v1_noisy.wav,CALL,CALL,s96,test,v1,noisy,Call,,,0.740
+CALL/CALL_s96_v2_clean.wav,CALL,CALL,s96,test,v2,clean,Make a call,,,0.980
+CALL/CALL_s96_v2_noisy.wav,CALL,CALL,s96,test,v2,noisy,Make a call,,,0.980
+CALL/CALL_s96_v3_clean.wav,CALL,CALL,s96,test,v3,clean,Make a phone call,,,0.980
+CALL/CALL_s96_v3_noisy.wav,CALL,CALL,s96,test,v3,noisy,Make a phone call,,,0.980
+CALL/CALL_s97_v2_clean.wav,CALL,CALL,s97,test,v2,clean,Make a call,,,0.820
+CALL/CALL_s97_v2_noisy.wav,CALL,CALL,s97,test,v2,noisy,Make a call,,,0.820
+CALL/CALL_s97_v3_clean.wav,CALL,CALL,s97,test,v3,clean,Make a phone call,,,1.180
+CALL/CALL_s97_v3_noisy.wav,CALL,CALL,s97,test,v3,noisy,Make a phone call,,,1.180
+CALL/CALL_s98_v1_clean.wav,CALL,CALL,s98,test,v1,clean,Call,,,0.880
+CALL/CALL_s98_v1_noisy.wav,CALL,CALL,s98,test,v1,noisy,Call,,,0.880
+CALL/CALL_s98_v2_clean.wav,CALL,CALL,s98,test,v2,clean,Make a call,,,1.160
+CALL/CALL_s98_v2_noisy.wav,CALL,CALL,s98,test,v2,noisy,Make a call,,,1.160
+CALL/CALL_s98_v3_clean.wav,CALL,CALL,s98,test,v3,clean,Make a phone call,,,1.400
+CALL/CALL_s98_v3_noisy.wav,CALL,CALL,s98,test,v3,noisy,Make a phone call,,,1.400
+CALL/CALL_s99_v1_clean.wav,CALL,CALL,s99,test,v1,clean,Call,,,0.780
+CALL/CALL_s99_v1_noisy.wav,CALL,CALL,s99,test,v1,noisy,Call,,,0.780
+CALL/CALL_s99_v2_clean.wav,CALL,CALL,s99,test,v2,clean,Make a call,,,1.380
+CALL/CALL_s99_v2_noisy.wav,CALL,CALL,s99,test,v2,noisy,Make a call,,,1.380
+CALL/CALL_s99_v3_clean.wav,CALL,CALL,s99,test,v3,clean,Make a phone call,,,1.220
+CALL/CALL_s99_v3_noisy.wav,CALL,CALL,s99,test,v3,noisy,Make a phone call,,,1.220
+CALL/CALL_s100_v1_clean.wav,CALL,CALL,s100,test,v1,clean,Call,,,0.660
+CALL/CALL_s100_v1_noisy.wav,CALL,CALL,s100,test,v1,noisy,Call,,,0.660
+CALL/CALL_s100_v2_clean.wav,CALL,CALL,s100,test,v2,clean,Make a call,,,0.980
+CALL/CALL_s100_v2_noisy.wav,CALL,CALL,s100,test,v2,noisy,Make a call,,,0.980
+CALL/CALL_s100_v3_clean.wav,CALL,CALL,s100,test,v3,clean,Make a phone call,,,1.140
+CALL/CALL_s100_v3_noisy.wav,CALL,CALL,s100,test,v3,noisy,Make a phone call,,,1.140
