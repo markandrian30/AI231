@@ -2,12 +2,12 @@
 
 Updated: 2026-09-22. Counts apply only to the published 100-speaker dataset.
 
-- Active WAVs: **17,964**.
-- Excluded paths: **636**.
-- Archived WAVs: **690**.
+- Active WAVs: **17,924**.
+- Excluded paths: **676**.
+- Archived WAVs: **730**.
 - Archived historical paths also active: **54**.
 
-The current PLAY_MUSIC, NEXT, PAUSE, and STOP archive folders contain only pairs that failed both conditions. Single-condition failures remain active. Other class archives may retain historical failed versions.
+The current PLAY_MUSIC, NEXT, PAUSE, and STOP archive folders contain both recordings whenever either QA score is below 0.70. Scores of 0.70 or above do not trigger exclusion. Other class archives may retain historical failed versions.
 
 | Class | Active | Excluded | Archived |
 |---|---:|---:|---:|
@@ -28,10 +28,10 @@ The current PLAY_MUSIC, NEXT, PAUSE, and STOP archive folders contain only pairs
 | LIGHT_ON | 570 | 30 | 30 |
 | LIST_REMINDERS | 558 | 42 | 42 |
 | MESSAGE | 528 | 72 | 72 |
-| NEXT | 600 | 0 | 0 |
-| PAUSE | 586 | 14 | 14 |
-| PLAY_MUSIC | 600 | 0 | 0 |
-| STOP | 584 | 16 | 16 |
+| NEXT | 588 | 12 | 12 |
+| PAUSE | 572 | 28 | 28 |
+| PLAY_MUSIC | 594 | 6 | 6 |
+| STOP | 576 | 24 | 24 |
 | TEMPERATURE_18 | 598 | 2 | 2 |
 | TEMPERATURE_22 | 600 | 0 | 0 |
 | TEMPERATURE_26 | 598 | 2 | 2 |

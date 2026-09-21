@@ -5,8 +5,10 @@
 - **Threshold**: 0.80
 - **Device**: CPU int8
 - **Date**: 2026-09-22
-- **Excluded WAVs (both versions flagged)**: 14
+- **Excluded WAVs (either score below 0.70)**: 28
 - **Flagged WAVs**: 22
+
+- **Cleanup policy**: move both clean/noisy files if either score is strictly below 0.70. Scores of 0.70 or above do not trigger removal.
 
 ## Flagged
 

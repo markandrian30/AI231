@@ -15715,8 +15715,6 @@ PLAY_MUSIC/PLAY_MUSIC_s20_v3_clean.wav,PLAY_MUSIC,PLAY_MUSIC,s20,train,v3,clean,
 PLAY_MUSIC/PLAY_MUSIC_s20_v3_noisy.wav,PLAY_MUSIC,PLAY_MUSIC,s20,train,v3,noisy,Play some music,,,1.500
 PLAY_MUSIC/PLAY_MUSIC_s21_v1_clean.wav,PLAY_MUSIC,PLAY_MUSIC,s21,train,v1,clean,Play music,,,1.260
 PLAY_MUSIC/PLAY_MUSIC_s21_v1_noisy.wav,PLAY_MUSIC,PLAY_MUSIC,s21,train,v1,noisy,Play music,,,1.260
-PLAY_MUSIC/PLAY_MUSIC_s21_v2_clean.wav,PLAY_MUSIC,PLAY_MUSIC,s21,train,v2,clean,Start music,,,1.240
-PLAY_MUSIC/PLAY_MUSIC_s21_v2_noisy.wav,PLAY_MUSIC,PLAY_MUSIC,s21,train,v2,noisy,Start music,,,1.240
 PLAY_MUSIC/PLAY_MUSIC_s21_v3_clean.wav,PLAY_MUSIC,PLAY_MUSIC,s21,train,v3,clean,Play some music,,,1.360
 PLAY_MUSIC/PLAY_MUSIC_s21_v3_noisy.wav,PLAY_MUSIC,PLAY_MUSIC,s21,train,v3,noisy,Play some music,,,1.360
 PLAY_MUSIC/PLAY_MUSIC_s22_v1_clean.wav,PLAY_MUSIC,PLAY_MUSIC,s22,train,v1,clean,Play music,,,0.940
@@ -15865,8 +15863,6 @@ PLAY_MUSIC/PLAY_MUSIC_s45_v3_clean.wav,PLAY_MUSIC,PLAY_MUSIC,s45,train,v3,clean,
 PLAY_MUSIC/PLAY_MUSIC_s45_v3_noisy.wav,PLAY_MUSIC,PLAY_MUSIC,s45,train,v3,noisy,Play some music,,,1.560
 PLAY_MUSIC/PLAY_MUSIC_s46_v1_clean.wav,PLAY_MUSIC,PLAY_MUSIC,s46,train,v1,clean,Play music,,,1.320
 PLAY_MUSIC/PLAY_MUSIC_s46_v1_noisy.wav,PLAY_MUSIC,PLAY_MUSIC,s46,train,v1,noisy,Play music,,,1.320
-PLAY_MUSIC/PLAY_MUSIC_s46_v2_clean.wav,PLAY_MUSIC,PLAY_MUSIC,s46,train,v2,clean,Start music,,,1.700
-PLAY_MUSIC/PLAY_MUSIC_s46_v2_noisy.wav,PLAY_MUSIC,PLAY_MUSIC,s46,train,v2,noisy,Start music,,,1.700
 PLAY_MUSIC/PLAY_MUSIC_s46_v3_clean.wav,PLAY_MUSIC,PLAY_MUSIC,s46,train,v3,clean,Play some music,,,1.020
 PLAY_MUSIC/PLAY_MUSIC_s46_v3_noisy.wav,PLAY_MUSIC,PLAY_MUSIC,s46,train,v3,noisy,Play some music,,,1.020
 PLAY_MUSIC/PLAY_MUSIC_s47_v1_clean.wav,PLAY_MUSIC,PLAY_MUSIC,s47,train,v1,clean,Play music,,,1.540
@@ -16063,8 +16059,6 @@ PLAY_MUSIC/PLAY_MUSIC_s78_v3_clean.wav,PLAY_MUSIC,PLAY_MUSIC,s78,train,v3,clean,
 PLAY_MUSIC/PLAY_MUSIC_s78_v3_noisy.wav,PLAY_MUSIC,PLAY_MUSIC,s78,train,v3,noisy,Play some music,,,2.240
 PLAY_MUSIC/PLAY_MUSIC_s79_v1_clean.wav,PLAY_MUSIC,PLAY_MUSIC,s79,train,v1,clean,Play music,,,0.840
 PLAY_MUSIC/PLAY_MUSIC_s79_v1_noisy.wav,PLAY_MUSIC,PLAY_MUSIC,s79,train,v1,noisy,Play music,,,0.840
-PLAY_MUSIC/PLAY_MUSIC_s79_v2_clean.wav,PLAY_MUSIC,PLAY_MUSIC,s79,train,v2,clean,Start music,,,1.440
-PLAY_MUSIC/PLAY_MUSIC_s79_v2_noisy.wav,PLAY_MUSIC,PLAY_MUSIC,s79,train,v2,noisy,Start music,,,1.440
 PLAY_MUSIC/PLAY_MUSIC_s79_v3_clean.wav,PLAY_MUSIC,PLAY_MUSIC,s79,train,v3,clean,Play some music,,,1.240
 PLAY_MUSIC/PLAY_MUSIC_s79_v3_noisy.wav,PLAY_MUSIC,PLAY_MUSIC,s79,train,v3,noisy,Play some music,,,1.240
 PLAY_MUSIC/PLAY_MUSIC_s80_v1_clean.wav,PLAY_MUSIC,PLAY_MUSIC,s80,train,v1,clean,Play music,,,1.000
@@ -16211,8 +16205,6 @@ NEXT/NEXT_s3_v2_clean.wav,NEXT,NEXT,s3,train,v2,clean,Skip song,,,0.860
 NEXT/NEXT_s3_v2_noisy.wav,NEXT,NEXT,s3,train,v2,noisy,Skip song,,,0.860
 NEXT/NEXT_s3_v3_clean.wav,NEXT,NEXT,s3,train,v3,clean,Play next song,,,1.140
 NEXT/NEXT_s3_v3_noisy.wav,NEXT,NEXT,s3,train,v3,noisy,Play next song,,,1.140
-NEXT/NEXT_s4_v1_clean.wav,NEXT,NEXT,s4,train,v1,clean,Next song,,,1.960
-NEXT/NEXT_s4_v1_noisy.wav,NEXT,NEXT,s4,train,v1,noisy,Next song,,,1.960
 NEXT/NEXT_s4_v2_clean.wav,NEXT,NEXT,s4,train,v2,clean,Skip song,,,1.080
 NEXT/NEXT_s4_v2_noisy.wav,NEXT,NEXT,s4,train,v2,noisy,Skip song,,,1.080
 NEXT/NEXT_s4_v3_clean.wav,NEXT,NEXT,s4,train,v3,clean,Play next song,,,1.400
@@ -16657,12 +16649,8 @@ NEXT/NEXT_s77_v3_clean.wav,NEXT,NEXT,s77,train,v3,clean,Play next song,,,1.320
 NEXT/NEXT_s77_v3_noisy.wav,NEXT,NEXT,s77,train,v3,noisy,Play next song,,,1.320
 NEXT/NEXT_s78_v1_clean.wav,NEXT,NEXT,s78,train,v1,clean,Next song,,,2.000
 NEXT/NEXT_s78_v1_noisy.wav,NEXT,NEXT,s78,train,v1,noisy,Next song,,,2.000
-NEXT/NEXT_s78_v2_clean.wav,NEXT,NEXT,s78,train,v2,clean,Skip song,,,0.920
-NEXT/NEXT_s78_v2_noisy.wav,NEXT,NEXT,s78,train,v2,noisy,Skip song,,,0.920
 NEXT/NEXT_s78_v3_clean.wav,NEXT,NEXT,s78,train,v3,clean,Play next song,,,1.000
 NEXT/NEXT_s78_v3_noisy.wav,NEXT,NEXT,s78,train,v3,noisy,Play next song,,,1.000
-NEXT/NEXT_s79_v1_clean.wav,NEXT,NEXT,s79,train,v1,clean,Next song,,,0.880
-NEXT/NEXT_s79_v1_noisy.wav,NEXT,NEXT,s79,train,v1,noisy,Next song,,,0.880
 NEXT/NEXT_s79_v2_clean.wav,NEXT,NEXT,s79,train,v2,clean,Skip song,,,0.760
 NEXT/NEXT_s79_v2_noisy.wav,NEXT,NEXT,s79,train,v2,noisy,Skip song,,,0.760
 NEXT/NEXT_s79_v3_clean.wav,NEXT,NEXT,s79,train,v3,clean,Play next song,,,1.120
@@ -16679,16 +16667,12 @@ NEXT/NEXT_s81_v2_clean.wav,NEXT,NEXT,s81,val,v2,clean,Skip song,,,0.940
 NEXT/NEXT_s81_v2_noisy.wav,NEXT,NEXT,s81,val,v2,noisy,Skip song,,,0.940
 NEXT/NEXT_s81_v3_clean.wav,NEXT,NEXT,s81,val,v3,clean,Play next song,,,1.440
 NEXT/NEXT_s81_v3_noisy.wav,NEXT,NEXT,s81,val,v3,noisy,Play next song,,,1.440
-NEXT/NEXT_s82_v1_clean.wav,NEXT,NEXT,s82,val,v1,clean,Next song,,,1.160
-NEXT/NEXT_s82_v1_noisy.wav,NEXT,NEXT,s82,val,v1,noisy,Next song,,,1.160
 NEXT/NEXT_s82_v2_clean.wav,NEXT,NEXT,s82,val,v2,clean,Skip song,,,1.520
 NEXT/NEXT_s82_v2_noisy.wav,NEXT,NEXT,s82,val,v2,noisy,Skip song,,,1.520
 NEXT/NEXT_s82_v3_clean.wav,NEXT,NEXT,s82,val,v3,clean,Play next song,,,1.260
 NEXT/NEXT_s82_v3_noisy.wav,NEXT,NEXT,s82,val,v3,noisy,Play next song,,,1.260
 NEXT/NEXT_s83_v1_clean.wav,NEXT,NEXT,s83,val,v1,clean,Next song,,,1.260
 NEXT/NEXT_s83_v1_noisy.wav,NEXT,NEXT,s83,val,v1,noisy,Next song,,,1.260
-NEXT/NEXT_s83_v2_clean.wav,NEXT,NEXT,s83,val,v2,clean,Skip song,,,0.820
-NEXT/NEXT_s83_v2_noisy.wav,NEXT,NEXT,s83,val,v2,noisy,Skip song,,,0.820
 NEXT/NEXT_s83_v3_clean.wav,NEXT,NEXT,s83,val,v3,clean,Play next song,,,1.280
 NEXT/NEXT_s83_v3_noisy.wav,NEXT,NEXT,s83,val,v3,noisy,Play next song,,,1.280
 NEXT/NEXT_s84_v1_clean.wav,NEXT,NEXT,s84,val,v1,clean,Next song,,,0.980
@@ -16789,8 +16773,6 @@ NEXT/NEXT_s99_v3_clean.wav,NEXT,NEXT,s99,test,v3,clean,Play next song,,,1.500
 NEXT/NEXT_s99_v3_noisy.wav,NEXT,NEXT,s99,test,v3,noisy,Play next song,,,1.500
 NEXT/NEXT_s100_v1_clean.wav,NEXT,NEXT,s100,test,v1,clean,Next song,,,2.200
 NEXT/NEXT_s100_v1_noisy.wav,NEXT,NEXT,s100,test,v1,noisy,Next song,,,2.200
-NEXT/NEXT_s100_v2_clean.wav,NEXT,NEXT,s100,test,v2,clean,Skip song,,,1.080
-NEXT/NEXT_s100_v2_noisy.wav,NEXT,NEXT,s100,test,v2,noisy,Skip song,,,1.080
 NEXT/NEXT_s100_v3_clean.wav,NEXT,NEXT,s100,test,v3,clean,Play next song,,,1.140
 NEXT/NEXT_s100_v3_noisy.wav,NEXT,NEXT,s100,test,v3,noisy,Play next song,,,1.140
 PAUSE/PAUSE_s1_v1_clean.wav,PAUSE,PAUSE,s1,train,v1,clean,Pause,,,0.720
@@ -16811,12 +16793,8 @@ PAUSE/PAUSE_s3_v2_clean.wav,PAUSE,PAUSE,s3,train,v2,clean,Pause audio,,,1.060
 PAUSE/PAUSE_s3_v2_noisy.wav,PAUSE,PAUSE,s3,train,v2,noisy,Pause audio,,,1.060
 PAUSE/PAUSE_s3_v3_clean.wav,PAUSE,PAUSE,s3,train,v3,clean,Pause song,,,0.860
 PAUSE/PAUSE_s3_v3_noisy.wav,PAUSE,PAUSE,s3,train,v3,noisy,Pause song,,,0.860
-PAUSE/PAUSE_s4_v1_clean.wav,PAUSE,PAUSE,s4,train,v1,clean,Pause,,,0.880
-PAUSE/PAUSE_s4_v1_noisy.wav,PAUSE,PAUSE,s4,train,v1,noisy,Pause,,,0.920
 PAUSE/PAUSE_s4_v2_clean.wav,PAUSE,PAUSE,s4,train,v2,clean,Pause audio,,,1.360
 PAUSE/PAUSE_s4_v2_noisy.wav,PAUSE,PAUSE,s4,train,v2,noisy,Pause audio,,,1.360
-PAUSE/PAUSE_s4_v3_clean.wav,PAUSE,PAUSE,s4,train,v3,clean,Pause song,,,1.560
-PAUSE/PAUSE_s4_v3_noisy.wav,PAUSE,PAUSE,s4,train,v3,noisy,Pause song,,,1.560
 PAUSE/PAUSE_s5_v1_clean.wav,PAUSE,PAUSE,s5,train,v1,clean,Pause,,,1.000
 PAUSE/PAUSE_s5_v1_noisy.wav,PAUSE,PAUSE,s5,train,v1,noisy,Pause,,,1.000
 PAUSE/PAUSE_s5_v2_clean.wav,PAUSE,PAUSE,s5,train,v2,clean,Pause audio,,,1.200
@@ -16935,8 +16913,6 @@ PAUSE/PAUSE_s24_v1_clean.wav,PAUSE,PAUSE,s24,train,v1,clean,Pause,,,0.800
 PAUSE/PAUSE_s24_v1_noisy.wav,PAUSE,PAUSE,s24,train,v1,noisy,Pause,,,0.800
 PAUSE/PAUSE_s24_v2_clean.wav,PAUSE,PAUSE,s24,train,v2,clean,Pause audio,,,0.800
 PAUSE/PAUSE_s24_v2_noisy.wav,PAUSE,PAUSE,s24,train,v2,noisy,Pause audio,,,0.800
-PAUSE/PAUSE_s24_v3_clean.wav,PAUSE,PAUSE,s24,train,v3,clean,Pause song,,,1.520
-PAUSE/PAUSE_s24_v3_noisy.wav,PAUSE,PAUSE,s24,train,v3,noisy,Pause song,,,1.520
 PAUSE/PAUSE_s25_v1_clean.wav,PAUSE,PAUSE,s25,train,v1,clean,Pause,,,0.680
 PAUSE/PAUSE_s25_v1_noisy.wav,PAUSE,PAUSE,s25,train,v1,noisy,Pause,,,0.680
 PAUSE/PAUSE_s25_v2_clean.wav,PAUSE,PAUSE,s25,train,v2,clean,Pause audio,,,1.200
@@ -17025,8 +17001,6 @@ PAUSE/PAUSE_s39_v1_clean.wav,PAUSE,PAUSE,s39,train,v1,clean,Pause,,,0.760
 PAUSE/PAUSE_s39_v1_noisy.wav,PAUSE,PAUSE,s39,train,v1,noisy,Pause,,,0.760
 PAUSE/PAUSE_s39_v2_clean.wav,PAUSE,PAUSE,s39,train,v2,clean,Pause audio,,,1.480
 PAUSE/PAUSE_s39_v2_noisy.wav,PAUSE,PAUSE,s39,train,v2,noisy,Pause audio,,,1.480
-PAUSE/PAUSE_s39_v3_clean.wav,PAUSE,PAUSE,s39,train,v3,clean,Pause song,,,0.880
-PAUSE/PAUSE_s39_v3_noisy.wav,PAUSE,PAUSE,s39,train,v3,noisy,Pause song,,,0.880
 PAUSE/PAUSE_s40_v1_clean.wav,PAUSE,PAUSE,s40,train,v1,clean,Pause,,,0.800
 PAUSE/PAUSE_s40_v1_noisy.wav,PAUSE,PAUSE,s40,train,v1,noisy,Pause,,,0.800
 PAUSE/PAUSE_s40_v2_clean.wav,PAUSE,PAUSE,s40,train,v2,clean,Pause audio,,,1.120
@@ -17197,8 +17171,6 @@ PAUSE/PAUSE_s67_v3_clean.wav,PAUSE,PAUSE,s67,train,v3,clean,Pause song,,,1.360
 PAUSE/PAUSE_s67_v3_noisy.wav,PAUSE,PAUSE,s67,train,v3,noisy,Pause song,,,1.360
 PAUSE/PAUSE_s68_v2_clean.wav,PAUSE,PAUSE,s68,train,v2,clean,Pause audio,,,1.600
 PAUSE/PAUSE_s68_v2_noisy.wav,PAUSE,PAUSE,s68,train,v2,noisy,Pause audio,,,1.600
-PAUSE/PAUSE_s68_v3_clean.wav,PAUSE,PAUSE,s68,train,v3,clean,Pause song,,,1.000
-PAUSE/PAUSE_s68_v3_noisy.wav,PAUSE,PAUSE,s68,train,v3,noisy,Pause song,,,1.000
 PAUSE/PAUSE_s69_v1_clean.wav,PAUSE,PAUSE,s69,train,v1,clean,Pause,,,0.800
 PAUSE/PAUSE_s69_v1_noisy.wav,PAUSE,PAUSE,s69,train,v1,noisy,Pause,,,0.800
 PAUSE/PAUSE_s69_v2_clean.wav,PAUSE,PAUSE,s69,train,v2,clean,Pause audio,,,1.120
@@ -17225,16 +17197,12 @@ PAUSE/PAUSE_s74_v1_clean.wav,PAUSE,PAUSE,s74,train,v1,clean,Pause,,,1.600
 PAUSE/PAUSE_s74_v1_noisy.wav,PAUSE,PAUSE,s74,train,v1,noisy,Pause,,,1.600
 PAUSE/PAUSE_s74_v2_clean.wav,PAUSE,PAUSE,s74,train,v2,clean,Pause audio,,,1.240
 PAUSE/PAUSE_s74_v2_noisy.wav,PAUSE,PAUSE,s74,train,v2,noisy,Pause audio,,,1.240
-PAUSE/PAUSE_s74_v3_clean.wav,PAUSE,PAUSE,s74,train,v3,clean,Pause song,,,1.760
-PAUSE/PAUSE_s74_v3_noisy.wav,PAUSE,PAUSE,s74,train,v3,noisy,Pause song,,,1.760
 PAUSE/PAUSE_s75_v1_clean.wav,PAUSE,PAUSE,s75,train,v1,clean,Pause,,,1.440
 PAUSE/PAUSE_s75_v1_noisy.wav,PAUSE,PAUSE,s75,train,v1,noisy,Pause,,,1.440
 PAUSE/PAUSE_s75_v2_clean.wav,PAUSE,PAUSE,s75,train,v2,clean,Pause audio,,,1.440
 PAUSE/PAUSE_s75_v2_noisy.wav,PAUSE,PAUSE,s75,train,v2,noisy,Pause audio,,,1.840
 PAUSE/PAUSE_s75_v3_clean.wav,PAUSE,PAUSE,s75,train,v3,clean,Pause song,,,1.200
 PAUSE/PAUSE_s75_v3_noisy.wav,PAUSE,PAUSE,s75,train,v3,noisy,Pause song,,,1.200
-PAUSE/PAUSE_s76_v1_clean.wav,PAUSE,PAUSE,s76,train,v1,clean,Pause,,,0.920
-PAUSE/PAUSE_s76_v1_noisy.wav,PAUSE,PAUSE,s76,train,v1,noisy,Pause,,,0.920
 PAUSE/PAUSE_s76_v2_clean.wav,PAUSE,PAUSE,s76,train,v2,clean,Pause audio,,,0.920
 PAUSE/PAUSE_s76_v2_noisy.wav,PAUSE,PAUSE,s76,train,v2,noisy,Pause audio,,,0.920
 PAUSE/PAUSE_s76_v3_clean.wav,PAUSE,PAUSE,s76,train,v3,clean,Pause song,,,1.200
@@ -17247,6 +17215,8 @@ PAUSE/PAUSE_s77_v3_clean.wav,PAUSE,PAUSE,s77,train,v3,clean,Pause song,,,1.240
 PAUSE/PAUSE_s77_v3_noisy.wav,PAUSE,PAUSE,s77,train,v3,noisy,Pause song,,,1.240
 PAUSE/PAUSE_s78_v1_clean.wav,PAUSE,PAUSE,s78,train,v1,clean,Pause,,,0.640
 PAUSE/PAUSE_s78_v1_noisy.wav,PAUSE,PAUSE,s78,train,v1,noisy,Pause,,,1.360
+PAUSE/PAUSE_s78_v2_clean.wav,PAUSE,PAUSE,s78,train,v2,clean,Pause audio,,,1.960
+PAUSE/PAUSE_s78_v2_noisy.wav,PAUSE,PAUSE,s78,train,v2,noisy,Pause audio,,,1.960
 PAUSE/PAUSE_s78_v3_clean.wav,PAUSE,PAUSE,s78,train,v3,clean,Pause song,,,1.840
 PAUSE/PAUSE_s78_v3_noisy.wav,PAUSE,PAUSE,s78,train,v3,noisy,Pause song,,,1.840
 PAUSE/PAUSE_s79_v1_clean.wav,PAUSE,PAUSE,s79,train,v1,clean,Pause,,,0.680
@@ -17377,10 +17347,6 @@ PAUSE/PAUSE_s100_v1_clean.wav,PAUSE,PAUSE,s100,test,v1,clean,Pause,,,0.880
 PAUSE/PAUSE_s100_v1_noisy.wav,PAUSE,PAUSE,s100,test,v1,noisy,Pause,,,0.740
 PAUSE/PAUSE_s100_v2_clean.wav,PAUSE,PAUSE,s100,test,v2,clean,Pause audio,,,1.140
 PAUSE/PAUSE_s100_v2_noisy.wav,PAUSE,PAUSE,s100,test,v2,noisy,Pause audio,,,1.140
-PAUSE/PAUSE_s100_v3_clean.wav,PAUSE,PAUSE,s100,test,v3,clean,Pause song,,,1.200
-PAUSE/PAUSE_s100_v3_noisy.wav,PAUSE,PAUSE,s100,test,v3,noisy,Pause song,,,1.200
-STOP/STOP_s1_v1_clean.wav,STOP,STOP,s1,train,v1,clean,Stop,,,1.320
-STOP/STOP_s1_v1_noisy.wav,STOP,STOP,s1,train,v1,noisy,Stop,,,1.320
 STOP/STOP_s1_v2_clean.wav,STOP,STOP,s1,train,v2,clean,Stop playing,,,1.040
 STOP/STOP_s1_v2_noisy.wav,STOP,STOP,s1,train,v2,noisy,Stop playing,,,1.040
 STOP/STOP_s1_v3_clean.wav,STOP,STOP,s1,train,v3,clean,Stop the music,,,1.360
@@ -17439,8 +17405,6 @@ STOP/STOP_s11_v2_clean.wav,STOP,STOP,s11,train,v2,clean,Stop playing,,,1.260
 STOP/STOP_s11_v2_noisy.wav,STOP,STOP,s11,train,v2,noisy,Stop playing,,,1.260
 STOP/STOP_s11_v3_clean.wav,STOP,STOP,s11,train,v3,clean,Stop the music,,,1.420
 STOP/STOP_s11_v3_noisy.wav,STOP,STOP,s11,train,v3,noisy,Stop the music,,,1.420
-STOP/STOP_s12_v1_clean.wav,STOP,STOP,s12,train,v1,clean,Stop,,,0.580
-STOP/STOP_s12_v1_noisy.wav,STOP,STOP,s12,train,v1,noisy,Stop,,,0.580
 STOP/STOP_s12_v2_clean.wav,STOP,STOP,s12,train,v2,clean,Stop playing,,,1.200
 STOP/STOP_s12_v2_noisy.wav,STOP,STOP,s12,train,v2,noisy,Stop playing,,,1.200
 STOP/STOP_s12_v3_clean.wav,STOP,STOP,s12,train,v3,clean,Stop the music,,,1.640
@@ -17557,8 +17521,6 @@ STOP/STOP_s31_v2_clean.wav,STOP,STOP,s31,train,v2,clean,Stop playing,,,1.160
 STOP/STOP_s31_v2_noisy.wav,STOP,STOP,s31,train,v2,noisy,Stop playing,,,1.160
 STOP/STOP_s31_v3_clean.wav,STOP,STOP,s31,train,v3,clean,Stop the music,,,1.640
 STOP/STOP_s31_v3_noisy.wav,STOP,STOP,s31,train,v3,noisy,Stop the music,,,1.640
-STOP/STOP_s32_v1_clean.wav,STOP,STOP,s32,train,v1,clean,Stop,,,0.600
-STOP/STOP_s32_v1_noisy.wav,STOP,STOP,s32,train,v1,noisy,Stop,,,0.600
 STOP/STOP_s32_v2_clean.wav,STOP,STOP,s32,train,v2,clean,Stop playing,,,1.200
 STOP/STOP_s32_v2_noisy.wav,STOP,STOP,s32,train,v2,noisy,Stop playing,,,1.200
 STOP/STOP_s32_v3_clean.wav,STOP,STOP,s32,train,v3,clean,Stop the music,,,1.320
@@ -17661,8 +17623,6 @@ STOP/STOP_s49_v2_clean.wav,STOP,STOP,s49,train,v2,clean,Stop playing,,,1.120
 STOP/STOP_s49_v2_noisy.wav,STOP,STOP,s49,train,v2,noisy,Stop playing,,,1.120
 STOP/STOP_s49_v3_clean.wav,STOP,STOP,s49,train,v3,clean,Stop the music,,,1.240
 STOP/STOP_s49_v3_noisy.wav,STOP,STOP,s49,train,v3,noisy,Stop the music,,,1.240
-STOP/STOP_s50_v1_clean.wav,STOP,STOP,s50,train,v1,clean,Stop,,,0.520
-STOP/STOP_s50_v1_noisy.wav,STOP,STOP,s50,train,v1,noisy,Stop,,,0.520
 STOP/STOP_s50_v2_clean.wav,STOP,STOP,s50,train,v2,clean,Stop playing,,,1.200
 STOP/STOP_s50_v2_noisy.wav,STOP,STOP,s50,train,v2,noisy,Stop playing,,,1.200
 STOP/STOP_s50_v3_clean.wav,STOP,STOP,s50,train,v3,clean,Stop the music,,,1.200

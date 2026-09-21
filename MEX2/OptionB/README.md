@@ -4,7 +4,7 @@
 - **13 fixed intents:** 3 phrases each.
 - **6 variable intents:** 3 phrase templates x 3 slot values = 9 utterances each.
 - **Two acoustic conditions:** clean and light background noise.
-- **18,600 original files; 17,964 remaining after filtering.**
+- **18,600 original files; 17,924 remaining after filtering.**
   - **Transcriber used:** [simple-audio-transcriber by Martinnavs](https://github.com/Martinnavs/simple-audio-transcriber)
 
 ## Dataset overview
@@ -18,12 +18,12 @@
 | Intents without slots | 13 |
 | Intents with slots | 6 |
 | Acoustic conditions per utterance | 2 |
-| Active clean WAV files | 8,982 |
-| Active noisy WAV files | 8,982 |
+| Active clean WAV files | 8,962 |
+| Active noisy WAV files | 8,962 |
 | Original WAV files | 18,600 |
-| Excluded WAV paths | 636 |
-| WAV files stored in FLAGGED (including previous versions) | 690 |
-| **Remaining active WAV files** | **17,964** |
+| Excluded WAV paths | 676 |
+| WAV files stored in FLAGGED (including previous versions) | 730 |
+| **Remaining active WAV files** | **17,924** |
 
 ## Speakers
 
@@ -46,8 +46,8 @@
 
 | Filename suffix | Condition | Files |
 |---|---|---:|
-| `_clean.wav` | Clean speech | 8,982 |
-| `_noisy.wav` | Speech with light background noise; target approximately 30 dB SNR | 8,982 |
+| `_clean.wav` | Clean speech | 8,962 |
+| `_noisy.wav` | Speech with light background noise; target approximately 30 dB SNR | 8,962 |
 
 ## Phrase variations
 
@@ -86,18 +86,18 @@
 
 ## Transcription-Based Filtering Results
 
-Files are flagged when transcription similarity is **below 0.80**. A pair is moved to `FLAGGED` only when **both clean and noisy versions are flagged**; otherwise, both files remain.
+Files are flagged when transcription similarity is **below 0.80**. For **PLAY_MUSIC, NEXT, PAUSE, and STOP**, both files move to `FLAGGED` when **either clean or noisy scores below 0.70**. A score of exactly 0.70 does not trigger removal. Other classes retain their existing cleanup rules.
 
 | Intent / slot folder | Original WAV files | Excluded WAV paths | Remaining active WAV files |
 |---|---:|---:|---:|
-| `PLAY_MUSIC` | 600 | 0 | 600 |
+| `PLAY_MUSIC` | 600 | 6 | 594 |
 | `WEATHER` | 600 | 56 | 544 |
 | `TIME` | 600 | 52 | 548 |
 | `LIGHT_ON` | 600 | 30 | 570 |
 | `LIGHT_OFF` | 600 | 22 | 578 |
-| `PAUSE` | 600 | 14 | 586 |
-| `STOP` | 600 | 16 | 584 |
-| `NEXT` | 600 | 0 | 600 |
+| `PAUSE` | 600 | 28 | 572 |
+| `STOP` | 600 | 24 | 576 |
+| `NEXT` | 600 | 12 | 588 |
 | `VOLUME_UP` | 600 | 34 | 566 |
 | `VOLUME_DOWN` | 600 | 22 | 578 |
 | `CALL` | 600 | 48 | 552 |
@@ -121,9 +121,9 @@ Files are flagged when transcription similarity is **below 0.80**. A pair is mov
 | `CREATE_REMINDER_DRINK_WATER` | 600 | 4 | 596 |
 | `CREATE_REMINDER_STUDY` | 600 | 22 | 578 |
 | `CREATE_REMINDER_EXERCISE` | 600 | 8 | 592 |
-| **Total** | **18,600** | **636** | **17,964** |
+| **Total** | **18,600** | **676** | **17,924** |
 
-The September 22 update replaces the PLAY_MUSIC, NEXT, PAUSE, and STOP variations shown above. Generation completes before transcription QA. Failed numbered-speaker recordings are retried until each command has fewer than 50 individually flagged WAVs. Only pairs failing in both clean and noisy conditions are excluded; single-condition failures retain both files. The public dataset contains 690 archived WAVs, including 54 historical versions whose paths are also active. Personal speakers and private wake/exit recordings are excluded from this public release.
+The September 22 update replaces the PLAY_MUSIC, NEXT, PAUSE, and STOP variations shown above. Generation completes before transcription QA. Failed numbered-speaker recordings are retried until each command has fewer than 50 individually flagged WAVs. For these four commands, either score below 0.70 excludes both recordings; individual flags from 0.70 to below 0.80 do not by themselves cause exclusion. The public dataset contains 730 archived WAVs, including 54 historical versions whose paths are also active. Personal speakers and private wake/exit recordings are excluded from this public release.
 
 ## Filename convention
 
