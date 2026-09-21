@@ -1,10 +1,12 @@
 # Option B Dataset Summary
 
 - Original dataset: **18,600 WAV files**.
-- After filtering: **17,818 active WAV files** (8,909 clean and 8,909 noisy).
-- Archived in `FLAGGED/`: **1,148 WAV files**, including 366 older recordings whose paths are active again.
-- Current excluded audio paths: **782**.
+- After filtering: **17,964 active WAV files** (8,982 clean and 8,982 noisy).
+- Archived in `FLAGGED/`: **690 WAV files**, including 54 older recordings whose paths are active again.
+- Current excluded audio paths: **636**.
 - Detailed folder counts: see [README.md](README.md).
+
+Latest publication: **2026-09-22**. The music-command phrases and QA rules are documented in [README.md](README.md). Personal speakers and private wake/exit recordings are not published.
 
 The tables below describe the original dataset before filtering. Active counts vary by folder and speaker.
 
@@ -17,7 +19,7 @@ The tables below describe the original dataset before filtering. Active counts v
 | Total intents               | 19                                     |
 | Data folders                | 31, plus a separate `FLAGGED` folder    |
 | Fixed intents               | 13 folders                             |
-| Variable intents            | 6 intents × 3 slot values = 18 folders |
+| Variable intents            | 6 intents Ã— 3 slot values = 18 folders |
 | Phrase variations           | 3 per intent/slot combination          |
 | Acoustic conditions         | `clean` and `noisy`                    |
 | WAV files per data folder   | 600                                    |
@@ -28,15 +30,15 @@ The tables below describe the original dataset before filtering. Active counts v
 | Base utterances per speaker | 93                                     |
 | WAV files per speaker       | 186                                    |
 
-Originally, each folder contained 100 speakers × 3 phrase variations × 2 acoustic conditions = 600 files.
+Originally, each folder contained 100 speakers Ã— 3 phrase variations Ã— 2 acoustic conditions = 600 files.
 
 ## Speaker groups
 
 | Group                         | Speaker IDs                    | Speakers | WAV files  |
 | ----------------------------- | ------------------------------ | -------: | ---------: |
-| Foreign (LibriSpeech)         | `s1–s67`, `s81–s88`, `s91–s99` |       84 |     15,624 |
-| Filipino-English (SilencioPH) | `s68–s80`, `s89–s90`, `s100`   |       16 |      2,976 |
-| **Total**                     | `s1–s100`                      |  **100** | **18,600** |
+| Foreign (LibriSpeech)         | `s1â€“s67`, `s81â€“s88`, `s91â€“s99` |       84 |     15,624 |
+| Filipino-English (SilencioPH) | `s68â€“s80`, `s89â€“s90`, `s100`   |       16 |      2,976 |
+| **Total**                     | `s1â€“s100`                      |  **100** | **18,600** |
 
 Filipino-English audio is distributed across the same 31 data folders. Identify it using the speaker IDs in the filenames.
 
@@ -44,9 +46,9 @@ Filipino-English audio is distributed across the same 31 data folders. Identify 
 
 | Metadata split | Foreign speaker IDs | Filipino speaker IDs | Foreign | Filipino | Total speakers |
 | -------------- | ------------------- | -------------------- | ------: | -------: | -------------: |
-| Train          | `s1–s67`            | `s68–s80`            |      67 |       13 |             80 |
-| Validation     | `s81–s88`           | `s89–s90`            |       8 |        2 |             10 |
-| Test           | `s91–s99`           | `s100`               |       9 |        1 |             10 |
+| Train          | `s1â€“s67`            | `s68â€“s80`            |      67 |       13 |             80 |
+| Validation     | `s81â€“s88`           | `s89â€“s90`            |       8 |        2 |             10 |
+| Test           | `s91â€“s99`           | `s100`               |       9 |        1 |             10 |
 
 Filipino speakers appear in all three metadata splits. Files are organized by intent/slot folders, not physical train/validation/test directories. These assignments come from speaker metadata; whether the training loader follows them has not been checked.
 
@@ -68,14 +70,14 @@ Before filtering, all folders listed below contained 600 WAV files each.
 
 | Intent / group    | v1                    | v2                                  | v3                                 |
 | ----------------- | --------------------- | ----------------------------------- | ---------------------------------- |
-| `PLAY_MUSIC`      | Play music            | Play a song                         | Start the music                    |
+| `PLAY_MUSIC` | Play music | Start music | Play some music |
 | `WEATHER`         | Weather               | What's the weather?                 | Tell me the weather                |
 | `TIME`            | Time                  | What time is it?                    | Tell me the time                   |
 | `LIGHT_ON`        | Lights on             | Power on the lights                 | Turn on the lights                 |
 | `LIGHT_OFF`       | Lights off            | Kill the lights                     | Turn off the lights                |
-| `PAUSE` | Pause | Pause audio | Pause for now |
-| `STOP` | Stop | Stop playback | Stop playing |
-| `NEXT` | Next | Next track | Play next song |
+| `PAUSE` | Pause | Pause audio | Pause song |
+| `STOP` | Stop | Stop playing | Stop the music |
+| `NEXT` | Next song | Skip song | Play next song |
 | `VOLUME_UP`       | Volume up             | Increase the volume                 | Turn the volume up                 |
 | `VOLUME_DOWN`     | Volume down           | Lower the volume                 | Turn the volume down               |
 | `CALL`            | Call                  | Make a call                         | Make a phone call                  |

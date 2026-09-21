@@ -4,7 +4,7 @@
 - **13 fixed intents:** 3 phrases each.
 - **6 variable intents:** 3 phrase templates x 3 slot values = 9 utterances each.
 - **Two acoustic conditions:** clean and light background noise.
-- **18,600 original files; 17,818 remaining after filtering.**
+- **18,600 original files; 17,964 remaining after filtering.**
   - **Transcriber used:** [simple-audio-transcriber by Martinnavs](https://github.com/Martinnavs/simple-audio-transcriber)
 
 ## Dataset overview
@@ -18,12 +18,12 @@
 | Intents without slots | 13 |
 | Intents with slots | 6 |
 | Acoustic conditions per utterance | 2 |
-| Active clean WAV files | 8,909 |
-| Active noisy WAV files | 8,909 |
+| Active clean WAV files | 8,982 |
+| Active noisy WAV files | 8,982 |
 | Original WAV files | 18,600 |
-| Excluded WAV paths | 782 |
-| WAV files stored in FLAGGED (including previous versions) | 1,148 |
-| **Remaining active WAV files** | **17,818** |
+| Excluded WAV paths | 636 |
+| WAV files stored in FLAGGED (including previous versions) | 690 |
+| **Remaining active WAV files** | **17,964** |
 
 ## Speakers
 
@@ -46,19 +46,19 @@
 
 | Filename suffix | Condition | Files |
 |---|---|---:|
-| `_clean.wav` | Clean speech | 8,909 |
-| `_noisy.wav` | Speech with light background noise; target approximately 30 dB SNR | 8,909 |
+| `_clean.wav` | Clean speech | 8,982 |
+| `_noisy.wav` | Speech with light background noise; target approximately 30 dB SNR | 8,982 |
 
 ## Phrase variations
 
 | Group | Intent | v1 | v2 | v3 |
 |---|---|---|---|---|
-| Music control | `PLAY_MUSIC` | Play music | Play a song | Start the music |
+| Music control | `PLAY_MUSIC` | Play music | Start music | Play some music |
 | Music control | `VOLUME_UP` | Volume up | Increase the volume | Turn the volume up |
 | Music control | `VOLUME_DOWN` | Volume down | Lower the volume | Turn the volume down |
-| Music control | `NEXT` | Next | Next track | Play next song |
-| Music control | `PAUSE` | Pause | Pause audio | Pause for now |
-| Music control | `STOP` | Stop | Stop playback | Stop playing |
+| Music control | `NEXT` | Next song | Skip song | Play next song |
+| Music control | `PAUSE` | Pause | Pause audio | Pause song |
+| Music control | `STOP` | Stop | Stop playing | Stop the music |
 | Lighting | `LIGHT_ON` | Lights on | Power on the lights | Turn on the lights |
 | Lighting | `LIGHT_OFF` | Lights off | Kill the lights | Turn off the lights |
 | Lighting | `BRIGHTNESS` | Brightness {percent} | Set the brightness to {percent} | Change the brightness to {percent} |
@@ -90,14 +90,14 @@ Files are flagged when transcription similarity is **below 0.80**. A pair is mov
 
 | Intent / slot folder | Original WAV files | Excluded WAV paths | Remaining active WAV files |
 |---|---:|---:|---:|
-| `PLAY_MUSIC` | 600 | 32 | 568 |
+| `PLAY_MUSIC` | 600 | 0 | 600 |
 | `WEATHER` | 600 | 56 | 544 |
 | `TIME` | 600 | 52 | 548 |
 | `LIGHT_ON` | 600 | 30 | 570 |
 | `LIGHT_OFF` | 600 | 22 | 578 |
-| `PAUSE` | 600 | 48 | 552 |
-| `STOP` | 600 | 48 | 552 |
-| `NEXT` | 600 | 48 | 552 |
+| `PAUSE` | 600 | 14 | 586 |
+| `STOP` | 600 | 16 | 584 |
+| `NEXT` | 600 | 0 | 600 |
 | `VOLUME_UP` | 600 | 34 | 566 |
 | `VOLUME_DOWN` | 600 | 22 | 578 |
 | `CALL` | 600 | 48 | 552 |
@@ -121,9 +121,9 @@ Files are flagged when transcription similarity is **below 0.80**. A pair is mov
 | `CREATE_REMINDER_DRINK_WATER` | 600 | 4 | 596 |
 | `CREATE_REMINDER_STUDY` | 600 | 22 | 578 |
 | `CREATE_REMINDER_EXERCISE` | 600 | 8 | 592 |
-| **Total** | **18,600** | **782** | **17,818** |
+| **Total** | **18,600** | **636** | **17,964** |
 
-The latest retry pass regenerated only double-flagged speaker/phrase pairs for NEXT, PAUSE, STOP, and CALL. Each command now retains 552 recordings and excludes 48, for 2,208 active recordings across the four commands. Previously accepted recordings were kept unchanged. There are 1,148 archived WAV files, including 366 older recordings whose paths are active again after regeneration; archived copies are not added to the active dataset count.
+The September 22 update replaces the PLAY_MUSIC, NEXT, PAUSE, and STOP variations shown above. Generation completes before transcription QA. Failed numbered-speaker recordings are retried until each command has fewer than 50 individually flagged WAVs. Only pairs failing in both clean and noisy conditions are excluded; single-condition failures retain both files. The public dataset contains 690 archived WAVs, including 54 historical versions whose paths are also active. Personal speakers and private wake/exit recordings are excluded from this public release.
 
 ## Filename convention
 
@@ -150,7 +150,15 @@ Example: `BRIGHTNESS_100/BRIGHTNESS_100_s68_v3_noisy.wav`
 
 Resolve manifest paths relative to this directory. Metadata records the split assignments.
 
-## Updates (2026-09-21)
+## Updates (2026-09-22)
+
+- Updated PLAY_MUSIC, NEXT, PAUSE, and STOP to the current three phrase variations.
+- Refreshed active audio, current flagged audio, QA reports, and manifest metadata.
+- Removed obsolete FLAGGED metadata/backups; the folder contains Markdown reports and class audio folders.
+- Excluded s0, sx, and private wake/exit/thank-you recordings from the public files and manifest.
+- Active files: **17,964**; currently excluded paths: **636**.
+
+### Previous updates (2026-09-21)
 
 | Item | Previous | Current | Reason |
 |---|---|---|---|
