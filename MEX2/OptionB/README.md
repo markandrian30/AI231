@@ -123,8 +123,6 @@ Files are flagged when transcription similarity is **below 0.80**. For **PLAY_MU
 | `CREATE_REMINDER_EXERCISE` | 600 | 8 | 592 |
 | **Total** | **18,600** | **676** | **17,924** |
 
-The September 22 update replaces the PLAY_MUSIC, NEXT, PAUSE, and STOP variations shown above. Generation completes before transcription QA. Failed numbered-speaker recordings are retried until each command has fewer than 50 individually flagged WAVs. For these four commands, either score below 0.70 excludes both recordings; individual flags from 0.70 to below 0.80 do not by themselves cause exclusion. The public dataset contains 730 archived WAVs, including 54 historical versions whose paths are also active. Personal speakers and private wake/exit recordings are excluded from this public release.
-
 ## Filename convention
 
 `<FOLDER_NAME>_s<speaker>_v<phrase variation>_<condition>.wav`
