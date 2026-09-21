@@ -2,10 +2,10 @@ CONSOLIDATED CLEANUP SUMMARY
 ============================
 Dataset: optionb
 Distinct audio paths generated (including replacements): 18600
-Current active WAV files: 17656
-Current excluded WAV paths: 944
-WAV files stored in FLAGGED: 944
-Archived paths also active after regeneration: 0
+Current active WAV files: 17624
+Current excluded WAV paths: 976
+WAV files stored in FLAGGED: 1148
+Archived paths also active after regeneration: 172
 
 Only pairs flagged in BOTH clean and noisy conditions are excluded.
 Single-condition flags retain both recordings.
@@ -32,10 +32,10 @@ LIGHT_OFF | 600 | 22 | 578 | 22
 LIGHT_ON | 600 | 30 | 570 | 30
 LIST_REMINDERS | 600 | 42 | 558 | 42
 MESSAGE | 600 | 72 | 528 | 72
-NEXT | 600 | 80 | 520 | 80
-PAUSE | 600 | 104 | 496 | 104
+NEXT | 600 | 78 | 522 | 142
+PAUSE | 600 | 108 | 492 | 172
 PLAY_MUSIC | 600 | 32 | 568 | 32
-STOP | 600 | 68 | 532 | 68
+STOP | 600 | 98 | 502 | 142
 TEMPERATURE_18 | 600 | 2 | 598 | 2
 TEMPERATURE_22 | 600 | 0 | 600 | 0
 TEMPERATURE_26 | 600 | 2 | 598 | 2

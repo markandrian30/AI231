@@ -1,8 +1,9 @@
 # Option B Dataset Summary
 
 - Original dataset: **18,600 WAV files**.
-- After filtering: **17,656 active WAV files** (8,828 clean and 8,828 noisy).
-- Archived in `FLAGGED/`: **944 WAV files**.
+- After filtering: **17,624 active WAV files** (8,812 clean and 8,812 noisy).
+- Archived in `FLAGGED/`: **1,148 WAV files**, including 172 older recordings whose paths are active again.
+- Current excluded audio paths: **976**.
 - Detailed folder counts: see [README.md](README.md).
 
 The tables below describe the original dataset before filtering. Active counts vary by folder and speaker.
@@ -63,7 +64,7 @@ Before filtering, all folders listed below contained 600 WAV files each.
 | Color         | `COLOR_RED`, `COLOR_BLUE`, `COLOR_GREEN`                                                                                                           |           1,800 |
 | Reminder      | `CREATE_REMINDER_DRINK_WATER`, `CREATE_REMINDER_STUDY`, `CREATE_REMINDER_EXERCISE`                                                                                     |           1,800 |
 
-## Phrase variations
+## Phrase variations (music commands updated 2026-09-21)
 
 | Intent / group    | v1                    | v2                                  | v3                                 |
 | ----------------- | --------------------- | ----------------------------------- | ---------------------------------- |
@@ -72,9 +73,9 @@ Before filtering, all folders listed below contained 600 WAV files each.
 | `TIME`            | Time                  | What time is it?                    | Tell me the time                   |
 | `LIGHT_ON`        | Lights on             | Power on the lights                 | Turn on the lights                 |
 | `LIGHT_OFF`       | Lights off            | Kill the lights                     | Turn off the lights                |
-| `PAUSE`           | Pause                 | Pause the music                     | Pause this song                    |
-| `STOP`            | Stop song             | Stop music                          | Stop playing music                 |
-| `NEXT`            | Skip song             | Next song                           | Play next song                     |
+| `PAUSE` | Pause | Pause audio | Pause for now |
+| `STOP` | Stop | Stop playback | Stop playing |
+| `NEXT` | Next | Next track | Play next song |
 | `VOLUME_UP`       | Volume up             | Increase the volume                 | Turn the volume up                 |
 | `VOLUME_DOWN`     | Volume down           | Lower the volume                 | Turn the volume down               |
 | `CALL`            | Call                  | Make a call                         | Make a phone call                  |
