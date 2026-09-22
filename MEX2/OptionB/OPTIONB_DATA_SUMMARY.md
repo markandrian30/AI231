@@ -1,9 +1,9 @@
 # Option B Dataset Summary
 
 - Original dataset: **18,600 WAV files**.
-- After filtering: **17,924 active WAV files** (8,962 clean and 8,962 noisy).
-- Archived in `FLAGGED/`: **730 WAV files**, including 54 older recordings whose paths are active again.
-- Current excluded audio paths: **676**.
+- After filtering: **17,996 active WAV files** (8,998 clean and 8,998 noisy).
+- Archived in `FLAGGED/`: **604 WAV files**.
+- Current excluded audio paths: **604**.
 - Detailed folder counts: see [README.md](README.md).
 
 Latest publication: **2026-09-22**. The music-command phrases and QA rules are documented in [README.md](README.md). Personal speakers and private wake/exit recordings are not published.
@@ -66,7 +66,7 @@ Before filtering, all folders listed below contained 600 WAV files each.
 | Color         | `COLOR_RED`, `COLOR_BLUE`, `COLOR_GREEN`                                                                                                           |           1,800 |
 | Reminder      | `CREATE_REMINDER_DRINK_WATER`, `CREATE_REMINDER_STUDY`, `CREATE_REMINDER_EXERCISE`                                                                                     |           1,800 |
 
-## Phrase variations (music commands updated 2026-09-21)
+## Phrase variations
 
 | Intent / group    | v1                    | v2                                  | v3                                 |
 | ----------------- | --------------------- | ----------------------------------- | ---------------------------------- |
@@ -74,20 +74,20 @@ Before filtering, all folders listed below contained 600 WAV files each.
 | `WEATHER`         | Weather               | What's the weather?                 | Tell me the weather                |
 | `TIME`            | Time                  | What time is it?                    | Tell me the time                   |
 | `LIGHT_ON`        | Lights on             | Power on the lights                 | Turn on the lights                 |
-| `LIGHT_OFF`       | Lights off            | Kill the lights                     | Turn off the lights                |
+| `LIGHT_OFF` | Lights out | Kill the lights | Shut off the lights |
 | `PAUSE` | Pause | Pause audio | Pause song |
-| `STOP` | Stop | Stop playing | Stop the music |
+| `STOP` | Stop | Stop playing | End playback |
 | `NEXT` | Next song | Skip song | Play next song |
 | `VOLUME_UP`       | Volume up             | Increase the volume                 | Turn the volume up                 |
 | `VOLUME_DOWN`     | Volume down           | Lower the volume                 | Turn the volume down               |
-| `CALL`            | Call                  | Make a call                         | Make a phone call                  |
+| `CALL` | Call | Place a call | Make a phone call |
 | `MESSAGE`         | Message               | Send a message                      | Send my message                    |
 | `LIST_REMINDERS`  | Reminders             | Show my reminders                   | List my reminders                  |
 | `TIMER`           | Timer {duration}      | Countdown for {duration}            | Start a timer for {duration}       |
 | `ALARM`           | Alarm {time}          | Wake me up at {time}                | Set an alarm for {time}            |
 | `TEMPERATURE`     | Temperature {degrees} | Change the temperature to {degrees} | Set the temperature to {degrees}   |
-| `BRIGHTNESS`      | Brightness {percent}  | Set the brightness to {percent}     | Change the brightness to {percent} |
-| `COLOR`           | Color {color}         | Change the lights to {color}        | Set the lights to {color}          |
+| `BRIGHTNESS` | Brightness {percent} | Adjust brightness to {percent} | Brightness level {percent} |
+| `COLOR` | Change color to {color} | Switch color to {color} | Set color to {color} |
 | `CREATE_REMINDER` | Reminder {task}       | Remind me to {task}                 | Create a reminder to {task}        |
 
 ### Slot values

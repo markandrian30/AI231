@@ -4,7 +4,7 @@
 - **13 fixed intents:** 3 phrases each.
 - **6 variable intents:** 3 phrase templates x 3 slot values = 9 utterances each.
 - **Two acoustic conditions:** clean and light background noise.
-- **18,600 original files; 17,924 remaining after filtering.**
+- **18,600 original files; 17,996 remaining after filtering.**
   - **Transcriber used:** [simple-audio-transcriber by Martinnavs](https://github.com/Martinnavs/simple-audio-transcriber)
 
 ## Dataset overview
@@ -18,12 +18,12 @@
 | Intents without slots | 13 |
 | Intents with slots | 6 |
 | Acoustic conditions per utterance | 2 |
-| Active clean WAV files | 8,962 |
-| Active noisy WAV files | 8,962 |
+| Active clean WAV files | 8,998 |
+| Active noisy WAV files | 8,998 |
 | Original WAV files | 18,600 |
-| Excluded WAV paths | 676 |
-| WAV files stored in FLAGGED (including previous versions) | 730 |
-| **Remaining active WAV files** | **17,924** |
+| Excluded WAV paths | 604 |
+| WAV files stored in FLAGGED (including previous versions) | 604 |
+| **Remaining active WAV files** | **17,996** |
 
 ## Speakers
 
@@ -46,8 +46,8 @@
 
 | Filename suffix | Condition | Files |
 |---|---|---:|
-| `_clean.wav` | Clean speech | 8,962 |
-| `_noisy.wav` | Speech with light background noise; target approximately 30 dB SNR | 8,962 |
+| `_clean.wav` | Clean speech | 8,998 |
+| `_noisy.wav` | Speech with light background noise; target approximately 30 dB SNR | 8,998 |
 
 ## Phrase variations
 
@@ -58,17 +58,17 @@
 | Music control | `VOLUME_DOWN` | Volume down | Lower the volume | Turn the volume down |
 | Music control | `NEXT` | Next song | Skip song | Play next song |
 | Music control | `PAUSE` | Pause | Pause audio | Pause song |
-| Music control | `STOP` | Stop | Stop playing | Stop the music |
+| Music control | `STOP` | Stop | Stop playing | End playback |
 | Lighting | `LIGHT_ON` | Lights on | Power on the lights | Turn on the lights |
-| Lighting | `LIGHT_OFF` | Lights off | Kill the lights | Turn off the lights |
-| Lighting | `BRIGHTNESS` | Brightness {percent} | Set the brightness to {percent} | Change the brightness to {percent} |
-| Lighting | `COLOR` | Color {color} | Change the lights to {color} | Set the lights to {color} |
+| Lighting | `LIGHT_OFF` | Lights out | Kill the lights | Shut off the lights |
+| Lighting | `BRIGHTNESS` | Brightness {percent} | Adjust brightness to {percent} | Brightness level {percent} |
+| Lighting | `COLOR` | Change color to {color} | Switch color to {color} | Set color to {color} |
 | Temperature control | `TEMPERATURE` | Temperature {degrees} | Change the temperature to {degrees} | Set the temperature to {degrees} |
 | Information | `WEATHER` | Weather | What's the weather? | Tell me the weather |
 | Information | `TIME` | Time | What time is it? | Tell me the time |
 | Timers and alarms | `TIMER` | Timer {duration} | Countdown for {duration} | Start a timer for {duration} |
 | Timers and alarms | `ALARM` | Alarm {time} | Wake me up at {time} | Set an alarm for {time} |
-| Communication | `CALL` | Call | Make a call | Make a phone call |
+| Communication | `CALL` | Call | Place a call | Make a phone call |
 | Communication | `MESSAGE` | Message | Send a message | Send my message |
 | Reminders | `CREATE_REMINDER` | Reminder {task} | Remind me to {task} | Create a reminder to {task} |
 | Reminders | `LIST_REMINDERS` | Reminders | Show my reminders | List my reminders |
@@ -94,13 +94,13 @@ Files are flagged when transcription similarity is **below 0.80**.
 | `WEATHER` | 600 | 56 | 544 |
 | `TIME` | 600 | 52 | 548 |
 | `LIGHT_ON` | 600 | 30 | 570 |
-| `LIGHT_OFF` | 600 | 22 | 578 |
+| `LIGHT_OFF` | 600 | 34 | 566 |
 | `PAUSE` | 600 | 28 | 572 |
-| `STOP` | 600 | 24 | 576 |
+| `STOP` | 600 | 28 | 572 |
 | `NEXT` | 600 | 12 | 588 |
 | `VOLUME_UP` | 600 | 34 | 566 |
 | `VOLUME_DOWN` | 600 | 22 | 578 |
-| `CALL` | 600 | 48 | 552 |
+| `CALL` | 600 | 38 | 562 |
 | `MESSAGE` | 600 | 72 | 528 |
 | `LIST_REMINDERS` | 600 | 42 | 558 |
 | `TIMER_10s` | 600 | 12 | 588 |
@@ -112,16 +112,16 @@ Files are flagged when transcription similarity is **below 0.80**.
 | `TEMPERATURE_18` | 600 | 2 | 598 |
 | `TEMPERATURE_22` | 600 | 0 | 600 |
 | `TEMPERATURE_26` | 600 | 2 | 598 |
-| `BRIGHTNESS_20` | 600 | 14 | 586 |
-| `BRIGHTNESS_60` | 600 | 10 | 590 |
-| `BRIGHTNESS_100` | 600 | 6 | 594 |
-| `COLOR_RED` | 600 | 32 | 568 |
-| `COLOR_BLUE` | 600 | 10 | 590 |
-| `COLOR_GREEN` | 600 | 22 | 578 |
+| `BRIGHTNESS_20` | 600 | 2 | 598 |
+| `BRIGHTNESS_60` | 600 | 4 | 596 |
+| `BRIGHTNESS_100` | 600 | 0 | 600 |
+| `COLOR_RED` | 600 | 4 | 596 |
+| `COLOR_BLUE` | 600 | 2 | 598 |
+| `COLOR_GREEN` | 600 | 4 | 596 |
 | `CREATE_REMINDER_DRINK_WATER` | 600 | 4 | 596 |
 | `CREATE_REMINDER_STUDY` | 600 | 22 | 578 |
 | `CREATE_REMINDER_EXERCISE` | 600 | 8 | 592 |
-| **Total** | **18,600** | **676** | **17,924** |
+| **Total** | **18,600** | **604** | **17,996** |
 
 ## Filename convention
 
