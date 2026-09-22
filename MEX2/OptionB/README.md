@@ -151,9 +151,6 @@ Resolve manifest paths relative to this directory. Metadata records the split as
 ## Updates (2026-09-22)
 
 - Updated PLAY_MUSIC, NEXT, PAUSE, and STOP to the current three phrase variations.
-- Refreshed active audio, current flagged audio, QA reports, and manifest metadata.
-- Removed obsolete FLAGGED metadata/backups; the folder contains Markdown reports and class audio folders.
-- Excluded s0, sx, and private wake/exit/thank-you recordings from the public files and manifest.
 - Active files: **17,964**; currently excluded paths: **636**.
 
 ### Previous updates (2026-09-21)
