@@ -57,7 +57,7 @@
 | Music control | `VOLUME_UP` | Volume up | Increase the volume | Turn the volume up |
 | Music control | `VOLUME_DOWN` | Volume down | Lower the volume | Turn the volume down |
 | Music control | `NEXT` | Next song | Skip song | Play next song |
-| Music control | `PAUSE` | Pause | Pause audio | Pause song |
+| Music control | `PAUSE` | Pause | Pause audio | Pause for now |
 | Music control | `STOP` | Stop | Stop playing | End playback |
 | Lighting | `LIGHT_ON` | Lights on | Power on the lights | Turn on the lights |
 | Lighting | `LIGHT_OFF` | Lights out | Kill the lights | Shut off the lights |
