@@ -162,4 +162,3 @@ Resolve manifest paths relative to this directory. Metadata records the split as
 | `NEXT` phrases | Skip song; Next song; Play next song | Next song; Skip song; Play next song | Use explicit song-navigation phrases. |
 | `PAUSE` phrases | Pause; Pause the music; Pause this song | Pause; Pause audio; Pause for now | Use shorter pause phrases and avoid music-specific wording. |
 | `STOP` phrases | Stop song; Stop music; Stop playing music | Stop; Stop playing; End playback | Use direct playback-stop phrases and avoid song or music wording. |
-| `NEXT`, `PAUSE`, `STOP`, `CALL` QA retries | 78, 108, 98, and 102 excluded WAVs respectively | 48 excluded WAVs and 552 active WAVs per command | Retry only double-flagged pairs until each command has fewer than 50 excluded files; retain accepted recordings. |
