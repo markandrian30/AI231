@@ -4,7 +4,7 @@
 - **13 fixed intents:** 3 phrases each.
 - **6 variable intents:** 3 phrase templates x 3 slot values = 9 utterances each.
 - **Two acoustic conditions:** clean and light background noise.
-- **18,600 original files; 17,996 remaining after filtering.**
+- **18,600 original files; 17,986 remaining after filtering.**
   - **Transcriber used:** [simple-audio-transcriber by Martinnavs](https://github.com/Martinnavs/simple-audio-transcriber)
 
 ## Dataset overview
@@ -18,12 +18,12 @@
 | Intents without slots | 13 |
 | Intents with slots | 6 |
 | Acoustic conditions per utterance | 2 |
-| Active clean WAV files | 8,998 |
-| Active noisy WAV files | 8,998 |
+| Active clean WAV files | 8,993 |
+| Active noisy WAV files | 8,993 |
 | Original WAV files | 18,600 |
-| Excluded WAV paths | 604 |
-| WAV files stored in FLAGGED (including previous versions) | 604 |
-| **Remaining active WAV files** | **17,996** |
+| Excluded WAV paths | 614 |
+| WAV files stored in FLAGGED | 614 |
+| **Remaining active WAV files** | 17,986 |
 
 ## Speakers
 
@@ -46,8 +46,8 @@
 
 | Filename suffix | Condition | Files |
 |---|---|---:|
-| `_clean.wav` | Clean speech | 8,998 |
-| `_noisy.wav` | Speech with light background noise; target approximately 30 dB SNR | 8,998 |
+| `_clean.wav` | Clean speech | 8,993 |
+| `_noisy.wav` | Speech with light background noise; target approximately 30 dB SNR | 8,993 |
 
 ## Phrase variations
 
@@ -90,17 +90,17 @@ Files are flagged when transcription similarity is **below 0.80**.
 
 | Intent / slot folder | Original WAV files | Excluded WAV paths | Remaining active WAV files |
 |---|---:|---:|---:|
-| `PLAY_MUSIC` | 600 | 6 | 594 |
+| `PLAY_MUSIC` | 600 | 4 | 596 |
 | `WEATHER` | 600 | 56 | 544 |
 | `TIME` | 600 | 52 | 548 |
 | `LIGHT_ON` | 600 | 30 | 570 |
 | `LIGHT_OFF` | 600 | 34 | 566 |
-| `PAUSE` | 600 | 28 | 572 |
-| `STOP` | 600 | 28 | 572 |
-| `NEXT` | 600 | 12 | 588 |
+| `PAUSE` | 600 | 26 | 574 |
+| `STOP` | 600 | 40 | 560 |
+| `NEXT` | 600 | 2 | 598 |
 | `VOLUME_UP` | 600 | 34 | 566 |
 | `VOLUME_DOWN` | 600 | 22 | 578 |
-| `CALL` | 600 | 38 | 562 |
+| `CALL` | 600 | 48 | 552 |
 | `MESSAGE` | 600 | 72 | 528 |
 | `LIST_REMINDERS` | 600 | 42 | 558 |
 | `TIMER_10s` | 600 | 12 | 588 |
@@ -112,7 +112,7 @@ Files are flagged when transcription similarity is **below 0.80**.
 | `TEMPERATURE_18` | 600 | 2 | 598 |
 | `TEMPERATURE_22` | 600 | 0 | 600 |
 | `TEMPERATURE_26` | 600 | 2 | 598 |
-| `BRIGHTNESS_20` | 600 | 2 | 598 |
+| `BRIGHTNESS_20` | 600 | 4 | 596 |
 | `BRIGHTNESS_60` | 600 | 4 | 596 |
 | `BRIGHTNESS_100` | 600 | 0 | 600 |
 | `COLOR_RED` | 600 | 4 | 596 |
@@ -121,7 +121,7 @@ Files are flagged when transcription similarity is **below 0.80**.
 | `CREATE_REMINDER_DRINK_WATER` | 600 | 4 | 596 |
 | `CREATE_REMINDER_STUDY` | 600 | 22 | 578 |
 | `CREATE_REMINDER_EXERCISE` | 600 | 8 | 592 |
-| **Total** | **18,600** | **604** | **17,996** |
+| **Total** | **18,600** | **614** | **17,986** |
 
 ## Filename convention
 

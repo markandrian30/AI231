@@ -4,7 +4,7 @@ Phrase variations: v1, v2, v3
 Acoustic conditions: clean, noisy
 Original base utterances per speaker: 93
 Original WAV files: 18600
-Active WAV files after filtering: 17996
-Active clean WAV files: 8998
-Active noisy WAV files: 8998
-Archived WAV files in FLAGGED: 604
+Active WAV files after filtering: 17986
+Active clean WAV files: 8993
+Active noisy WAV files: 8993
+Archived WAV files in FLAGGED: 614

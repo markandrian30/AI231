@@ -3,6 +3,10 @@
 - **Files**: 600
 - **Model**: small
 - **Threshold**: 0.80
+- **Flagged WAVs**: 1
+- **Excluded WAVs (both scores below 0.80)**: 0
+
+- **Cleanup policy**: move both files only when BOTH clean and noisy score below 0.80.
 
 ## Flagged
 
