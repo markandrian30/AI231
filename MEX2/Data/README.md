@@ -1,4 +1,4 @@
-# Option B: Spoken Command Dataset
+# Spoken Command Dataset
 
 - **150 speakers:** 134 foreign and 16 Filipino-English.
 - **13 fixed intents:** 3 phrases each.
