@@ -1,0 +1,62 @@
+# QA Report: TIME
+
+- Existing QA results; threshold 0.80. Each recording is handled independently.
+
+| file | expected | transcribed | score |
+|---|---|---|---:|
+| TIME_s100_v1_noisy.wav | Time | Thank you | 0.154000 |
+| TIME_s11_v1_clean.wav | Time | Bye. | 0.286000 |
+| TIME_s11_v1_noisy.wav | Time | Bye. | 0.286000 |
+| TIME_s17_v1_clean.wav | Time | one time. | 0.667000 |
+| TIME_s17_v1_noisy.wav | Time | one time. | 0.667000 |
+| TIME_s21_v3_clean.wav | Tell me the time | Timmy the time. | 0.733000 |
+| TIME_s21_v3_noisy.wav | Tell me the time | Timmy the time. | 0.733000 |
+| TIME_s26_v1_clean.wav | Time | You won't win. | 0.235000 |
+| TIME_s26_v1_noisy.wav | Time | You all right? | 0.118000 |
+| TIME_s39_v1_clean.wav | Time | PIME | 0.750000 |
+| TIME_s39_v1_noisy.wav | Time | PIME | 0.750000 |
+| TIME_s40_v1_clean.wav | Time |  | 0.000000 |
+| TIME_s40_v1_noisy.wav | Time |  | 0.000000 |
+| TIME_s43_v1_clean.wav | Time | Lime. | 0.750000 |
+| TIME_s45_v1_clean.wav | Time | Lollame. | 0.364000 |
+| TIME_s45_v1_noisy.wav | Time | Lollame. | 0.364000 |
+| TIME_s4_v1_noisy.wav | Time | Good time | 0.615000 |
+| TIME_s4_v3_clean.wav | Tell me the time | Clown me the time. | 0.788000 |
+| TIME_s4_v3_noisy.wav | Tell me the time | Clown me the time. | 0.788000 |
+| TIME_s54_v1_clean.wav | Time | Hmm | 0.286000 |
+| TIME_s54_v1_noisy.wav | Time | Hmm | 0.286000 |
+| TIME_s60_v1_clean.wav | Time | again. | 0.222000 |
+| TIME_s60_v1_noisy.wav | Time | Thank you. Thank you again. | 0.138000 |
+| TIME_s61_v1_clean.wav | Time | Chime. | 0.667000 |
+| TIME_s61_v1_noisy.wav | Time | Chime. | 0.667000 |
+| TIME_s68_v3_clean.wav | Tell me the time | Want me to tie? | 0.667000 |
+| TIME_s69_v1_clean.wav | Time | Uh | 0.000000 |
+| TIME_s69_v1_noisy.wav | Time | Uh | 0.000000 |
+| TIME_s70_v3_clean.wav | Tell me the time | Jajamnidae Chan | 0.258000 |
+| TIME_s70_v3_noisy.wav | Tell me the time | It's time to say goodbye. | 0.350000 |
+| TIME_s71_v3_clean.wav | Tell me the time | Time to make the time. | 0.757000 |
+| TIME_s71_v3_noisy.wav | Tell me the time | time. | 0.400000 |
+| TIME_s72_v1_clean.wav | Time | Time for... | 0.667000 |
+| TIME_s72_v1_noisy.wav | Time | time for | 0.667000 |
+| TIME_s74_v1_clean.wav | Time | Time. Time. | 0.615000 |
+| TIME_s74_v1_noisy.wav | Time | Time. Time. | 0.615000 |
+| TIME_s75_v1_clean.wav | Time | White. Time. | 0.571000 |
+| TIME_s75_v1_noisy.wav | Time | White. Time. | 0.571000 |
+| TIME_s77_v1_clean.wav | Time | Well, time. | 0.615000 |
+| TIME_s77_v1_noisy.wav | Time | Well, time. | 0.615000 |
+| TIME_s80_v1_clean.wav | Time | It's time. | 0.615000 |
+| TIME_s80_v1_noisy.wav | Time | It's time. | 0.615000 |
+| TIME_s85_v1_clean.wav | Time | Bye. | 0.286000 |
+| TIME_s85_v1_noisy.wav | Time | Bye. | 0.286000 |
+| TIME_s86_v2_clean.wav | What time is it? | Subtree, what time is it? | 0.789000 |
+| TIME_s86_v2_noisy.wav | What time is it? | Subtree, what time is it? | 0.789000 |
+| TIME_s87_v1_clean.wav | Time | Right? | 0.222000 |
+| TIME_s87_v1_noisy.wav | Time | Right? | 0.222000 |
+| TIME_s8_v1_clean.wav | Time |  | 0.000000 |
+| TIME_s8_v1_noisy.wav | Time |  | 0.000000 |
+| TIME_s91_v1_clean.wav | Time | Yeah | 0.250000 |
+| TIME_s91_v1_noisy.wav | Time | Yeah | 0.250000 |
+| TIME_s92_v1_clean.wav | Time | Same. Some more. | 0.222000 |
+| TIME_s92_v1_noisy.wav | Time | Same. Some more. | 0.222000 |
+| TIME_s96_v1_clean.wav | Time | Take mine. | 0.462000 |
+| TIME_s96_v1_noisy.wav | Time | Take mine. | 0.462000 |
